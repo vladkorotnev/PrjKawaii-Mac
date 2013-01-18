@@ -1,0 +1,363 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		822ED9A916A91631002937EE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 822ED9A816A91631002937EE /* Cocoa.framework */; };
+		822ED9B316A91631002937EE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 822ED9B116A91631002937EE /* InfoPlist.strings */; };
+		822ED9B516A91631002937EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 822ED9B416A91631002937EE /* main.m */; };
+		822ED9B916A91631002937EE /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 822ED9B716A91631002937EE /* Credits.rtf */; };
+		822ED9BC16A91631002937EE /* GBVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 822ED9BB16A91631002937EE /* GBVAppDelegate.m */; };
+		822ED9BF16A91631002937EE /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 822ED9BD16A91631002937EE /* MainMenu.xib */; };
+		822ED9C616A91840002937EE /* 1358509340_system-software-update.png in Resources */ = {isa = PBXBuildFile; fileRef = 822ED9C516A91840002937EE /* 1358509340_system-software-update.png */; };
+		822ED9C816A91983002937EE /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 822ED9C716A91983002937EE /* Quartz.framework */; };
+		822ED9CF16A91B05002937EE /* GBVImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 822ED9CE16A91B05002937EE /* GBVImage.m */; };
+		822ED9D116A92D44002937EE /* more.png in Resources */ = {isa = PBXBuildFile; fileRef = 822ED9D016A92D44002937EE /* more.png */; };
+		822ED9D516A93D6B002937EE /* GBVViewerWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 822ED9D316A93D6B002937EE /* GBVViewerWindowController.m */; };
+		822ED9D616A93D6B002937EE /* GBVViewerWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 822ED9D416A93D6B002937EE /* GBVViewerWindowController.xib */; };
+		822ED9D816A93DB6002937EE /* 1358518923_10.png in Resources */ = {isa = PBXBuildFile; fileRef = 822ED9D716A93DB6002937EE /* 1358518923_10.png */; };
+		822ED9DA16A9467D002937EE /* 1358521179_Notes.png in Resources */ = {isa = PBXBuildFile; fileRef = 822ED9D916A9467D002937EE /* 1358521179_Notes.png */; };
+		822ED9DC16A9496F002937EE /* 1358521912_8.png in Resources */ = {isa = PBXBuildFile; fileRef = 822ED9DB16A9496F002937EE /* 1358521912_8.png */; };
+		822ED9DE16A94972002937EE /* 1358521904_7.png in Resources */ = {isa = PBXBuildFile; fileRef = 822ED9DD16A94972002937EE /* 1358521904_7.png */; };
+		822ED9E516A96A1F002937EE /* NSApplication+GBV.m in Sources */ = {isa = PBXBuildFile; fileRef = 822ED9E416A96A1F002937EE /* NSApplication+GBV.m */; };
+		822ED9E716A96B44002937EE /* 1358529252_manilla-folder-imagecopy.icns in Resources */ = {isa = PBXBuildFile; fileRef = 822ED9E616A96B44002937EE /* 1358529252_manilla-folder-imagecopy.icns */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		822ED9A416A91631002937EE /* GelbooruViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GelbooruViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		822ED9A816A91631002937EE /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		822ED9AB16A91631002937EE /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		822ED9AC16A91631002937EE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		822ED9AD16A91631002937EE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		822ED9B016A91631002937EE /* GelbooruViewer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GelbooruViewer-Info.plist"; sourceTree = "<group>"; };
+		822ED9B216A91631002937EE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		822ED9B416A91631002937EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		822ED9B616A91631002937EE /* GelbooruViewer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GelbooruViewer-Prefix.pch"; sourceTree = "<group>"; };
+		822ED9B816A91631002937EE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		822ED9BA16A91631002937EE /* GBVAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GBVAppDelegate.h; sourceTree = "<group>"; };
+		822ED9BB16A91631002937EE /* GBVAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GBVAppDelegate.m; sourceTree = "<group>"; };
+		822ED9C516A91840002937EE /* 1358509340_system-software-update.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1358509340_system-software-update.png"; sourceTree = "<group>"; };
+		822ED9C716A91983002937EE /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+		822ED9CD16A91B05002937EE /* GBVImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBVImage.h; sourceTree = "<group>"; };
+		822ED9CE16A91B05002937EE /* GBVImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBVImage.m; sourceTree = "<group>"; };
+		822ED9D016A92D44002937EE /* more.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = more.png; sourceTree = "<group>"; };
+		822ED9D216A93D6B002937EE /* GBVViewerWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBVViewerWindowController.h; sourceTree = "<group>"; };
+		822ED9D316A93D6B002937EE /* GBVViewerWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBVViewerWindowController.m; sourceTree = "<group>"; };
+		822ED9D416A93D6B002937EE /* GBVViewerWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GBVViewerWindowController.xib; sourceTree = "<group>"; };
+		822ED9D716A93DB6002937EE /* 1358518923_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1358518923_10.png; sourceTree = "<group>"; };
+		822ED9D916A9467D002937EE /* 1358521179_Notes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1358521179_Notes.png; sourceTree = "<group>"; };
+		822ED9DB16A9496F002937EE /* 1358521912_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1358521912_8.png; sourceTree = "<group>"; };
+		822ED9DD16A94972002937EE /* 1358521904_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1358521904_7.png; sourceTree = "<group>"; };
+		822ED9DF16A9646C002937EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		822ED9E316A96A1F002937EE /* NSApplication+GBV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSApplication+GBV.h"; sourceTree = "<group>"; };
+		822ED9E416A96A1F002937EE /* NSApplication+GBV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSApplication+GBV.m"; sourceTree = "<group>"; };
+		822ED9E616A96B44002937EE /* 1358529252_manilla-folder-imagecopy.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "1358529252_manilla-folder-imagecopy.icns"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		822ED9A116A91631002937EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				822ED9C816A91983002937EE /* Quartz.framework in Frameworks */,
+				822ED9A916A91631002937EE /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		822ED99916A91631002937EE = {
+			isa = PBXGroup;
+			children = (
+				822ED9E616A96B44002937EE /* 1358529252_manilla-folder-imagecopy.icns */,
+				822ED9C716A91983002937EE /* Quartz.framework */,
+				822ED9AE16A91631002937EE /* GelbooruViewer */,
+				822ED9A716A91631002937EE /* Frameworks */,
+				822ED9A516A91631002937EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		822ED9A516A91631002937EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				822ED9A416A91631002937EE /* GelbooruViewer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		822ED9A716A91631002937EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				822ED9A816A91631002937EE /* Cocoa.framework */,
+				822ED9AA16A91631002937EE /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		822ED9AA16A91631002937EE /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				822ED9AB16A91631002937EE /* AppKit.framework */,
+				822ED9AC16A91631002937EE /* CoreData.framework */,
+				822ED9AD16A91631002937EE /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		822ED9AE16A91631002937EE /* GelbooruViewer */ = {
+			isa = PBXGroup;
+			children = (
+				822ED9D716A93DB6002937EE /* 1358518923_10.png */,
+				822ED9DD16A94972002937EE /* 1358521904_7.png */,
+				822ED9DB16A9496F002937EE /* 1358521912_8.png */,
+				822ED9BA16A91631002937EE /* GBVAppDelegate.h */,
+				822ED9D916A9467D002937EE /* 1358521179_Notes.png */,
+				822ED9BB16A91631002937EE /* GBVAppDelegate.m */,
+				822ED9E316A96A1F002937EE /* NSApplication+GBV.h */,
+				822ED9E416A96A1F002937EE /* NSApplication+GBV.m */,
+				822ED9CD16A91B05002937EE /* GBVImage.h */,
+				822ED9D016A92D44002937EE /* more.png */,
+				822ED9CE16A91B05002937EE /* GBVImage.m */,
+				822ED9C516A91840002937EE /* 1358509340_system-software-update.png */,
+				822ED9BD16A91631002937EE /* MainMenu.xib */,
+				822ED9D216A93D6B002937EE /* GBVViewerWindowController.h */,
+				822ED9D316A93D6B002937EE /* GBVViewerWindowController.m */,
+				822ED9D416A93D6B002937EE /* GBVViewerWindowController.xib */,
+				822ED9AF16A91631002937EE /* Supporting Files */,
+			);
+			path = GelbooruViewer;
+			sourceTree = "<group>";
+		};
+		822ED9AF16A91631002937EE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				822ED9B016A91631002937EE /* GelbooruViewer-Info.plist */,
+				822ED9B116A91631002937EE /* InfoPlist.strings */,
+				822ED9B416A91631002937EE /* main.m */,
+				822ED9B616A91631002937EE /* GelbooruViewer-Prefix.pch */,
+				822ED9B716A91631002937EE /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		822ED9A316A91631002937EE /* GelbooruViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 822ED9C216A91631002937EE /* Build configuration list for PBXNativeTarget "GelbooruViewer" */;
+			buildPhases = (
+				822ED9A016A91631002937EE /* Sources */,
+				822ED9A116A91631002937EE /* Frameworks */,
+				822ED9A216A91631002937EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GelbooruViewer;
+			productName = GelbooruViewer;
+			productReference = 822ED9A416A91631002937EE /* GelbooruViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		822ED99B16A91631002937EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GBV;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Vladislav Korotnev";
+			};
+			buildConfigurationList = 822ED99E16A91631002937EE /* Build configuration list for PBXProject "GelbooruViewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ru,
+			);
+			mainGroup = 822ED99916A91631002937EE;
+			productRefGroup = 822ED9A516A91631002937EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				822ED9A316A91631002937EE /* GelbooruViewer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		822ED9A216A91631002937EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				822ED9B316A91631002937EE /* InfoPlist.strings in Resources */,
+				822ED9B916A91631002937EE /* Credits.rtf in Resources */,
+				822ED9BF16A91631002937EE /* MainMenu.xib in Resources */,
+				822ED9C616A91840002937EE /* 1358509340_system-software-update.png in Resources */,
+				822ED9D116A92D44002937EE /* more.png in Resources */,
+				822ED9D616A93D6B002937EE /* GBVViewerWindowController.xib in Resources */,
+				822ED9D816A93DB6002937EE /* 1358518923_10.png in Resources */,
+				822ED9DA16A9467D002937EE /* 1358521179_Notes.png in Resources */,
+				822ED9DC16A9496F002937EE /* 1358521912_8.png in Resources */,
+				822ED9DE16A94972002937EE /* 1358521904_7.png in Resources */,
+				822ED9E716A96B44002937EE /* 1358529252_manilla-folder-imagecopy.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		822ED9A016A91631002937EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				822ED9B516A91631002937EE /* main.m in Sources */,
+				822ED9BC16A91631002937EE /* GBVAppDelegate.m in Sources */,
+				822ED9CF16A91B05002937EE /* GBVImage.m in Sources */,
+				822ED9D516A93D6B002937EE /* GBVViewerWindowController.m in Sources */,
+				822ED9E516A96A1F002937EE /* NSApplication+GBV.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		822ED9B116A91631002937EE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				822ED9B216A91631002937EE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		822ED9B716A91631002937EE /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				822ED9B816A91631002937EE /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		822ED9BD16A91631002937EE /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				822ED9DF16A9646C002937EE /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		822ED9C016A91631002937EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		822ED9C116A91631002937EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		822ED9C316A91631002937EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GelbooruViewer/GelbooruViewer-Prefix.pch";
+				INFOPLIST_FILE = "GelbooruViewer/GelbooruViewer-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		822ED9C416A91631002937EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GelbooruViewer/GelbooruViewer-Prefix.pch";
+				INFOPLIST_FILE = "GelbooruViewer/GelbooruViewer-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		822ED99E16A91631002937EE /* Build configuration list for PBXProject "GelbooruViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				822ED9C016A91631002937EE /* Debug */,
+				822ED9C116A91631002937EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		822ED9C216A91631002937EE /* Build configuration list for PBXNativeTarget "GelbooruViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				822ED9C316A91631002937EE /* Debug */,
+				822ED9C416A91631002937EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 822ED99B16A91631002937EE /* Project object */;
+}
