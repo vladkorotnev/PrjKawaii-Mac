@@ -51,10 +51,8 @@ objectValueForTableColumn:(NSTableColumn *) aTableColumn
     NSLog(@"count");
     return [image.tags count];
 }
-
-- (void) _loadFullImage {
-    
-    [self.PictureVw setImage:[image getSampleImage]];
+- (void)_displayFullImage:(NSImage*)image {
+    [self.PictureVw setImage:image];
     NSString * t = @"";
     for (NSString* tag in self.image.tags) {
         if (![tag isEqualToString:@""] && ![tag isEqualToString:@" "]) {
@@ -65,6 +63,11 @@ objectValueForTableColumn:(NSTableColumn *) aTableColumn
         }
     }
     self.window.title = t;
+}
+- (void) _loadFullImage {
+    NSImage * i = [[image getSampleImage]autorelease];
+    [self performSelectorOnMainThread:@selector(_displayFullImage:) withObject:i waitUntilDone:false];
+   
 }
 
 - (IBAction)nextPic:(id)sender {

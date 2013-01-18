@@ -37,19 +37,15 @@
 }
 
 - (void) loadPics {
-    self.window.title = @"GBBrowser Mac — Loading..." ;
-    // Scroll the vertical scroller to top
-    if ([self.scroller hasVerticalScroller]) {
-        self.scroller.verticalScroller.floatValue = 0;
-    }
-    
-    // Scroll the contentView to top
-    [self.scroller.contentView scrollToPoint:NSMakePoint(0, ((NSView*)self.scroller.documentView).frame.size.height - self.scroller.contentSize.height)];
-        self.scaler.maxValue = 0.8;
+ 
+   
 
-     self.loadText.stringValue = @"Loading posts...";
+     
     self.currentPid = 0;
     [self.imageGrid setSelectionIndexes:nil byExtendingSelection:false];
+    for (GBVImage * i in self.images) {
+        [i release];
+    }
     [self.images removeAllObjects];
     NSString * url = [NSString stringWithFormat:@"http://%@//index.php?page=dapi&s=post&q=index&pid=%li",[self.boardSelector selectedItem].title,self.currentPid ];
     if(isInSearch) {
@@ -57,17 +53,14 @@
         url = [NSString stringWithFormat:@"%@&tags=%@",url,curSearchRequest];
     }
     NSURL * t = [NSURL URLWithString:[url stringByReplacingPercentEscapesUsingEncoding:NSUTF8StringEncoding]];
-     [self _progViewVisible:true];
+   
     [self parseDocumentWithURL:t];
 }
 
 
 
 - (void) loadMorePics {
-    
-        self.scaler.maxValue = 0.8;
-    self.window.title = @"GBBrowser Mac — Loading..." ;
-  self.loadText.stringValue = @"Loading more...";
+   
     [self.imageGrid setSelectionIndexes:nil byExtendingSelection:false];
     [self.images removeLastObject];
     self.currentPid = self.currentPid + 1;
@@ -78,15 +71,17 @@
     NSString * url = [NSString stringWithFormat:@"http://%@//index.php?page=dapi&s=post&q=index&pid=%li",[self.boardSelector selectedItem].title,self.currentPid ];
     if(isInSearch) {
         
-        self.loadText.stringValue = [NSString stringWithFormat:@"Searching more for %@...",curSearchRequest];
         url = [NSString stringWithFormat:@"%@&tags=%@",url,curSearchRequest];
     }
-    [self _progViewVisible:true];
+    
+   
     [self parseDocumentWithURL:[NSURL URLWithString:[url stringByReplacingPercentEscapesUsingEncoding:NSUTF8StringEncoding]]];
 
 }
 
 - (void) _reloadList {
+    [self _progViewVisible:false];
+    [self.searchField setEnabled:true];
     [self.imageGrid reloadData];
     if (self.isInSearch) {
         self.window.title = [NSString stringWithFormat:@"GBBrowser Mac — %@ — %li of %li",self.curSearchRequest,hasMoreCell ? self.images.count - 1 : self.images.count,totalPosts];
@@ -131,8 +126,7 @@
         NSLog(@"Prefetch %li",i.idx);
         [i performSelectorInBackground:@selector(myThumbImageSingleThread) withObject:nil];
     }
-    [self _progViewVisible:false];
-    [self.searchField setEnabled:true];
+    
     [self performSelectorOnMainThread:@selector(_reloadList) withObject:nil waitUntilDone:false];
     
 }
@@ -213,29 +207,6 @@
 - (void)dealloc
 {
     [super dealloc];
-}
-- (void)_launchFinish {
-    [self.scroller setDocumentView:self.imageGrid];
-    [self.scroller setHasHorizontalRuler:false];
-    [self.scroller setHasHorizontalScroller:false];
-    [self.scroller setHasVerticalRuler:true];
-    [self.scroller setHasVerticalScroller:true];
-    [self.imageGrid setDataSource:self];
-    [self.imageGrid setDelegate:self];
-    self.images = [NSMutableArray new];
-    NSString * curBoard = [[NSUserDefaults standardUserDefaults]objectForKey:@"board"];
-    if ([curBoard isEqualToString:@""] || curBoard == nil) {
-        NSLog(@"No board");
-        curBoard = @"safebooru.org";
-        [[NSUserDefaults standardUserDefaults]setObject:curBoard  forKey:@"board"];
-        [[NSUserDefaults standardUserDefaults]synchronize];
-    }
-    [self.boardSelector selectItemWithTitle:curBoard];
-    
-    [self.scaler setFloatValue:[[NSUserDefaults standardUserDefaults]floatForKey:@"scale"]] ;
-    [self.imageGrid setZoomValue:self.scaler.floatValue];
-    [self.modSelector setSelectedSegment:[[NSUserDefaults standardUserDefaults]integerForKey:@"thMode"]];
-    [self performSelectorInBackground:@selector(loadPics) withObject:nil];
 
 }
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
@@ -257,7 +228,29 @@
             [[NSApplication sharedApplication] terminate:self];
         } 
     } else {
-        [self _launchFinish];
+        [self.scroller setDocumentView:self.imageGrid];
+        [self.scroller setHasHorizontalRuler:false];
+        [self.scroller setHasHorizontalScroller:false];
+        [self.scroller setHasVerticalRuler:true];
+        [self.scroller setHasVerticalScroller:true];
+        [self.imageGrid setDataSource:self];
+        [self.imageGrid setDelegate:self];
+        self.images = [NSMutableArray new];
+        NSString * curBoard = [[NSUserDefaults standardUserDefaults]objectForKey:@"board"];
+        if ([curBoard isEqualToString:@""] || curBoard == nil) {
+            NSLog(@"No board");
+            curBoard = @"safebooru.org";
+            [[NSUserDefaults standardUserDefaults]setObject:curBoard  forKey:@"board"];
+            [[NSUserDefaults standardUserDefaults]synchronize];
+        }
+        [self.boardSelector selectItemWithTitle:curBoard];
+        
+        [self.scaler setFloatValue:[[NSUserDefaults standardUserDefaults]floatForKey:@"scale"]] ;
+        [self.imageGrid setZoomValue:self.scaler.floatValue];
+        [self.modSelector setSelectedSegment:[[NSUserDefaults standardUserDefaults]integerForKey:@"thMode"]];
+        self.loadText.stringValue = @"Loading posts...";
+        [self _progViewVisible:true];
+        [self performSelectorInBackground:@selector(loadPics) withObject:nil];
     }
     // Insert code here to initialize your application
 }
@@ -308,7 +301,11 @@
     {
         
             if (imageObject.isMoreCell) {
-                
+                self.window.title = @"GBBrowser Mac — Loading..." ;
+                self.loadText.stringValue = @"Loading more...";
+                if(isInSearch)
+                    self.loadText.stringValue = [NSString stringWithFormat:@"Searching more for %@...",curSearchRequest];
+                [self _progViewVisible:true];
                 [self performSelectorInBackground:@selector(loadMorePics) withObject:nil];
     
                 return;
@@ -329,16 +326,33 @@
     NSLog(@"Search");
     if([self.searchField.stringValue isEqualToString:@""]){
         isInSearch = false;
-        [self loadPics];
+        self.window.title = @"GBBrowser Mac — Loading..." ;
+        
+        self.loadText.stringValue = @"Going back from search...";
+        [self _progViewVisible:true];
+        [self  performSelectorInBackground:@selector(loadPics) withObject:nil];
     } else {
+    
         isInSearch = true;
         [self setCurSearchRequest:[self.searchField.stringValue stringByReplacingOccurrencesOfString:@" " withString:@"_"]] ;
         [self.curSearchRequest retain];
-        [self loadPics];
+        self.window.title = @"GBBrowser Mac — Loading..." ;
+        
+        self.loadText.stringValue = [NSString stringWithFormat:@"Searching for %@...",curSearchRequest];
+        [self _progViewVisible:true];
+        [self  performSelectorInBackground:@selector(loadPics) withObject:nil];
     }
     
 }
 - (IBAction)boardSelection:(id)sender {
+    self.window.title = @"GBBrowser Mac — Loading..." ;
+    
+    self.loadText.stringValue = @"Switching board...";
+    [self _progViewVisible:true];
+    for (NSWindow* w  in [[NSApplication sharedApplication]windows]) {
+        if([w.title hasPrefix:@"Viewer"] || [w.title hasPrefix:@"Loading better"])
+            [w close];
+    }
     [[NSUserDefaults standardUserDefaults]setObject:self.boardSelector.selectedItem.title   forKey:@"board"];
     [[NSUserDefaults standardUserDefaults]synchronize];
     isInSearch = false;
