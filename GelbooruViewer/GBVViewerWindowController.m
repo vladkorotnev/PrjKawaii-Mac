@@ -65,7 +65,7 @@ objectValueForTableColumn:(NSTableColumn *) aTableColumn
     self.window.title = t;
 }
 - (void) _loadFullImage {
-    NSImage * i = [[image getSampleImage]autorelease];
+    NSImage * i =[image getSampleImage];
     [self performSelectorOnMainThread:@selector(_displayFullImage:) withObject:i waitUntilDone:false];
    
 }
@@ -80,7 +80,7 @@ objectValueForTableColumn:(NSTableColumn *) aTableColumn
             [self.PictureVw.image release];
             self.PictureVw.image = nil;
             self.image = [picA objectAtIndex:temp];
-            [self.PictureVw setImage:[image myThumbImage]];
+            [self.PictureVw setImage:[image getBestAvailImage]];
             [self performSelectorInBackground:@selector(_loadFullImage) withObject:nil];
             [self.tagTable reloadData];
             [self.btPref setEnabled:true];
@@ -103,7 +103,7 @@ objectValueForTableColumn:(NSTableColumn *) aTableColumn
             [self.PictureVw.image release];
             self.PictureVw.image = nil;
             self.image = [picA objectAtIndex:temp];
-            [self.PictureVw setImage:[image myThumbImage]];
+            [self.PictureVw setImage:[image getBestAvailImage]];
             [self performSelectorInBackground:@selector(_loadFullImage) withObject:nil];
             [self.tagTable reloadData];
             [self.btNext setEnabled:true];
@@ -120,7 +120,7 @@ objectValueForTableColumn:(NSTableColumn *) aTableColumn
         picA = arr;
         [picA retain];
         [self showWindow:self];
- [self.PictureVw setImage:[image myThumbImage]];
+ [self.PictureVw setImage:[image getBestAvailImage]];
         self.window.title = @"Loading better image..." ;
         [self performSelectorInBackground:@selector(_loadFullImage) withObject:nil];
         [self.tagTable setDelegate:self];
@@ -137,58 +137,16 @@ objectValueForTableColumn:(NSTableColumn *) aTableColumn
 }
 
 - (IBAction)goWeb:(id)sender {
-[[NSWorkspace sharedWorkspace] openURL:[NSURL URLWithString:self.image.webUrl]];
+    [self.image browse];
 }
 - (IBAction)downloadThis:(id)sender {
-    // Create the request.
-    NSURLRequest *theRequest = [NSURLRequest requestWithURL:self.image.fullurl
-                                                cachePolicy:NSURLRequestUseProtocolCachePolicy
-                                            timeoutInterval:60.0];
-    
-    // Create the download with the request and start loading the data.
-    NSURLDownload  *theDownload = [[NSURLDownload alloc] initWithRequest:theRequest delegate:self];
-    if (!theDownload) {
-        // Inform the user that the download failed.
-    } 
+    [self.image performDownload];
 }
 
 - (IBAction)copyToboard:(id)sender {
-    NSLog(@"COPY");
-    NSPasteboard * board = [NSPasteboard generalPasteboard];
-    [board clearContents];
-    NSArray * itemsToCopy = [NSArray arrayWithObjects:[image getSampleImage], self.image.fullurl, nil];
-    [board writeObjects:itemsToCopy];
+    [self.image copyToPasteBoard];
 }
 
 
-- (void)download:(NSURLDownload *)download decideDestinationWithSuggestedFilename:(NSString *)filename
-{
-    NSString *destinationFilename;
-    NSString *homeDirectory = NSHomeDirectory();
-    
-    destinationFilename = [[homeDirectory stringByAppendingPathComponent:@"Downloads"]
-                           stringByAppendingPathComponent:filename];
-    [download setDestination:destinationFilename allowOverwrite:NO];
-}
 
-
-- (void)download:(NSURLDownload *)download didFailWithError:(NSError *)error
-{
-    // Release the download.
-    [download release];
-    
-    // Inform the user.
-    NSLog(@"Download failed! Error - %@ %@",
-          [error localizedDescription],
-          [[error userInfo] objectForKey:NSURLErrorFailingURLStringErrorKey]);
-}
-
-- (void)downloadDidFinish:(NSURLDownload *)download
-{
-    // Release the download.
-    [download release];
-    
-    // Do something with the data.
-    NSLog(@"%@",@"downloadDidFinish");
-}
 @end

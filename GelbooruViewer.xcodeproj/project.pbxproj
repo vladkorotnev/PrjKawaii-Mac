@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8216C94916A9ACD8000E469E /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8216C94816A9ACD8000E469E /* QTKit.framework */; };
 		822ED9A916A91631002937EE /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 822ED9A816A91631002937EE /* Cocoa.framework */; };
 		822ED9B316A91631002937EE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 822ED9B116A91631002937EE /* InfoPlist.strings */; };
 		822ED9B516A91631002937EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 822ED9B416A91631002937EE /* main.m */; };
@@ -25,9 +26,14 @@
 		822ED9DE16A94972002937EE /* 1358521904_7.png in Resources */ = {isa = PBXBuildFile; fileRef = 822ED9DD16A94972002937EE /* 1358521904_7.png */; };
 		822ED9E516A96A1F002937EE /* NSApplication+GBV.m in Sources */ = {isa = PBXBuildFile; fileRef = 822ED9E416A96A1F002937EE /* NSApplication+GBV.m */; };
 		822ED9E716A96B44002937EE /* 1358529252_manilla-folder-imagecopy.icns in Resources */ = {isa = PBXBuildFile; fileRef = 822ED9E616A96B44002937EE /* 1358529252_manilla-folder-imagecopy.icns */; };
+		827A2AB416AA827900E86237 /* wait.png in Resources */ = {isa = PBXBuildFile; fileRef = 827A2AB316AA827900E86237 /* wait.png */; };
+		827A2AC516AA9D2600E86237 /* whitey.png in Resources */ = {isa = PBXBuildFile; fileRef = 827A2AC416AA9D2600E86237 /* whitey.png */; };
+		827A2AC716AA9EA500E86237 /* blacky.png in Resources */ = {isa = PBXBuildFile; fileRef = 827A2AC616AA9EA500E86237 /* blacky.png */; };
+		82CAE19816A9B82D00C56EE8 /* GBVImageFlowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CAE19716A9B82D00C56EE8 /* GBVImageFlowView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8216C94816A9ACD8000E469E /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = System/Library/Frameworks/QTKit.framework; sourceTree = SDKROOT; };
 		822ED9A416A91631002937EE /* GelbooruViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GelbooruViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		822ED9A816A91631002937EE /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		822ED9AB16A91631002937EE /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -56,6 +62,12 @@
 		822ED9E316A96A1F002937EE /* NSApplication+GBV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSApplication+GBV.h"; sourceTree = "<group>"; };
 		822ED9E416A96A1F002937EE /* NSApplication+GBV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSApplication+GBV.m"; sourceTree = "<group>"; };
 		822ED9E616A96B44002937EE /* 1358529252_manilla-folder-imagecopy.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "1358529252_manilla-folder-imagecopy.icns"; sourceTree = "<group>"; };
+		827A2AB316AA827900E86237 /* wait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wait.png; sourceTree = "<group>"; };
+		827A2AC416AA9D2600E86237 /* whitey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whitey.png; sourceTree = "<group>"; };
+		827A2AC616AA9EA500E86237 /* blacky.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blacky.png; sourceTree = "<group>"; };
+		82CAE19116A9B37C00C56EE8 /* IKImageFlowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IKImageFlowView.h; sourceTree = "<group>"; };
+		82CAE19616A9B82D00C56EE8 /* GBVImageFlowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBVImageFlowView.h; sourceTree = "<group>"; };
+		82CAE19716A9B82D00C56EE8 /* GBVImageFlowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBVImageFlowView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8216C94916A9ACD8000E469E /* QTKit.framework in Frameworks */,
 				822ED9C816A91983002937EE /* Quartz.framework in Frameworks */,
 				822ED9A916A91631002937EE /* Cocoa.framework in Frameworks */,
 			);
@@ -74,6 +87,7 @@
 		822ED99916A91631002937EE = {
 			isa = PBXGroup;
 			children = (
+				8216C94816A9ACD8000E469E /* QTKit.framework */,
 				822ED9E616A96B44002937EE /* 1358529252_manilla-folder-imagecopy.icns */,
 				822ED9C716A91983002937EE /* Quartz.framework */,
 				822ED9AE16A91631002937EE /* GelbooruViewer */,
@@ -112,21 +126,27 @@
 		822ED9AE16A91631002937EE /* GelbooruViewer */ = {
 			isa = PBXGroup;
 			children = (
+				822ED9C516A91840002937EE /* 1358509340_system-software-update.png */,
 				822ED9D716A93DB6002937EE /* 1358518923_10.png */,
 				822ED9DD16A94972002937EE /* 1358521904_7.png */,
 				822ED9DB16A9496F002937EE /* 1358521912_8.png */,
-				822ED9BA16A91631002937EE /* GBVAppDelegate.h */,
 				822ED9D916A9467D002937EE /* 1358521179_Notes.png */,
+				822ED9D016A92D44002937EE /* more.png */,
+				827A2AB316AA827900E86237 /* wait.png */,
+				827A2AC416AA9D2600E86237 /* whitey.png */,
+				827A2AC616AA9EA500E86237 /* blacky.png */,
+				82CAE19116A9B37C00C56EE8 /* IKImageFlowView.h */,
+				82CAE19616A9B82D00C56EE8 /* GBVImageFlowView.h */,
+				82CAE19716A9B82D00C56EE8 /* GBVImageFlowView.m */,
+				822ED9BA16A91631002937EE /* GBVAppDelegate.h */,
 				822ED9BB16A91631002937EE /* GBVAppDelegate.m */,
 				822ED9E316A96A1F002937EE /* NSApplication+GBV.h */,
 				822ED9E416A96A1F002937EE /* NSApplication+GBV.m */,
 				822ED9CD16A91B05002937EE /* GBVImage.h */,
-				822ED9D016A92D44002937EE /* more.png */,
 				822ED9CE16A91B05002937EE /* GBVImage.m */,
-				822ED9C516A91840002937EE /* 1358509340_system-software-update.png */,
-				822ED9BD16A91631002937EE /* MainMenu.xib */,
 				822ED9D216A93D6B002937EE /* GBVViewerWindowController.h */,
 				822ED9D316A93D6B002937EE /* GBVViewerWindowController.m */,
+				822ED9BD16A91631002937EE /* MainMenu.xib */,
 				822ED9D416A93D6B002937EE /* GBVViewerWindowController.xib */,
 				822ED9AF16A91631002937EE /* Supporting Files */,
 			);
@@ -210,6 +230,9 @@
 				822ED9DC16A9496F002937EE /* 1358521912_8.png in Resources */,
 				822ED9DE16A94972002937EE /* 1358521904_7.png in Resources */,
 				822ED9E716A96B44002937EE /* 1358529252_manilla-folder-imagecopy.icns in Resources */,
+				827A2AB416AA827900E86237 /* wait.png in Resources */,
+				827A2AC516AA9D2600E86237 /* whitey.png in Resources */,
+				827A2AC716AA9EA500E86237 /* blacky.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,6 +248,7 @@
 				822ED9CF16A91B05002937EE /* GBVImage.m in Sources */,
 				822ED9D516A93D6B002937EE /* GBVViewerWindowController.m in Sources */,
 				822ED9E516A96A1F002937EE /* NSApplication+GBV.m in Sources */,
+				82CAE19816A9B82D00C56EE8 /* GBVImageFlowView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +338,10 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GelbooruViewer/GelbooruViewer-Prefix.pch";
 				INFOPLIST_FILE = "GelbooruViewer/GelbooruViewer-Info.plist";
@@ -328,6 +356,10 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GelbooruViewer/GelbooruViewer-Prefix.pch";
 				INFOPLIST_FILE = "GelbooruViewer/GelbooruViewer-Info.plist";

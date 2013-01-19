@@ -8,17 +8,21 @@
 
 #import <Foundation/Foundation.h>
 #import <Quartz/Quartz.h>
+
 #define THMODE_THUMB 0
 #define THMODE_SAMP 1
-@interface GBVImage : NSObject 
+@interface GBVImage : NSObject <NSURLDownloadDelegate>
 
 
 {
     int ver;
+    bool hasAlreadyReqThumb;
+    bool hasAlreadyReqSamp;
     NSURL *fullurl;
     NSURL *sampleUrl;
     NSURL *thumbUrl;
     NSArray * tags;
+ 
     bool isMoreCell;
     NSString * rating;
     NSImage * cachedThumb;
@@ -27,9 +31,12 @@
     NSString * webUrl;
     IKImageBrowserView *parent;
 }
-- (NSImage *)myThumbImage;
+
+- (NSImage *)getBestAvailImage;
+- (void) copyToPasteBoard;
+- (void) performDownload;
+-(void)browse;
 - (NSImage *)getSampleImage;
-- (NSImage *)myThumbImageSingleThread ;
 @property (retain) NSURL *fullurl;
 @property (retain)NSURL *sampleUrl;
 @property (retain)NSURL *thumbUrl;
@@ -37,8 +44,9 @@
 @property  bool isMoreCell;
 @property NSInteger idx;
 @property (retain)NSString * webUrl;
-
+-(void)requestSampleImageIntoCache;
 @property (retain)NSString * rating;
+
 @property (retain) NSImage * cachedThumb;
 @property (retain) NSImage * cachedSample;
 @property (assign)IKImageBrowserView * parent;

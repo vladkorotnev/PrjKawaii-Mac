@@ -47,7 +47,7 @@
 			<object class="NSWindowTemplate" id="1005">
 				<int key="NSWindowStyleMask">15</int>
 				<int key="NSWindowBacking">2</int>
-				<string key="NSWindowRect">{{196, 240}, {484, 336}}</string>
+				<string key="NSWindowRect">{{196, 240}, {691, 497}}</string>
 				<int key="NSWTFlags">544735232</int>
 				<string key="NSWindowTitle">Viewer</string>
 				<string key="NSWindowClass">NSWindow</string>
@@ -269,8 +269,9 @@
 										<object class="NSTableView" id="319557541">
 											<reference key="NSNextResponder" ref="908328064"/>
 											<int key="NSvFlags">256</int>
-											<string key="NSFrameSize">{129, 318}</string>
+											<string key="NSFrameSize">{129, 481}</string>
 											<reference key="NSSuperview" ref="908328064"/>
+											<reference key="NSWindow"/>
 											<reference key="NSNextKeyView" ref="803721735"/>
 											<string key="NSReuseIdentifierKey">_NS:13</string>
 											<bool key="NSEnabled">YES</bool>
@@ -281,6 +282,7 @@
 												<int key="NSvFlags">256</int>
 												<string key="NSFrameSize">{129, 17}</string>
 												<reference key="NSSuperview" ref="803721735"/>
+												<reference key="NSWindow"/>
 												<reference key="NSNextKeyView" ref="1536075"/>
 												<string key="NSReuseIdentifierKey">_NS:16</string>
 												<reference key="NSTableView" ref="319557541"/>
@@ -290,6 +292,7 @@
 												<int key="NSvFlags">-2147483392</int>
 												<string key="NSFrame">{{224, 0}, {16, 17}}</string>
 												<reference key="NSSuperview" ref="481032793"/>
+												<reference key="NSWindow"/>
 												<reference key="NSNextKeyView" ref="908328064"/>
 												<string key="NSReuseIdentifierKey">_NS:19</string>
 											</object>
@@ -380,8 +383,9 @@
 											<int key="NSTableViewGroupRowStyle">1</int>
 										</object>
 									</array>
-									<string key="NSFrame">{{1, 17}, {129, 318}}</string>
+									<string key="NSFrame">{{1, 17}, {129, 481}}</string>
 									<reference key="NSSuperview" ref="481032793"/>
+									<reference key="NSWindow"/>
 									<reference key="NSNextKeyView" ref="319557541"/>
 									<string key="NSReuseIdentifierKey">_NS:11</string>
 									<reference key="NSDocView" ref="319557541"/>
@@ -393,6 +397,7 @@
 									<int key="NSvFlags">-2147483392</int>
 									<string key="NSFrame">{{224, 17}, {15, 102}}</string>
 									<reference key="NSSuperview" ref="481032793"/>
+									<reference key="NSWindow"/>
 									<reference key="NSNextKeyView" ref="836675949"/>
 									<string key="NSReuseIdentifierKey">_NS:58</string>
 									<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
@@ -406,6 +411,7 @@
 									<int key="NSvFlags">-2147483392</int>
 									<string key="NSFrame">{{1, 119}, {223, 15}}</string>
 									<reference key="NSSuperview" ref="481032793"/>
+									<reference key="NSWindow"/>
 									<reference key="NSNextKeyView" ref="145610098"/>
 									<string key="NSReuseIdentifierKey">_NS:60</string>
 									<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
@@ -422,6 +428,7 @@
 									</array>
 									<string key="NSFrame">{{1, 0}, {129, 17}}</string>
 									<reference key="NSSuperview" ref="481032793"/>
+									<reference key="NSWindow"/>
 									<reference key="NSNextKeyView" ref="80264649"/>
 									<string key="NSReuseIdentifierKey">_NS:15</string>
 									<reference key="NSDocView" ref="80264649"/>
@@ -430,8 +437,9 @@
 								</object>
 								<reference ref="1536075"/>
 							</array>
-							<string key="NSFrame">{{-1, 1}, {131, 336}}</string>
+							<string key="NSFrame">{{-1, -1}, {131, 499}}</string>
 							<reference key="NSSuperview" ref="1006"/>
+							<reference key="NSWindow"/>
 							<reference key="NSNextKeyView" ref="908328064"/>
 							<string key="NSReuseIdentifierKey">_NS:9</string>
 							<int key="NSsFlags">133682</int>
@@ -456,8 +464,9 @@
 								<string>NeXT Encapsulated PostScript v1.2 pasteboard type</string>
 								<string>NeXT TIFF v4.0 pasteboard type</string>
 							</set>
-							<string key="NSFrame">{{138, 0}, {346, 337}}</string>
+							<string key="NSFrame">{{131, 0}, {560, 498}}</string>
 							<reference key="NSSuperview" ref="1006"/>
+							<reference key="NSWindow"/>
 							<string key="NSReuseIdentifierKey">_NS:9</string>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSImageCell" key="NSCell" id="36435340">
@@ -466,15 +475,16 @@
 								<string key="NSCellIdentifier">_NS:9</string>
 								<int key="NSAlign">0</int>
 								<int key="NSScale">3</int>
-								<int key="NSStyle">0</int>
+								<int key="NSStyle">1</int>
 								<bool key="NSAnimates">YES</bool>
 							</object>
 							<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
 							<bool key="NSEditable">YES</bool>
 						</object>
 					</array>
-					<string key="NSFrameSize">{484, 336}</string>
+					<string key="NSFrameSize">{691, 497}</string>
 					<reference key="NSSuperview"/>
+					<reference key="NSWindow"/>
 					<reference key="NSNextKeyView" ref="481032793"/>
 				</object>
 				<string key="NSScreenRect">{{0, 0}, {1280, 1002}}</string>
@@ -777,7 +787,96 @@
 			<nil key="sourceID"/>
 			<int key="maxID">56</int>
 		</object>
-		<object class="IBClassDescriber" key="IBDocument.Classes"/>
+		<object class="IBClassDescriber" key="IBDocument.Classes">
+			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
+				<object class="IBPartialClassDescription">
+					<string key="className">GBVViewerWindowController</string>
+					<string key="superclassName">NSWindowController</string>
+					<dictionary class="NSMutableDictionary" key="actions">
+						<string key="copyToboard:">id</string>
+						<string key="downloadThis:">id</string>
+						<string key="goWeb:">id</string>
+						<string key="ldFull:">id</string>
+						<string key="modechg:">id</string>
+						<string key="nextPic:">id</string>
+						<string key="prevPic:">id</string>
+					</dictionary>
+					<dictionary class="NSMutableDictionary" key="actionInfosByName">
+						<object class="IBActionInfo" key="copyToboard:">
+							<string key="name">copyToboard:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="downloadThis:">
+							<string key="name">downloadThis:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="goWeb:">
+							<string key="name">goWeb:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="ldFull:">
+							<string key="name">ldFull:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="modechg:">
+							<string key="name">modechg:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="nextPic:">
+							<string key="name">nextPic:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="prevPic:">
+							<string key="name">prevPic:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+					</dictionary>
+					<dictionary class="NSMutableDictionary" key="outlets">
+						<string key="PictureVw">NSImageView</string>
+						<string key="btCopy">NSToolbarItem</string>
+						<string key="btDl">NSToolbarItem</string>
+						<string key="btNext">NSToolbarItem</string>
+						<string key="btPref">NSToolbarItem</string>
+						<string key="modeSelector">NSSegmentedControl</string>
+						<string key="tagTable">NSTableView</string>
+					</dictionary>
+					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
+						<object class="IBToOneOutletInfo" key="PictureVw">
+							<string key="name">PictureVw</string>
+							<string key="candidateClassName">NSImageView</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="btCopy">
+							<string key="name">btCopy</string>
+							<string key="candidateClassName">NSToolbarItem</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="btDl">
+							<string key="name">btDl</string>
+							<string key="candidateClassName">NSToolbarItem</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="btNext">
+							<string key="name">btNext</string>
+							<string key="candidateClassName">NSToolbarItem</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="btPref">
+							<string key="name">btPref</string>
+							<string key="candidateClassName">NSToolbarItem</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="modeSelector">
+							<string key="name">modeSelector</string>
+							<string key="candidateClassName">NSSegmentedControl</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="tagTable">
+							<string key="name">tagTable</string>
+							<string key="candidateClassName">NSTableView</string>
+						</object>
+					</dictionary>
+					<object class="IBClassDescriptionSource" key="sourceIdentifier">
+						<string key="majorKey">IBProjectSource</string>
+						<string key="minorKey">./Classes/GBVViewerWindowController.h</string>
+					</object>
+				</object>
+			</array>
+		</object>
 		<int key="IBDocument.localizationMode">0</int>
 		<string key="IBDocument.TargetRuntimeIdentifier">IBCocoaFramework</string>
 		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>
