@@ -7,7 +7,7 @@
 //
 
 #import "GBVAppDelegate.h"
-
+#import "GBStatistWindow.h"
 #define RATING_EXPLICIT @"e"
 #define RATING_QUESTION @"q"
 #define RATING_SAFE @"s"
@@ -345,14 +345,14 @@
 }
 - (IBAction)doSearch:(id)sender {
     NSLog(@"Search");
-    if([self.searchField.stringValue isEqualToString:@""]){
+    if([self.searchField.stringValue isEqualToString:@""] && isInSearch){
         isInSearch = false;
         self.window.title = @"GBBrowser Mac — Loading..." ;
         
         self.loadText.stringValue = @"Going back from search...";
         [self _progViewVisible:true];
         [self  performSelectorInBackground:@selector(loadPics) withObject:nil];
-    } else {
+    } else if (![self.searchField.stringValue isEqualToString:@""]) {
         
         isInSearch = true;
         [self setCurSearchRequest:[self.searchField.stringValue stringByReplacingOccurrencesOfString:@" " withString:@"_"]] ;
@@ -456,6 +456,10 @@
     CALayer *layer = [CALayer layer];
     [layer setBackgroundColor:[browserBackgroundColor CGColor]];
     [self.imageGrid setBackgroundLayer:layer];
+}
+
+- (IBAction)statist:(id)sender {
+    [[[GBStatistWindow alloc]initWithWindowNibName:@"GBStatistWindow"]showWindow:self];
 }
 
 - (IBAction)darkenFlow:(id)sender {

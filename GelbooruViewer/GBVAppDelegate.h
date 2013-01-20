@@ -32,6 +32,7 @@
 }
 @property (assign) IBOutlet NSToolbar *toolbar;
 - (IBAction)whitifyFlow:(id)sender;
+- (IBAction)statist:(id)sender;
 - (IBAction)darkenFlow:(id)sender;
 @property (assign) IBOutlet NSMenuItem *isWhiteFlow;
 @property (assign) IBOutlet NSMenuItem *isDarkFlow;

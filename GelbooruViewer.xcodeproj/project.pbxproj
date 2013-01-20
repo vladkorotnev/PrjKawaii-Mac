@@ -29,6 +29,8 @@
 		827A2AB416AA827900E86237 /* wait.png in Resources */ = {isa = PBXBuildFile; fileRef = 827A2AB316AA827900E86237 /* wait.png */; };
 		827A2AC516AA9D2600E86237 /* whitey.png in Resources */ = {isa = PBXBuildFile; fileRef = 827A2AC416AA9D2600E86237 /* whitey.png */; };
 		827A2AC716AA9EA500E86237 /* blacky.png in Resources */ = {isa = PBXBuildFile; fileRef = 827A2AC616AA9EA500E86237 /* blacky.png */; };
+		8293746716AB1943007DCF54 /* GBStatistWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 8293746516AB1943007DCF54 /* GBStatistWindow.m */; };
+		8293746816AB1943007DCF54 /* GBStatistWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8293746616AB1943007DCF54 /* GBStatistWindow.xib */; };
 		82CAE19816A9B82D00C56EE8 /* GBVImageFlowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CAE19716A9B82D00C56EE8 /* GBVImageFlowView.m */; };
 /* End PBXBuildFile section */
 
@@ -65,6 +67,9 @@
 		827A2AB316AA827900E86237 /* wait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wait.png; sourceTree = "<group>"; };
 		827A2AC416AA9D2600E86237 /* whitey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whitey.png; sourceTree = "<group>"; };
 		827A2AC616AA9EA500E86237 /* blacky.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blacky.png; sourceTree = "<group>"; };
+		8293746416AB1943007DCF54 /* GBStatistWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBStatistWindow.h; sourceTree = "<group>"; };
+		8293746516AB1943007DCF54 /* GBStatistWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBStatistWindow.m; sourceTree = "<group>"; };
+		8293746616AB1943007DCF54 /* GBStatistWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GBStatistWindow.xib; sourceTree = "<group>"; };
 		82CAE19116A9B37C00C56EE8 /* IKImageFlowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IKImageFlowView.h; sourceTree = "<group>"; };
 		82CAE19616A9B82D00C56EE8 /* GBVImageFlowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBVImageFlowView.h; sourceTree = "<group>"; };
 		82CAE19716A9B82D00C56EE8 /* GBVImageFlowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBVImageFlowView.m; sourceTree = "<group>"; };
@@ -144,8 +149,11 @@
 				822ED9E416A96A1F002937EE /* NSApplication+GBV.m */,
 				822ED9CD16A91B05002937EE /* GBVImage.h */,
 				822ED9CE16A91B05002937EE /* GBVImage.m */,
+				8293746416AB1943007DCF54 /* GBStatistWindow.h */,
+				8293746516AB1943007DCF54 /* GBStatistWindow.m */,
 				822ED9D216A93D6B002937EE /* GBVViewerWindowController.h */,
 				822ED9D316A93D6B002937EE /* GBVViewerWindowController.m */,
+				8293746616AB1943007DCF54 /* GBStatistWindow.xib */,
 				822ED9BD16A91631002937EE /* MainMenu.xib */,
 				822ED9D416A93D6B002937EE /* GBVViewerWindowController.xib */,
 				822ED9AF16A91631002937EE /* Supporting Files */,
@@ -233,6 +241,7 @@
 				827A2AB416AA827900E86237 /* wait.png in Resources */,
 				827A2AC516AA9D2600E86237 /* whitey.png in Resources */,
 				827A2AC716AA9EA500E86237 /* blacky.png in Resources */,
+				8293746816AB1943007DCF54 /* GBStatistWindow.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +258,7 @@
 				822ED9D516A93D6B002937EE /* GBVViewerWindowController.m in Sources */,
 				822ED9E516A96A1F002937EE /* NSApplication+GBV.m in Sources */,
 				82CAE19816A9B82D00C56EE8 /* GBVImageFlowView.m in Sources */,
+				8293746716AB1943007DCF54 /* GBStatistWindow.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
