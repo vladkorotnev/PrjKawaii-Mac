@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82A3482D16AEC8230093B87D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82A3482C16AEC8230093B87D /* Cocoa.framework */; };
+		82A3482F16AEC8230093B87D /* ScreenSaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82A3482E16AEC8230093B87D /* ScreenSaver.framework */; };
+		82A3483916AEC8230093B87D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 82A3483716AEC8230093B87D /* InfoPlist.strings */; };
+		82A3483D16AEC8230093B87D /* BooruSaverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A3483C16AEC8230093B87D /* BooruSaverView.m */; };
+		82A3486B16AEE38A0093B87D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82A3486A16AEE38A0093B87D /* QuartzCore.framework */; };
+		82A3486E16AEEADF0093B87D /* thumbnail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 82A3486C16AEEADF0093B87D /* thumbnail@2x.png */; };
+		82A3486F16AEEADF0093B87D /* thumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = 82A3486D16AEEADF0093B87D /* thumbnail.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		82A3482916AEC8230093B87D /* BooruSaver.saver */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BooruSaver.saver; sourceTree = BUILT_PRODUCTS_DIR; };
+		82A3482C16AEC8230093B87D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		82A3482E16AEC8230093B87D /* ScreenSaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScreenSaver.framework; path = System/Library/Frameworks/ScreenSaver.framework; sourceTree = SDKROOT; };
+		82A3483116AEC8230093B87D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		82A3483216AEC8230093B87D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		82A3483316AEC8230093B87D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		82A3483616AEC8230093B87D /* BooruSaver-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BooruSaver-Info.plist"; sourceTree = "<group>"; };
+		82A3483816AEC8230093B87D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		82A3483A16AEC8230093B87D /* BooruSaver-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BooruSaver-Prefix.pch"; sourceTree = "<group>"; };
+		82A3483B16AEC8230093B87D /* BooruSaverView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BooruSaverView.h; sourceTree = "<group>"; };
+		82A3483C16AEC8230093B87D /* BooruSaverView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BooruSaverView.m; sourceTree = "<group>"; };
+		82A3486A16AEE38A0093B87D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		82A3486C16AEEADF0093B87D /* thumbnail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thumbnail@2x.png"; sourceTree = "<group>"; };
+		82A3486D16AEEADF0093B87D /* thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbnail.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82A3482416AEC8230093B87D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82A3486B16AEE38A0093B87D /* QuartzCore.framework in Frameworks */,
+				82A3482D16AEC8230093B87D /* Cocoa.framework in Frameworks */,
+				82A3482F16AEC8230093B87D /* ScreenSaver.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82A3481C16AEC8230093B87D = {
+			isa = PBXGroup;
+			children = (
+				82A3483416AEC8230093B87D /* BooruSaver */,
+				82A3482B16AEC8230093B87D /* Frameworks */,
+				82A3482A16AEC8230093B87D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82A3482A16AEC8230093B87D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82A3482916AEC8230093B87D /* BooruSaver.saver */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82A3482B16AEC8230093B87D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82A3486A16AEE38A0093B87D /* QuartzCore.framework */,
+				82A3482C16AEC8230093B87D /* Cocoa.framework */,
+				82A3482E16AEC8230093B87D /* ScreenSaver.framework */,
+				82A3483016AEC8230093B87D /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		82A3483016AEC8230093B87D /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82A3483116AEC8230093B87D /* AppKit.framework */,
+				82A3483216AEC8230093B87D /* CoreData.framework */,
+				82A3483316AEC8230093B87D /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		82A3483416AEC8230093B87D /* BooruSaver */ = {
+			isa = PBXGroup;
+			children = (
+				82A3483B16AEC8230093B87D /* BooruSaverView.h */,
+				82A3483C16AEC8230093B87D /* BooruSaverView.m */,
+				82A3483516AEC8230093B87D /* Supporting Files */,
+			);
+			path = BooruSaver;
+			sourceTree = "<group>";
+		};
+		82A3483516AEC8230093B87D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				82A3486C16AEEADF0093B87D /* thumbnail@2x.png */,
+				82A3486D16AEEADF0093B87D /* thumbnail.png */,
+				82A3483616AEC8230093B87D /* BooruSaver-Info.plist */,
+				82A3483716AEC8230093B87D /* InfoPlist.strings */,
+				82A3483A16AEC8230093B87D /* BooruSaver-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		82A3482516AEC8230093B87D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		82A3482816AEC8230093B87D /* BooruSaver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82A3484016AEC8230093B87D /* Build configuration list for PBXNativeTarget "BooruSaver" */;
+			buildPhases = (
+				82A3482316AEC8230093B87D /* Sources */,
+				82A3482416AEC8230093B87D /* Frameworks */,
+				82A3482516AEC8230093B87D /* Headers */,
+				82A3482616AEC8230093B87D /* Resources */,
+				82A3482716AEC8230093B87D /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BooruSaver;
+			productName = BooruSaver;
+			productReference = 82A3482916AEC8230093B87D /* BooruSaver.saver */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82A3481E16AEC8230093B87D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Vladislav Korotnev";
+			};
+			buildConfigurationList = 82A3482116AEC8230093B87D /* Build configuration list for PBXProject "BooruSaver" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 82A3481C16AEC8230093B87D;
+			productRefGroup = 82A3482A16AEC8230093B87D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82A3482816AEC8230093B87D /* BooruSaver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82A3482616AEC8230093B87D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82A3483916AEC8230093B87D /* InfoPlist.strings in Resources */,
+				82A3486E16AEEADF0093B87D /* thumbnail@2x.png in Resources */,
+				82A3486F16AEEADF0093B87D /* thumbnail.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		82A3482716AEC8230093B87D /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82A3482316AEC8230093B87D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82A3483D16AEC8230093B87D /* BooruSaverView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		82A3483716AEC8230093B87D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82A3483816AEC8230093B87D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82A3483E16AEC8230093B87D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		82A3483F16AEC8230093B87D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		82A3484116AEC8230093B87D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BooruSaver/BooruSaver-Prefix.pch";
+				INFOPLIST_FILE = "BooruSaver/BooruSaver-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Debug;
+		};
+		82A3484216AEC8230093B87D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BooruSaver/BooruSaver-Prefix.pch";
+				INFOPLIST_FILE = "BooruSaver/BooruSaver-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Screen Savers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = saver;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82A3482116AEC8230093B87D /* Build configuration list for PBXProject "BooruSaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82A3483E16AEC8230093B87D /* Debug */,
+				82A3483F16AEC8230093B87D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82A3484016AEC8230093B87D /* Build configuration list for PBXNativeTarget "BooruSaver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82A3484116AEC8230093B87D /* Debug */,
+				82A3484216AEC8230093B87D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82A3481E16AEC8230093B87D /* Project object */;
+}

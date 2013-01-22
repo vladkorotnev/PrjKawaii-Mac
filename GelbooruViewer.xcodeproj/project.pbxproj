@@ -31,8 +31,28 @@
 		827A2AC716AA9EA500E86237 /* blacky.png in Resources */ = {isa = PBXBuildFile; fileRef = 827A2AC616AA9EA500E86237 /* blacky.png */; };
 		8293746716AB1943007DCF54 /* GBStatistWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 8293746516AB1943007DCF54 /* GBStatistWindow.m */; };
 		8293746816AB1943007DCF54 /* GBStatistWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8293746616AB1943007DCF54 /* GBStatistWindow.xib */; };
+		82A3485316AECE8C0093B87D /* GBVSaverConfigWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A3485116AECE8B0093B87D /* GBVSaverConfigWindowController.m */; };
+		82A3485416AECE8C0093B87D /* GBVSaverConfigWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82A3485216AECE8C0093B87D /* GBVSaverConfigWindowController.xib */; };
+		82A3485816AED0C80093B87D /* BooruSaver.saver in Resources */ = {isa = PBXBuildFile; fileRef = 82A3484816AEC8240093B87D /* BooruSaver.saver */; };
 		82CAE19816A9B82D00C56EE8 /* GBVImageFlowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 82CAE19716A9B82D00C56EE8 /* GBVImageFlowView.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		82A3484716AEC8240093B87D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82A3484316AEC8230093B87D /* BooruSaver.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 82A3482916AEC8230093B87D;
+			remoteInfo = BooruSaver;
+		};
+		82A3485616AED0940093B87D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82A3484316AEC8230093B87D /* BooruSaver.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 82A3482816AEC8230093B87D;
+			remoteInfo = BooruSaver;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		8216C94816A9ACD8000E469E /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = System/Library/Frameworks/QTKit.framework; sourceTree = SDKROOT; };
@@ -63,13 +83,17 @@
 		822ED9DF16A9646C002937EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		822ED9E316A96A1F002937EE /* NSApplication+GBV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSApplication+GBV.h"; sourceTree = "<group>"; };
 		822ED9E416A96A1F002937EE /* NSApplication+GBV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSApplication+GBV.m"; sourceTree = "<group>"; };
-		822ED9E616A96B44002937EE /* 1358529252_manilla-folder-imagecopy.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "1358529252_manilla-folder-imagecopy.icns"; sourceTree = "<group>"; };
+		822ED9E616A96B44002937EE /* 1358529252_manilla-folder-imagecopy.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = "1358529252_manilla-folder-imagecopy.icns"; path = "../1358529252_manilla-folder-imagecopy.icns"; sourceTree = "<group>"; };
 		827A2AB316AA827900E86237 /* wait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wait.png; sourceTree = "<group>"; };
 		827A2AC416AA9D2600E86237 /* whitey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whitey.png; sourceTree = "<group>"; };
 		827A2AC616AA9EA500E86237 /* blacky.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blacky.png; sourceTree = "<group>"; };
 		8293746416AB1943007DCF54 /* GBStatistWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBStatistWindow.h; sourceTree = "<group>"; };
 		8293746516AB1943007DCF54 /* GBStatistWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBStatistWindow.m; sourceTree = "<group>"; };
 		8293746616AB1943007DCF54 /* GBStatistWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GBStatistWindow.xib; sourceTree = "<group>"; };
+		82A3484316AEC8230093B87D /* BooruSaver.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BooruSaver.xcodeproj; path = BooruSaver/BooruSaver.xcodeproj; sourceTree = "<group>"; };
+		82A3485016AECE8B0093B87D /* GBVSaverConfigWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBVSaverConfigWindowController.h; sourceTree = "<group>"; };
+		82A3485116AECE8B0093B87D /* GBVSaverConfigWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBVSaverConfigWindowController.m; sourceTree = "<group>"; };
+		82A3485216AECE8C0093B87D /* GBVSaverConfigWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GBVSaverConfigWindowController.xib; sourceTree = "<group>"; };
 		82CAE19116A9B37C00C56EE8 /* IKImageFlowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IKImageFlowView.h; sourceTree = "<group>"; };
 		82CAE19616A9B82D00C56EE8 /* GBVImageFlowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBVImageFlowView.h; sourceTree = "<group>"; };
 		82CAE19716A9B82D00C56EE8 /* GBVImageFlowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBVImageFlowView.m; sourceTree = "<group>"; };
@@ -92,9 +116,7 @@
 		822ED99916A91631002937EE = {
 			isa = PBXGroup;
 			children = (
-				8216C94816A9ACD8000E469E /* QTKit.framework */,
-				822ED9E616A96B44002937EE /* 1358529252_manilla-folder-imagecopy.icns */,
-				822ED9C716A91983002937EE /* Quartz.framework */,
+				82A3484316AEC8230093B87D /* BooruSaver.xcodeproj */,
 				822ED9AE16A91631002937EE /* GelbooruViewer */,
 				822ED9A716A91631002937EE /* Frameworks */,
 				822ED9A516A91631002937EE /* Products */,
@@ -112,6 +134,8 @@
 		822ED9A716A91631002937EE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8216C94816A9ACD8000E469E /* QTKit.framework */,
+				822ED9C716A91983002937EE /* Quartz.framework */,
 				822ED9A816A91631002937EE /* Cocoa.framework */,
 				822ED9AA16A91631002937EE /* Other Frameworks */,
 			);
@@ -131,31 +155,11 @@
 		822ED9AE16A91631002937EE /* GelbooruViewer */ = {
 			isa = PBXGroup;
 			children = (
-				822ED9C516A91840002937EE /* 1358509340_system-software-update.png */,
-				822ED9D716A93DB6002937EE /* 1358518923_10.png */,
-				822ED9DD16A94972002937EE /* 1358521904_7.png */,
-				822ED9DB16A9496F002937EE /* 1358521912_8.png */,
-				822ED9D916A9467D002937EE /* 1358521179_Notes.png */,
-				822ED9D016A92D44002937EE /* more.png */,
-				827A2AB316AA827900E86237 /* wait.png */,
-				827A2AC416AA9D2600E86237 /* whitey.png */,
-				827A2AC616AA9EA500E86237 /* blacky.png */,
-				82CAE19116A9B37C00C56EE8 /* IKImageFlowView.h */,
-				82CAE19616A9B82D00C56EE8 /* GBVImageFlowView.h */,
-				82CAE19716A9B82D00C56EE8 /* GBVImageFlowView.m */,
-				822ED9BA16A91631002937EE /* GBVAppDelegate.h */,
-				822ED9BB16A91631002937EE /* GBVAppDelegate.m */,
-				822ED9E316A96A1F002937EE /* NSApplication+GBV.h */,
-				822ED9E416A96A1F002937EE /* NSApplication+GBV.m */,
-				822ED9CD16A91B05002937EE /* GBVImage.h */,
-				822ED9CE16A91B05002937EE /* GBVImage.m */,
-				8293746416AB1943007DCF54 /* GBStatistWindow.h */,
-				8293746516AB1943007DCF54 /* GBStatistWindow.m */,
-				822ED9D216A93D6B002937EE /* GBVViewerWindowController.h */,
-				822ED9D316A93D6B002937EE /* GBVViewerWindowController.m */,
-				8293746616AB1943007DCF54 /* GBStatistWindow.xib */,
-				822ED9BD16A91631002937EE /* MainMenu.xib */,
-				822ED9D416A93D6B002937EE /* GBVViewerWindowController.xib */,
+				82A3484C16AEC8550093B87D /* Statistics */,
+				82A3484B16AEC8350093B87D /* Image classes */,
+				82A3484A16AEC82B0093B87D /* Pictures */,
+				82A3485516AECE910093B87D /* Saver config */,
+				82A3484D16AEC8780093B87D /* Primary application */,
 				822ED9AF16A91631002937EE /* Supporting Files */,
 			);
 			path = GelbooruViewer;
@@ -173,6 +177,78 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		82A3484416AEC8230093B87D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82A3484816AEC8240093B87D /* BooruSaver.saver */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82A3484A16AEC82B0093B87D /* Pictures */ = {
+			isa = PBXGroup;
+			children = (
+				822ED9E616A96B44002937EE /* 1358529252_manilla-folder-imagecopy.icns */,
+				822ED9C516A91840002937EE /* 1358509340_system-software-update.png */,
+				822ED9D716A93DB6002937EE /* 1358518923_10.png */,
+				822ED9DD16A94972002937EE /* 1358521904_7.png */,
+				822ED9DB16A9496F002937EE /* 1358521912_8.png */,
+				822ED9D916A9467D002937EE /* 1358521179_Notes.png */,
+				822ED9D016A92D44002937EE /* more.png */,
+				827A2AB316AA827900E86237 /* wait.png */,
+				827A2AC416AA9D2600E86237 /* whitey.png */,
+				827A2AC616AA9EA500E86237 /* blacky.png */,
+			);
+			name = Pictures;
+			sourceTree = "<group>";
+		};
+		82A3484B16AEC8350093B87D /* Image classes */ = {
+			isa = PBXGroup;
+			children = (
+				822ED9D416A93D6B002937EE /* GBVViewerWindowController.xib */,
+				82CAE19116A9B37C00C56EE8 /* IKImageFlowView.h */,
+				82CAE19616A9B82D00C56EE8 /* GBVImageFlowView.h */,
+				82CAE19716A9B82D00C56EE8 /* GBVImageFlowView.m */,
+				822ED9CD16A91B05002937EE /* GBVImage.h */,
+				822ED9CE16A91B05002937EE /* GBVImage.m */,
+				822ED9D216A93D6B002937EE /* GBVViewerWindowController.h */,
+				822ED9D316A93D6B002937EE /* GBVViewerWindowController.m */,
+			);
+			name = "Image classes";
+			sourceTree = "<group>";
+		};
+		82A3484C16AEC8550093B87D /* Statistics */ = {
+			isa = PBXGroup;
+			children = (
+				822ED9E316A96A1F002937EE /* NSApplication+GBV.h */,
+				822ED9E416A96A1F002937EE /* NSApplication+GBV.m */,
+				8293746416AB1943007DCF54 /* GBStatistWindow.h */,
+				8293746516AB1943007DCF54 /* GBStatistWindow.m */,
+				8293746616AB1943007DCF54 /* GBStatistWindow.xib */,
+			);
+			name = Statistics;
+			sourceTree = "<group>";
+		};
+		82A3484D16AEC8780093B87D /* Primary application */ = {
+			isa = PBXGroup;
+			children = (
+				822ED9BA16A91631002937EE /* GBVAppDelegate.h */,
+				822ED9BB16A91631002937EE /* GBVAppDelegate.m */,
+				822ED9BD16A91631002937EE /* MainMenu.xib */,
+			);
+			name = "Primary application";
+			sourceTree = "<group>";
+		};
+		82A3485516AECE910093B87D /* Saver config */ = {
+			isa = PBXGroup;
+			children = (
+				82A3485016AECE8B0093B87D /* GBVSaverConfigWindowController.h */,
+				82A3485116AECE8B0093B87D /* GBVSaverConfigWindowController.m */,
+				82A3485216AECE8C0093B87D /* GBVSaverConfigWindowController.xib */,
+			);
+			name = "Saver config";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -187,6 +263,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				82A3485716AED0940093B87D /* PBXTargetDependency */,
 			);
 			name = GelbooruViewer;
 			productName = GelbooruViewer;
@@ -215,12 +292,28 @@
 			mainGroup = 822ED99916A91631002937EE;
 			productRefGroup = 822ED9A516A91631002937EE /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 82A3484416AEC8230093B87D /* Products */;
+					ProjectRef = 82A3484316AEC8230093B87D /* BooruSaver.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				822ED9A316A91631002937EE /* GelbooruViewer */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		82A3484816AEC8240093B87D /* BooruSaver.saver */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = BooruSaver.saver;
+			remoteRef = 82A3484716AEC8240093B87D /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		822ED9A216A91631002937EE /* Resources */ = {
@@ -242,6 +335,8 @@
 				827A2AC516AA9D2600E86237 /* whitey.png in Resources */,
 				827A2AC716AA9EA500E86237 /* blacky.png in Resources */,
 				8293746816AB1943007DCF54 /* GBStatistWindow.xib in Resources */,
+				82A3485416AECE8C0093B87D /* GBVSaverConfigWindowController.xib in Resources */,
+				82A3485816AED0C80093B87D /* BooruSaver.saver in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,10 +354,19 @@
 				822ED9E516A96A1F002937EE /* NSApplication+GBV.m in Sources */,
 				82CAE19816A9B82D00C56EE8 /* GBVImageFlowView.m in Sources */,
 				8293746716AB1943007DCF54 /* GBStatistWindow.m in Sources */,
+				82A3485316AECE8C0093B87D /* GBVSaverConfigWindowController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82A3485716AED0940093B87D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BooruSaver;
+			targetProxy = 82A3485616AED0940093B87D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		822ED9B116A91631002937EE /* InfoPlist.strings */ = {

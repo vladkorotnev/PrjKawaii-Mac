@@ -510,4 +510,12 @@
         }];
     }
 }
+- (IBAction)installSaver:(id)sender {
+    [[NSWorkspace sharedWorkspace]openFile:[[NSBundle mainBundle]pathForResource:@"BooruSaver" ofType:@"saver"]];
+}
+
+- (IBAction)configSaver:(id)sender {
+    GBVSaverConfigWindowController *sc = [[GBVSaverConfigWindowController alloc]init];
+    [sc showWindow:self];
+}
 @end

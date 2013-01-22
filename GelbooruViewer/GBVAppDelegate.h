@@ -12,7 +12,7 @@
 #import "IKImageFlowView.h"
 #import "GBVImageFlowView.h"
 #import "GBVViewerWindowController.h"
-
+#import "GBVSaverConfigWindowController.h"
 @interface GBVAppDelegate : NSObject <NSApplicationDelegate,NSXMLParserDelegate,NSAlertDelegate,GBVImageFlowViewDelegate> {
     NSMutableArray *images;
     GBVImage * curLoadingImage;
@@ -30,6 +30,8 @@
     NSMenuItem *isWhiteFlow;
     NSMenuItem *isDarkFlow;
 }
+- (IBAction)installSaver:(id)sender;
+- (IBAction)configSaver:(id)sender;
 @property (assign) IBOutlet NSToolbar *toolbar;
 - (IBAction)whitifyFlow:(id)sender;
 - (IBAction)statist:(id)sender;
