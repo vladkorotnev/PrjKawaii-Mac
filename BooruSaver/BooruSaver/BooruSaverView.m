@@ -11,12 +11,6 @@
 @implementation BooruSaverView
 
 - (void) loadPics {
-    NSLog(@"BS: Trying to load");
-    curPage= 0;
-    
-    curPic=0;
-    [pictures removeAllObjects];
-    [pictures retain];
     NSString * url = [NSString stringWithFormat:@"http://%@//index.php?page=dapi&s=post&q=index&pid=%i",board,curPage ];
     if(![[tags stringByTrimmingCharactersInSet:[NSCharacterSet characterSetWithCharactersInString:@" "]]isEqualToString:@""]) {
         url = [NSString stringWithFormat:@"%@&tags=-comic+-translation_request+%@",url,[tags stringByReplacingOccurrencesOfString:@" " withString:@"_"]];
@@ -25,6 +19,7 @@
     
     [self parseDocumentWithURL:t];
 }
+
 
 -(BOOL)parseDocumentWithURL:(NSURL *)url {
     if (url == nil)
@@ -37,13 +32,9 @@
     // this class will handle the events
     [xmlparser setDelegate:self];
     [xmlparser setShouldResolveExternalEntities:NO];
-    NSLog(@"Starting parse");
+
     // now parse the document
     BOOL ok = [xmlparser parse];
-    if (ok == NO)
-        NSLog(@"Error");
-    else
-        NSLog(@"OK");
     
     
     return ok;
@@ -51,15 +42,19 @@
 
 
 -(void)parserDidStartDocument:(NSXMLParser *)parser {
-    NSLog(@"Start");
-  [self setAnimationTimeInterval:200];
-    [self stopAnimation];
+    if (!preloadIsBackground) {
+        [self setAnimationTimeInterval:200];
+        [self stopAnimation];
+    }
+
 }
 
 -(void)parserDidEndDocument:(NSXMLParser *)parser {
-    NSLog(@"End");
-[self setAnimationTimeInterval:interval];
-    [self startAnimation];
+    [self performSelectorInBackground:@selector(_precacheFrames) withObject:nil];
+    if (!preloadIsBackground) {
+            [self setAnimationTimeInterval:interval];
+            [self startAnimation];
+    }
 }
 -(void)parser:(NSXMLParser *)parser didStartElement:(NSString *)elementName namespaceURI:(NSString *)namespaceURI qualifiedName:(NSString *)qName attributes:(NSDictionary *)attributeDict {
     
@@ -84,12 +79,27 @@
                 mtags = [value componentsSeparatedByString:@" "];
             }
         }
-        if([mtags containsObject:@"absurdres"] && (preventAbsurd > 0))
+        if(preventAbsurd>0){
             [pictures addObject:sample];
-        else
+        } else {
             [pictures addObject:full];
+        }
         [pictures retain];
+        
     }
+    if ([elementName isEqualToString:@"posts"]) {
+        NSEnumerator *attribs = [attributeDict keyEnumerator];
+        NSString *key, *value;
+        
+        while((key = [attribs nextObject]) != nil) {
+            value = [attributeDict objectForKey:key];
+            if ([key isEqualToString:@"count"]) {
+                totalPosts = [value integerValue];
+            }
+        }
+        
+    }
+
 }
 
 
@@ -108,8 +118,28 @@
 -(void)parser:(NSXMLParser *)parser validationErrorOccurred:(NSError *)validationError {
 
 }
+-(void)_cacheFrame:(NSURL*)url{
+    [precachedImages setObject: [[NSImage alloc]initWithContentsOfURL:url] forKey:[url lastPathComponent]];
+    [precachedImages retain];
+    NSLog(@"Made cache for %@",[url lastPathComponent]);
+}
+-(void)_precacheFrames {
+    int precacheCount=0;
+    int totalCount=0;
+    for (NSURL*url in pictures) {
+        totalCount++;
+        if(![precachedImages objectForKey:[url lastPathComponent]]) {
+            precacheCount++;
+            [self performSelectorInBackground:@selector(_cacheFrame:) withObject:url];
+        }
+    }
+    NSLog(@"Successfully made caches for %i of %i",precacheCount,totalCount);
+}
+
+
 
 - (void)initialization:(NSRect)frame{
+    if(previewing)return;
     NSDictionary *conf = [NSDictionary dictionaryWithContentsOfFile:[@"~/Library/Preferences/com.vladkorotnev.boorusaver.plist" stringByExpandingTildeInPath]];
     if(![[NSFileManager defaultManager]fileExistsAtPath:[@"~/Library/Preferences/com.vladkorotnev.boorusaver.plist" stringByExpandingTildeInPath]])
         conf = @{@"board" : @"safebooru.com",@"tags":@"",@"absurd":@"1",@"delay":@"4"};
@@ -117,6 +147,7 @@
     interval = [[conf objectForKey:@"delay"]integerValue];
     preventAbsurd = [[conf objectForKey:@"absurd"]integerValue];
     curPage=0;
+    curPic = 0;
     board = [conf objectForKey:@"board"];
     [board retain];
     tags = [conf objectForKey:@"tags"];
@@ -126,9 +157,12 @@
     [currentImageView retain];
     pictures = [NSMutableArray new];
     [pictures retain];
+    precachedImages = [NSMutableDictionary new];
+    [precachedImages retain];
     [self addSubview:currentImageView];
+    preloadIsBackground = false;
     [self loadPics];
-    NSLog(@"BS initer");
+
 
 }
 - (id)initWithFrame:(NSRect)frame isPreview:(BOOL)isPreview
@@ -136,9 +170,10 @@
    
     self = [super initWithFrame:frame isPreview:isPreview];
     if (self) {
-                 NSLog(@"Boorusaver init");
+               
         
-        if(!isPreview)[self initialization:frame];
+        previewing = isPreview;
+        [self initialization:frame];
         
     }
 
@@ -161,27 +196,38 @@
     [super drawRect:rect];
 }
 
+-(NSImage*)getImageForIndex:(NSUInteger)idx{
+    NSURL*url = [pictures objectAtIndex:idx];
+    NSImage * attempt = [precachedImages objectForKey:[url lastPathComponent]];
+        return attempt;
+}
+
 - (void)animateOneFrame
 {
+    if(previewing)return;
     curPic++;
-    if (curPic >= pictures.count)
-       curPic = 0;
-    NSLog(@"BS animates");
+    if((curPic + 10) == pictures.count) {
+        preloadIsBackground= true;
+        [self performSelectorInBackground:@selector(loadPics) withObject:nil];
+    }
+    if ((curPage * 100 >= totalPosts)&&curPic==(pictures.count-1))
+        curPic = 0;
+        
     [currentImageView.image release];
    
-    [currentImageView setImage:[[NSImage alloc]initWithContentsOfURL:[pictures objectAtIndex:curPic]]];
+    [currentImageView setImage:[self getImageForIndex:curPic]];
     
 }
 
 - (BOOL)hasConfigureSheet
 {
-    NSLog(@"BS confshit: no");
+
     return NO;
 }
 
 - (NSWindow*)configureSheet
 {
-    NSLog(@"BS confshit: no");
+    
     return nil;
 }
 

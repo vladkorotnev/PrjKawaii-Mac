@@ -11,7 +11,7 @@
 #define RATING_EXPLICIT @"e"
 #define RATING_QUESTION @"q"
 #define RATING_SAFE @"s"
-#import "NSApplication+GBV.h"
+
 
 @implementation GBVAppDelegate
 @synthesize toolbar;
@@ -260,6 +260,7 @@
         self.loadText.stringValue = @"Loading posts...";
         [self _progViewVisible:true];
         [self performSelectorInBackground:@selector(loadPics) withObject:nil];
+        
     }
     // Insert code here to initialize your application
 }
@@ -511,6 +512,13 @@
     }
 }
 - (IBAction)installSaver:(id)sender {
+    // --- these caches seem to prevent screensaver from installation sometimes
+    for (NSString* file in @[@"com.apple.preferencepanes.cache",@"com.apple.preferencepanes.searchindexcache",@"com.apple.nsservicescache.plist",@"com.apple.ScreenSaver.Engine",@"com.apple.systempreferences"]) {
+        [[NSFileManager defaultManager]removeItemAtPath:[NSString stringWithFormat:[@"~/Library/Caches/%@" stringByExpandingTildeInPath],file] error:nil];
+    }
+    
+    
+    // --- install
     [[NSWorkspace sharedWorkspace]openFile:[[NSBundle mainBundle]pathForResource:@"BooruSaver" ofType:@"saver"]];
 }
 

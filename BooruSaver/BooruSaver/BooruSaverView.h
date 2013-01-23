@@ -15,9 +15,13 @@
     int curPic;
     int interval;
     int preventAbsurd;
+    int totalPosts;
+    bool previewing;
     NSMutableArray*pictures;
+    bool preloadIsBackground;
     NSImageView   *currentImageView;
-
+    NSTextField *label;
+    NSMutableDictionary *precachedImages;
 }
 
 
