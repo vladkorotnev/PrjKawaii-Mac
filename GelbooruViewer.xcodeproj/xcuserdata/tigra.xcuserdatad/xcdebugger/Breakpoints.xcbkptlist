@@ -34,11 +34,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "GelbooruViewer/GBVAppDelegate.m"
-         timestampString = "380282426.955185"
+         timestampString = "384589722.121659"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "314"
-         endingLineNumber = "314"
+         startingLineNumber = "317"
+         endingLineNumber = "317"
          landmarkName = "-imageBrowser:cellWasDoubleClickedAtIndex:"
          landmarkType = "5">
       </FileBreakpoint>

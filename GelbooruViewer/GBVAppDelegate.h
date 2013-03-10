@@ -13,6 +13,7 @@
 #import "GBVImageFlowView.h"
 #import "GBVViewerWindowController.h"
 #import "GBVSaverConfigWindowController.h"
+#import <Sparkle/Sparkle.h>
 @interface GBVAppDelegate : NSObject <NSApplicationDelegate,NSXMLParserDelegate,NSAlertDelegate,GBVImageFlowViewDelegate> {
     NSMutableArray *images;
     GBVImage * curLoadingImage;

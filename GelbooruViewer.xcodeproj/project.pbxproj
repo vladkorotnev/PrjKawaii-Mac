@@ -28,6 +28,9 @@
 		827A2AB416AA827900E86237 /* wait.png in Resources */ = {isa = PBXBuildFile; fileRef = 827A2AB316AA827900E86237 /* wait.png */; };
 		827A2AC516AA9D2600E86237 /* whitey.png in Resources */ = {isa = PBXBuildFile; fileRef = 827A2AC416AA9D2600E86237 /* whitey.png */; };
 		827A2AC716AA9EA500E86237 /* blacky.png in Resources */ = {isa = PBXBuildFile; fileRef = 827A2AC616AA9EA500E86237 /* blacky.png */; };
+		827CA11616EC5F11009584FC /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 827CA11516EC5F11009584FC /* Sparkle.framework */; };
+		827CA11716EC5F18009584FC /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 827CA11516EC5F11009584FC /* Sparkle.framework */; };
+		827CA11916EC5FB7009584FC /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = 827CA11816EC5FB7009584FC /* dsa_pub.pem */; };
 		8293746716AB1943007DCF54 /* GBStatistWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 8293746516AB1943007DCF54 /* GBStatistWindow.m */; };
 		8293746816AB1943007DCF54 /* GBStatistWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8293746616AB1943007DCF54 /* GBStatistWindow.xib */; };
 		82A3485316AECE8C0093B87D /* GBVSaverConfigWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82A3485116AECE8B0093B87D /* GBVSaverConfigWindowController.m */; };
@@ -60,6 +63,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				827CA11716EC5F18009584FC /* Sparkle.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +100,8 @@
 		827A2AB316AA827900E86237 /* wait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wait.png; sourceTree = "<group>"; };
 		827A2AC416AA9D2600E86237 /* whitey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whitey.png; sourceTree = "<group>"; };
 		827A2AC616AA9EA500E86237 /* blacky.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blacky.png; sourceTree = "<group>"; };
+		827CA11516EC5F11009584FC /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
+		827CA11816EC5FB7009584FC /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dsa_pub.pem; sourceTree = "<group>"; };
 		8293746416AB1943007DCF54 /* GBStatistWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBStatistWindow.h; sourceTree = "<group>"; };
 		8293746516AB1943007DCF54 /* GBStatistWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBStatistWindow.m; sourceTree = "<group>"; };
 		8293746616AB1943007DCF54 /* GBStatistWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GBStatistWindow.xib; sourceTree = "<group>"; };
@@ -116,6 +122,7 @@
 				8216C94916A9ACD8000E469E /* QTKit.framework in Frameworks */,
 				822ED9C816A91983002937EE /* Quartz.framework in Frameworks */,
 				822ED9A916A91631002937EE /* Cocoa.framework in Frameworks */,
+				827CA11616EC5F11009584FC /* Sparkle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +150,7 @@
 		822ED9A716A91631002937EE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				827CA11516EC5F11009584FC /* Sparkle.framework */,
 				8216C94816A9ACD8000E469E /* QTKit.framework */,
 				822ED9C716A91983002937EE /* Quartz.framework */,
 				822ED9A816A91631002937EE /* Cocoa.framework */,
@@ -178,6 +186,7 @@
 			isa = PBXGroup;
 			children = (
 				822ED9B016A91631002937EE /* GelbooruViewer-Info.plist */,
+				827CA11816EC5FB7009584FC /* dsa_pub.pem */,
 				822ED9B116A91631002937EE /* InfoPlist.strings */,
 				822ED9B416A91631002937EE /* main.m */,
 				822ED9B616A91631002937EE /* GelbooruViewer-Prefix.pch */,
@@ -345,6 +354,7 @@
 				8293746816AB1943007DCF54 /* GBStatistWindow.xib in Resources */,
 				82A3485416AECE8C0093B87D /* GBVSaverConfigWindowController.xib in Resources */,
 				82A3485816AED0C80093B87D /* BooruSaver.saver in Resources */,
+				827CA11916EC5FB7009584FC /* dsa_pub.pem in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -467,7 +477,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GelbooruViewer/GelbooruViewer-Prefix.pch";
 				INFOPLIST_FILE = "GelbooruViewer/GelbooruViewer-Info.plist";
-				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -486,7 +496,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GelbooruViewer/GelbooruViewer-Prefix.pch";
 				INFOPLIST_FILE = "GelbooruViewer/GelbooruViewer-Info.plist";
-				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

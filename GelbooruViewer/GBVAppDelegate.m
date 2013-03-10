@@ -220,6 +220,8 @@
 }
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
+    SUUpdater*u = [SUUpdater sharedUpdater];
+    [u setFeedURL:[NSURL URLWithString:@"http://vladkorotnev.github.com/soft/gbb/sparkle.xml"]];
     [[NSUserDefaults standardUserDefaults]synchronize];
     if (![[NSUserDefaults standardUserDefaults]boolForKey:@"agreed"]) {
         NSAlert* msgBox = [[[NSAlert alloc] init] autorelease];
@@ -262,6 +264,7 @@
         [self performSelectorInBackground:@selector(loadPics) withObject:nil];
         
     }
+
     // Insert code here to initialize your application
 }
 
