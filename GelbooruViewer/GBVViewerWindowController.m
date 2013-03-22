@@ -65,22 +65,23 @@ objectValueForTableColumn:(NSTableColumn *) aTableColumn
     self.window.title = t;
 }
 - (void) _loadFullImage {
-    NSImage * i =[image getSampleImage];
+    NSImage * i =[image getBestAvailImageForce];
     [self performSelectorOnMainThread:@selector(_displayFullImage:) withObject:i waitUntilDone:false];
    
 }
 
 - (IBAction)nextPic:(id)sender {
    self.window.title = @"Loading better image..." ;
-        int temp = image.idx + 1;
-        NSLog(@"ID %i",temp);
+        long temp = image.idx + 1;
+        NSLog(@"ID %li",temp);
         if (temp <= picA.count-1) {
             [self.image release];
             self.image = nil;
             [self.PictureVw.image release];
             self.PictureVw.image = nil;
             self.image = [picA objectAtIndex:temp];
-            [self.PictureVw setImage:[image getBestAvailImage]];
+            [self.PictureVw setImage:[image getBestAvailImageForce]];
+         
             [self performSelectorInBackground:@selector(_loadFullImage) withObject:nil];
             [self.tagTable reloadData];
             [self.btPref setEnabled:true];
@@ -90,9 +91,12 @@ objectValueForTableColumn:(NSTableColumn *) aTableColumn
         }
 }
 - (IBAction)prevPic:(id)sender {
+    if (image.idx==0) {
+        return;
+    }
   self.window.title = @"Loading better image..." ;
-        int temp = image.idx - 1;
-        NSLog(@"ID %i",temp);
+        long temp = image.idx - 1;
+        NSLog(@"ID %li",temp);
         if (temp < 0) {
             temp = 0;
             [self.btPref setEnabled:false];
@@ -103,7 +107,7 @@ objectValueForTableColumn:(NSTableColumn *) aTableColumn
             [self.PictureVw.image release];
             self.PictureVw.image = nil;
             self.image = [picA objectAtIndex:temp];
-            [self.PictureVw setImage:[image getBestAvailImage]];
+            [self.PictureVw setImage:[image getBestAvailImageForce]];
             [self performSelectorInBackground:@selector(_loadFullImage) withObject:nil];
             [self.tagTable reloadData];
             [self.btNext setEnabled:true];
@@ -120,12 +124,12 @@ objectValueForTableColumn:(NSTableColumn *) aTableColumn
         picA = arr;
         [picA retain];
         [self showWindow:self];
- [self.PictureVw setImage:[image getBestAvailImage]];
+ [self.PictureVw setImage:[image getSampleImage]];
         self.window.title = @"Loading better image..." ;
         [self performSelectorInBackground:@selector(_loadFullImage) withObject:nil];
         [self.tagTable setDelegate:self];
         [self.tagTable setDataSource:self];
-        
+           [self.PictureVw setAnimates:TRUE];
         [self.tagTable setAllowsTypeSelect:NO];
         [self.tagTable setAllowsMultipleSelection:NO];
         [self.tagTable setAllowsEmptySelection:NO];

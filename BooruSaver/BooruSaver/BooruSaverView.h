@@ -16,12 +16,15 @@
     int interval;
     int preventAbsurd;
     int totalPosts;
+    int randomized;
     bool previewing;
     NSMutableArray*pictures;
     bool preloadIsBackground;
     NSImageView   *currentImageView;
     NSTextField *label;
     NSMutableDictionary *precachedImages;
+    NSMutableArray* alreadyShownPics;
+    
 }
 
 

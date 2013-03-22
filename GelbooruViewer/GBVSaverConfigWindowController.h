@@ -15,6 +15,7 @@
     NSSliderCell *delaySlide;
     NSTextField *delayDisplay;
     NSButton *absurdprevent;
+    NSButton *random;
 }
 @property (assign) IBOutlet NSPopUpButton *boardField;
 
@@ -26,5 +27,7 @@
 @property (assign) IBOutlet NSTextField *delayDisplay;
 @property (assign) IBOutlet NSButton *absurdprevent;
 - (IBAction)absurdchange:(id)sender;
+@property (assign) IBOutlet NSButton *random;
+- (IBAction)randomChange:(id)sender;
 
 @end

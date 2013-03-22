@@ -311,6 +311,7 @@
 				82A3484216AEC8230093B87D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

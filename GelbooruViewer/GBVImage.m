@@ -39,11 +39,13 @@
         cachedThumb = [[NSImage alloc]initWithContentsOfURL:self.thumbUrl];
     [cachedThumb retain];
         ver = ver + 1;
+   //  NSLog(@"Requested thumb for %@ has arrived",self.fullurl.lastPathComponent);
 }
 - (void) _cacheSample{
     cachedSample = [[NSImage alloc]initWithContentsOfURL:self.sampleUrl];
     [cachedSample retain];
     ver = ver + 1;
+    // NSLog(@"Requested sample for %@ has arrived",self.fullurl.lastPathComponent);
 }
 
 -(void)requestSampleImageIntoCache { [self performSelectorInBackground:@selector(_cacheSample) withObject:nil]; }
@@ -64,17 +66,47 @@
 }
 
 - (NSImage*)getBestAvailImage {
-    if (cachedSample == nil && !hasAlreadyReqSamp) {
-        [self requestSampleImageIntoCache];
-        hasAlreadyReqSamp = true;
-    } else if (cachedSample != nil) return cachedSample;
+    NSImage*att = nil;
+  
+        if (cachedSample == nil && !hasAlreadyReqSamp) {
+            [self requestSampleImageIntoCache];
+            hasAlreadyReqSamp = true;
+         //   NSLog(@"Requested sample for %@",self.fullurl.lastPathComponent);
+        } else if (cachedSample != nil) {
+            att= cachedSample;
+        }
+        
+        if(cachedThumb== nil && !hasAlreadyReqThumb) {
+            [self requestThumbImageIntoCache];
+            //NSLog(@"Requested thumb for %@",self.fullurl.lastPathComponent);
+            hasAlreadyReqThumb = true;
+        } else if (cachedThumb != nil && att==nil) att= cachedThumb;
+        
+
+return att;
+
+}
+
+- (NSImage*)getBestAvailImageForce {
+    NSImage*att = nil;
+    while (att == nil){
+        if (cachedSample == nil && !hasAlreadyReqSamp) {
+            [self requestSampleImageIntoCache];
+            hasAlreadyReqSamp = true;
+            //   NSLog(@"Requested sample for %@",self.fullurl.lastPathComponent);
+        } else if (cachedSample != nil) {
+            att= cachedSample;
+        }
+        
+        if(cachedThumb== nil && !hasAlreadyReqThumb) {
+            [self requestThumbImageIntoCache];
+            //NSLog(@"Requested thumb for %@",self.fullurl.lastPathComponent);
+            hasAlreadyReqThumb = true;
+        } else if (cachedThumb != nil && att==nil) att= cachedThumb;
+        
+    }
     
-    if(cachedThumb== nil && !hasAlreadyReqThumb) {
-        [self requestThumbImageIntoCache];
-        hasAlreadyReqThumb = true;
-    } else if (cachedThumb != nil) return cachedThumb;
-    
-    return nil;//[NSImage imageNamed:@"wait.png"];
+    return att;
     
 }
 #pragma mark - Item data source protocol
