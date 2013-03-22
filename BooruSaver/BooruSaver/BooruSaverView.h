@@ -7,7 +7,7 @@
 //
 
 #import <ScreenSaver/ScreenSaver.h>
-
+#import <QuartzCore/QuartzCore.h>
 @interface BooruSaverView : ScreenSaverView<NSXMLParserDelegate> {
     NSString*board;
     NSString*tags;
@@ -24,7 +24,7 @@
     NSTextField *label;
     NSMutableDictionary *precachedImages;
     NSMutableArray* alreadyShownPics;
-    
+   
 }
 
 

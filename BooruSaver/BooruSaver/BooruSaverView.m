@@ -12,6 +12,7 @@
 static NSTextField*status=nil;
 static NSString* lastStat=@"";
 static int alreadyCachedImages=0;
+static int prevTrans=0;
 static NSProgressIndicator*progr=nil;
 
 - (void)setStat:(NSString*)s{
@@ -203,7 +204,7 @@ static NSProgressIndicator*progr=nil;
     precachedImages = [NSMutableDictionary new];
     [precachedImages retain];
     [self addSubview:currentImageView];
-    [self addSubview:progr];
+    
     //[self addSubview:status];
     alreadyShownPics = [NSMutableArray new];
     [alreadyShownPics retain];
@@ -284,11 +285,114 @@ static NSProgressIndicator*progr=nil;
             curPic=nwp;
         }
     }
-    [currentImageView.image release];
-    
-    [currentImageView setImage:[self getImageForIndex:curPic]];
-    [status setStringValue:lastStat];
+    if (curPic==0) {
+        NSImageView*newImageView = [[NSImageView alloc]initWithFrame:self.frame];
+        [newImageView setImageScaling:NSImageScaleProportionallyUpOrDown];
+        NSImageView*oldImageView = currentImageView;
+        [newImageView setImage:[self getImageForIndex:curPic]];
+        NSArray*ani = @[@"fade",@"movein",@"push",@"reveal",@"CIBarsSwipeTransition",@"CIFlashTransition",@"CIModTransition"];
+        int trans=SSRandomIntBetween(0, ani.count-1);
+        while (trans == prevTrans) {
+            trans=SSRandomIntBetween(0, ani.count-1);
+        }
+        prevTrans=trans;
+        NSString* t=[ani objectAtIndex:trans];
+        [self updateSubviewsWithTransition:t];
+        [self replaceSubview:currentImageView with:newImageView];
+        [self addSubview:progr];
+        
+        
+        currentImageView = [newImageView retain];
+        if (oldImageView.image) {
+            NSImage*i = oldImageView.image;
+            [i release];
+        }
+        
+        [oldImageView release];
+    }
+    if (alreadyCachedImages >= 10) {
+        NSArray*ani = @[@"fade",@"movein",@"push",@"reveal",@"CIBarsSwipeTransition",@"CIFlashTransition",@"CIModTransition"];
+        int trans=SSRandomIntBetween(0, ani.count-1);
+        while (trans == prevTrans) {
+            trans=SSRandomIntBetween(0, ani.count-1);
+        }
+        prevTrans=trans;
+        NSString* t=[ani objectAtIndex:trans];
+        [self updateSubviewsWithTransition:t];
+        NSImageView*newImageView = [[NSImageView alloc]initWithFrame:self.frame];
+        [newImageView setImageScaling:NSImageScaleProportionallyUpOrDown];
+        NSImageView*oldImageView = currentImageView;
+        [newImageView setImage:[self getImageForIndex:curPic]];
+        [self setWantsLayer:true];
+        [[self animator]replaceSubview:currentImageView with:newImageView];
+        [self setWantsLayer:true];
+        currentImageView = [newImageView retain];
+        [self performSelector:@selector(_purgeOldImageAfterAnimation:) withObject:oldImageView afterDelay:1.1];
+    }
+
 }
+-(void)_purgeOldImageAfterAnimation:(NSImageView*)oldImageView{
+    if (oldImageView.image) {
+        NSImage*i = oldImageView.image;
+        [i release];
+    }
+    
+    [oldImageView release];
+}
+
+- (void)updateSubviewsWithTransition:(NSString *)transition
+{
+    NSRect		rect = [self bounds];
+    CIFilter	*transitionFilter = nil;
+   // [self setStat:transition];
+    // Use Core Animation's four built-in CATransition types,
+	// or an appropriately instantiated and configured Core Image CIFilter.
+    //
+    transitionFilter = [CIFilter filterWithName:transition];
+    [transitionFilter setDefaults];
+    
+    if ([transition isEqualToString:@"CICopyMachineTransition"])
+    {
+        [transitionFilter setValue:
+         [CIVector vectorWithX:rect.origin.x Y:rect.origin.y Z:rect.size.width W:rect.size.height]
+                            forKey:@"inputExtent"];
+    }
+    else if ([transition isEqualToString:@"CIFlashTransition"])
+    {
+        [transitionFilter setValue:[CIVector vectorWithX:NSMidX(rect) Y:NSMidY(rect)] forKey:@"inputCenter"];
+        [transitionFilter setValue:[CIVector vectorWithX:rect.origin.x Y:rect.origin.y Z:rect.size.width W:rect.size.height] forKey:@"inputExtent"];
+    }
+    else if ([transition isEqualToString:@"CIModTransition"])
+    {
+        [transitionFilter setValue:[CIVector vectorWithX:NSMidX(rect) Y:NSMidY(rect)] forKey:@"inputCenter"];
+    }
+
+    
+    // construct a new CATransition that describes the transition effect we want.
+	CATransition *newTransition = [CATransition animation];
+    if (transitionFilter)
+	{
+        // we want to build a CIFilter-based CATransition.
+		// When an CATransition's "filter" property is set, the CATransition's "type" and "subtype" properties are ignored,
+		// so we don't need to bother setting them.
+        [newTransition setFilter:transitionFilter];
+    }
+	else
+	{
+
+        [newTransition setType:transition];
+        [newTransition setSubtype:[@[kCATransitionFromBottom,kCATransitionFromLeft,kCATransitionFromRight,kCATransitionFromTop]objectAtIndex:arc4random()%3]];
+    }
+    
+    // specify an explicit duration for the transition.
+    [newTransition setDuration:1];
+    
+    // associate the CATransition we've just built with the "subviews" key for this SlideshowView instance,
+	// so that when we swap ImageView instances in our -transitionToImage: method below (via -replaceSubview:with:).
+	 [self setWantsLayer:true];
+	[self setAnimations:[NSDictionary dictionaryWithObject:newTransition forKey:@"subviews"]];
+}
+
 
 - (BOOL)hasConfigureSheet
 {
