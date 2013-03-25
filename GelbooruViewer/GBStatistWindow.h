@@ -24,6 +24,7 @@
     NSMutableArray *sortedIndexes;
 
     NSButton *killExcluded;
+    NSPopUpButton *boardField;
     NSTextField *exclusionList;
 
     NSTextField *headLaberl;
@@ -33,6 +34,7 @@
 - (IBAction)saveToFile:(id)sender;
 @property (assign) IBOutlet NSTextField *exclusionList;
 @property (assign) IBOutlet NSButton *killExcluded;
+@property (assign) IBOutlet NSPopUpButton *boardField;
 
 @property (assign) IBOutlet NSSearchField *tagField;
 - (IBAction)beginAnalysis:(id)sender;

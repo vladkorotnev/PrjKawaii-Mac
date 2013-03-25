@@ -7,12 +7,12 @@ cProcessPCH /var/folders/v1/mgnbh7xd6j5b7b20kr5w7lb80000gn/C/com.apple.Xcode.501
 cProcessPCH /var/folders/v1/mgnbh7xd6j5b7b20kr5w7lb80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/BooruSaver-Prefix-fteybcmpvkorpggbrizwbwayemvz/BooruSaver-Prefix.pch.pth BooruSaver/BooruSaver-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/BooruSaver.build/Release/BooruSaver.build/Objects-normal/x86_64/BooruSaverView.o /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/BooruSaverView.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/BooruSaver.build/Release/BooruSaver.build/Objects-normal/i386/BooruSaverView.o /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/BooruSaverView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLd /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/BooruSaver.build/Release/BooruSaver.build/Objects-normal/i386/BooruSaver normal i386
 cLd /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/BooruSaver.build/Release/BooruSaver.build/Objects-normal/x86_64/BooruSaver normal x86_64
+cLd /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/BooruSaver.build/Release/BooruSaver.build/Objects-normal/i386/BooruSaver normal i386
 cCreateUniversalBinary /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/Release/BooruSaver.saver/Contents/MacOS/BooruSaver normal "x86_64 i386"
 cGenerateDSYMFile /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/Release/BooruSaver.saver.dSYM /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/Release/BooruSaver.saver/Contents/MacOS/BooruSaver
-cCopyStringsFile /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/Release/BooruSaver.saver/Contents/Resources/en.lproj/InfoPlist.strings BooruSaver/en.lproj/InfoPlist.strings
 cTiffUtil thumbnail.tiff
+cCopyStringsFile /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/Release/BooruSaver.saver/Contents/Resources/en.lproj/InfoPlist.strings BooruSaver/en.lproj/InfoPlist.strings
 cTouch /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/Release/BooruSaver.saver
 
 N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
@@ -72,7 +72,7 @@ t1358869301
 s18900
 
 N/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/BooruSaver.build/Release/BooruSaver.build/Objects-normal/i386/BooruSaver
-t1363975220
+t1363975448
 s33272
 
 N/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/BooruSaver.build/Release/BooruSaver.build/Objects-normal/i386/BooruSaver.LinkFileList
@@ -81,11 +81,11 @@ t1362896576
 s139
 
 N/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/BooruSaver.build/Release/BooruSaver.build/Objects-normal/i386/BooruSaverView.o
-t1363975219
-s62508
+t1363975448
+s62436
 
 N/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/BooruSaver.build/Release/BooruSaver.build/Objects-normal/x86_64/BooruSaver
-t1363975220
+t1363975448
 s51988
 
 N/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/BooruSaver.build/Release/BooruSaver.build/Objects-normal/x86_64/BooruSaver.LinkFileList
@@ -94,23 +94,23 @@ t1362896576
 s141
 
 N/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/BooruSaver.build/Release/BooruSaver.build/Objects-normal/x86_64/BooruSaverView.o
-t1363975219
-s86440
+t1363975448
+s86416
 
 N/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/Release/BooruSaver.saver
-t1363975222
+t1363975448
 s102
 
 N/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/Release/BooruSaver.saver.dSYM
-t1363975221
+t1363975448
 s102
 
 N/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/Release/BooruSaver.saver/Contents/Info.plist
-t1363975213
+t1363975448
 s1350
 
 N/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/Release/BooruSaver.saver/Contents/MacOS/BooruSaver
-t1363975221
+t1363975448
 s90616
 
 N/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/Release/BooruSaver.saver/Contents/Resources/en.lproj/InfoPlist.strings
@@ -144,7 +144,7 @@ s1043
 
 CCheck dependencies
 r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies4b228b98d4fcb641^48c1a398d4fcb641^---0#1#0#--18"Check dependencies36"39A9E39C-DF18-4356-A64C-80C85BAEB92C-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesa989c67f7500b741^08ad37807500b741^---0#1#0#--18"Check dependencies36"8D2E90F6-74F4-4762-93AC-ADDE43E604D7-
 
 CCompileC build/BooruSaver.build/Release/BooruSaver.build/Objects-normal/i386/BooruSaverView.o /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/BooruSaverView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s385668248.663561

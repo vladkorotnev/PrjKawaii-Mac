@@ -39,6 +39,7 @@
 
 @synthesize exclusionList;
 @synthesize killExcluded;
+@synthesize boardField;
 
 @synthesize tagField;
 - (void) _progViewVisible: (bool)visible {
@@ -73,6 +74,10 @@
     [super windowDidLoad];
     
     // Implement this method to handle any initialization after your window controller's window has been loaded from its nib file.
+    if (![[[NSUserDefaults standardUserDefaults]objectForKey:@"board"]isEqualToString:@"xbooru.com"]) {
+      [self.boardField selectItemWithTitle:[[NSUserDefaults standardUserDefaults]objectForKey:@"board"]];
+    }
+   
 }
 
 
@@ -179,7 +184,7 @@
     }
     if (totalPages >= currentProcessedPage) {
     
-        NSString * url = [NSString stringWithFormat:@"http://%@//index.php?page=dapi&s=post&q=index&pid=%i",[[NSUserDefaults standardUserDefaults]objectForKey:@"board"],currentProcessedPage ];
+        NSString * url = [NSString stringWithFormat:@"http://%@//index.php?page=dapi&s=post&q=index&pid=%i",self.boardField.selectedItem.title,currentProcessedPage ];
   
             
         url = [NSString stringWithFormat:@"%@&tags=%@",url,self.tagField.stringValue];
