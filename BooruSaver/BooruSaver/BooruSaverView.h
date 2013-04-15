@@ -7,8 +7,11 @@
 //
 
 #import <ScreenSaver/ScreenSaver.h>
+#import "GBVImage.h"
+#import "GBVSaverConfigWindowController.h"
 #import <QuartzCore/QuartzCore.h>
-@interface BooruSaverView : ScreenSaverView<NSXMLParserDelegate> {
+#import "STOverlayController.h"
+@interface BooruSaverView : ScreenSaverView<NSXMLParserDelegate,GBVImageDownloadDelegate> {
     NSString*board;
     NSString*tags;
     int curPage;
@@ -22,7 +25,6 @@
     bool preloadIsBackground;
     NSImageView   *currentImageView;
     NSTextField *label;
-    NSMutableDictionary *precachedImages;
     NSMutableArray* alreadyShownPics;
    
 }

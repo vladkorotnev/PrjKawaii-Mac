@@ -169,7 +169,11 @@ return att;
 {
     // Release the download.
     [download release];
-    
+    NSString *homeDirectory = NSHomeDirectory();
+   
+   
+    [[NSDistributedNotificationCenter defaultCenter] postNotificationName:@"com.apple.DownloadFileFinished" object:[[homeDirectory stringByAppendingPathComponent:@"Downloads"]
+                                                                                                                    stringByAppendingPathComponent:self.fullurl.lastPathComponent.pathExtension]];
     // Do something with the data.
     NSLog(@"%@",@"downloadDidFinish");
 }

@@ -14,6 +14,17 @@
 		82A3486B16AEE38A0093B87D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82A3486A16AEE38A0093B87D /* QuartzCore.framework */; };
 		82A3486E16AEEADF0093B87D /* thumbnail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 82A3486C16AEEADF0093B87D /* thumbnail@2x.png */; };
 		82A3486F16AEEADF0093B87D /* thumbnail.png in Resources */ = {isa = PBXBuildFile; fileRef = 82A3486D16AEEADF0093B87D /* thumbnail.png */; };
+		82DA29A6171C47BE006069B1 /* GBVImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 82DA29A4171C47BE006069B1 /* GBVImage.h */; };
+		82DA29A7171C47BE006069B1 /* GBVImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 82DA29A5171C47BE006069B1 /* GBVImage.m */; };
+		82DA29B3171C4872006069B1 /* GBVSaverConfigWindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = 82DA29B1171C4872006069B1 /* GBVSaverConfigWindowController.h */; };
+		82DA29B4171C4872006069B1 /* GBVSaverConfigWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82DA29B2171C4872006069B1 /* GBVSaverConfigWindowController.m */; };
+		82DA29B6171C497E006069B1 /* GBVSaverConfigWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82DA29B5171C497E006069B1 /* GBVSaverConfigWindowController.xib */; };
+		82DA29BD171C5234006069B1 /* STOverlayController.h in Headers */ = {isa = PBXBuildFile; fileRef = 82DA29B7171C5234006069B1 /* STOverlayController.h */; };
+		82DA29BE171C5234006069B1 /* STOverlayController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82DA29B8171C5234006069B1 /* STOverlayController.m */; };
+		82DA29BF171C5234006069B1 /* STOverlayView.h in Headers */ = {isa = PBXBuildFile; fileRef = 82DA29B9171C5234006069B1 /* STOverlayView.h */; };
+		82DA29C0171C5234006069B1 /* STOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 82DA29BA171C5234006069B1 /* STOverlayView.m */; };
+		82DA29C1171C5234006069B1 /* STOverlayWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 82DA29BB171C5234006069B1 /* STOverlayWindow.h */; };
+		82DA29C2171C5234006069B1 /* STOverlayWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 82DA29BC171C5234006069B1 /* STOverlayWindow.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +42,17 @@
 		82A3486A16AEE38A0093B87D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		82A3486C16AEEADF0093B87D /* thumbnail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "thumbnail@2x.png"; sourceTree = "<group>"; };
 		82A3486D16AEEADF0093B87D /* thumbnail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thumbnail.png; sourceTree = "<group>"; };
+		82DA29A4171C47BE006069B1 /* GBVImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBVImage.h; sourceTree = "<group>"; };
+		82DA29A5171C47BE006069B1 /* GBVImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBVImage.m; sourceTree = "<group>"; };
+		82DA29B1171C4872006069B1 /* GBVSaverConfigWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GBVSaverConfigWindowController.h; sourceTree = "<group>"; };
+		82DA29B2171C4872006069B1 /* GBVSaverConfigWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GBVSaverConfigWindowController.m; sourceTree = "<group>"; };
+		82DA29B5171C497E006069B1 /* GBVSaverConfigWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GBVSaverConfigWindowController.xib; sourceTree = "<group>"; };
+		82DA29B7171C5234006069B1 /* STOverlayController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STOverlayController.h; sourceTree = "<group>"; };
+		82DA29B8171C5234006069B1 /* STOverlayController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STOverlayController.m; sourceTree = "<group>"; };
+		82DA29B9171C5234006069B1 /* STOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STOverlayView.h; sourceTree = "<group>"; };
+		82DA29BA171C5234006069B1 /* STOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STOverlayView.m; sourceTree = "<group>"; };
+		82DA29BB171C5234006069B1 /* STOverlayWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STOverlayWindow.h; sourceTree = "<group>"; };
+		82DA29BC171C5234006069B1 /* STOverlayWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STOverlayWindow.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +110,17 @@
 		82A3483416AEC8230093B87D /* BooruSaver */ = {
 			isa = PBXGroup;
 			children = (
+				82DA29B7171C5234006069B1 /* STOverlayController.h */,
+				82DA29B8171C5234006069B1 /* STOverlayController.m */,
+				82DA29B9171C5234006069B1 /* STOverlayView.h */,
+				82DA29BA171C5234006069B1 /* STOverlayView.m */,
+				82DA29BB171C5234006069B1 /* STOverlayWindow.h */,
+				82DA29BC171C5234006069B1 /* STOverlayWindow.m */,
+				82DA29A4171C47BE006069B1 /* GBVImage.h */,
+				82DA29A5171C47BE006069B1 /* GBVImage.m */,
+				82DA29B1171C4872006069B1 /* GBVSaverConfigWindowController.h */,
+				82DA29B2171C4872006069B1 /* GBVSaverConfigWindowController.m */,
+				82DA29B5171C497E006069B1 /* GBVSaverConfigWindowController.xib */,
 				82A3483B16AEC8230093B87D /* BooruSaverView.h */,
 				82A3483C16AEC8230093B87D /* BooruSaverView.m */,
 				82A3483516AEC8230093B87D /* Supporting Files */,
@@ -114,6 +147,11 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82DA29A6171C47BE006069B1 /* GBVImage.h in Headers */,
+				82DA29B3171C4872006069B1 /* GBVSaverConfigWindowController.h in Headers */,
+				82DA29BD171C5234006069B1 /* STOverlayController.h in Headers */,
+				82DA29BF171C5234006069B1 /* STOverlayView.h in Headers */,
+				82DA29C1171C5234006069B1 /* STOverlayWindow.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,6 +211,7 @@
 				82A3483916AEC8230093B87D /* InfoPlist.strings in Resources */,
 				82A3486E16AEEADF0093B87D /* thumbnail@2x.png in Resources */,
 				82A3486F16AEEADF0093B87D /* thumbnail.png in Resources */,
+				82DA29B6171C497E006069B1 /* GBVSaverConfigWindowController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,7 +232,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82DA29BE171C5234006069B1 /* STOverlayController.m in Sources */,
+				82DA29C0171C5234006069B1 /* STOverlayView.m in Sources */,
+				82DA29C2171C5234006069B1 /* STOverlayWindow.m in Sources */,
 				82A3483D16AEC8230093B87D /* BooruSaverView.m in Sources */,
+				82DA29A7171C47BE006069B1 /* GBVImage.m in Sources */,
+				82DA29B4171C4872006069B1 /* GBVSaverConfigWindowController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,7 +346,7 @@
 				82A3483F16AEC8230093B87D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		82A3484016AEC8230093B87D /* Build configuration list for PBXNativeTarget "BooruSaver" */ = {
 			isa = XCConfigurationList;
@@ -311,7 +355,7 @@
 				82A3484216AEC8230093B87D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};

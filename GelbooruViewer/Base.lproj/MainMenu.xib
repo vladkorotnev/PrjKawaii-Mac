@@ -2,10 +2,10 @@
 <archive type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="8.00">
 	<data>
 		<int key="IBDocument.SystemTarget">1080</int>
-		<string key="IBDocument.SystemVersion">12C60</string>
+		<string key="IBDocument.SystemVersion">12D78</string>
 		<string key="IBDocument.InterfaceBuilderVersion">3084</string>
-		<string key="IBDocument.AppKitVersion">1187.34</string>
-		<string key="IBDocument.HIToolboxVersion">625.00</string>
+		<string key="IBDocument.AppKitVersion">1187.37</string>
+		<string key="IBDocument.HIToolboxVersion">626.00</string>
 		<dictionary class="NSMutableDictionary" key="IBDocument.PluginVersions">
 			<string key="com.apple.InterfaceBuilder.CocoaPlugin">3084</string>
 			<string key="com.apple.imagekit.ibplugin">2053</string>
@@ -158,7 +158,7 @@
 								</object>
 								<object class="NSMenuItem" id="755159360">
 									<reference key="NSMenu" ref="110575045"/>
-									<string key="NSTitle">Hide GelbooruViewer</string>
+									<string key="NSTitle">Hide GBBrowser</string>
 									<string key="NSKeyEquiv">h</string>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -196,7 +196,7 @@
 								</object>
 								<object class="NSMenuItem" id="632727374">
 									<reference key="NSMenu" ref="110575045"/>
-									<string key="NSTitle">Quit GelbooruViewer</string>
+									<string key="NSTitle">Quit GBBrowser</string>
 									<string key="NSKeyEquiv">q</string>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
@@ -364,6 +364,15 @@
 						<object class="NSMenu" key="NSSubmenu" id="466310130">
 							<string key="NSTitle">View</string>
 							<array class="NSMutableArray" key="NSMenuItems">
+								<object class="NSMenuItem" id="37592542">
+									<reference key="NSMenu" ref="466310130"/>
+									<string key="NSTitle">Enter Full Screen</string>
+									<string key="NSKeyEquiv">f</string>
+									<int key="NSKeyEquivModMask">1310720</int>
+									<int key="NSMnemonicLoc">2147483647</int>
+									<reference key="NSOnImage" ref="35465992"/>
+									<reference key="NSMixedImage" ref="502551668"/>
+								</object>
 								<object class="NSMenuItem" id="102151532">
 									<reference key="NSMenu" ref="466310130"/>
 									<string key="NSTitle">Show Toolbar</string>
@@ -498,7 +507,7 @@
 				<int key="NSWindowBacking">2</int>
 				<string key="NSWindowRect">{{335, 390}, {569, 530}}</string>
 				<int key="NSWTFlags">1954021376</int>
-				<string key="NSWindowTitle">GelbooruViewer</string>
+				<string key="NSWindowTitle">GBBrowser</string>
 				<string key="NSWindowClass">NSWindow</string>
 				<nil key="NSViewClass"/>
 				<nil key="NSUserInterfaceItemIdentifier"/>
@@ -824,7 +833,7 @@
 								<int key="NSCellFlags">-2080374720</int>
 								<int key="NSCellFlags2">2048</int>
 								<object class="NSFont" key="NSSupport" id="553026257">
-									<string key="NSName">LucidaGrande</string>
+									<string key="NSName">SegoeWP</string>
 									<double key="NSSize">13</double>
 									<int key="NSfFlags">1044</int>
 								</object>
@@ -1139,7 +1148,7 @@
 				<nil key="NSViewClass"/>
 				<nil key="NSUserInterfaceItemIdentifier"/>
 				<object class="NSView" key="NSWindowView" id="997104249">
-					<nil key="NSNextResponder"/>
+					<reference key="NSNextResponder"/>
 					<int key="NSvFlags">256</int>
 					<array class="NSMutableArray" key="NSSubviews">
 						<object class="NSProgressIndicator" id="826259147">
@@ -1147,6 +1156,8 @@
 							<int key="NSvFlags">268</int>
 							<string key="NSFrame">{{20, 19}, {336, 20}}</string>
 							<reference key="NSSuperview" ref="997104249"/>
+							<reference key="NSWindow"/>
+							<reference key="NSNextKeyView"/>
 							<string key="NSReuseIdentifierKey">_NS:9</string>
 							<string key="NSHuggingPriority">{250, 250}</string>
 							<int key="NSpiFlags">16399</int>
@@ -1157,6 +1168,7 @@
 							<int key="NSvFlags">268</int>
 							<string key="NSFrame">{{17, 46}, {342, 17}}</string>
 							<reference key="NSSuperview" ref="997104249"/>
+							<reference key="NSWindow"/>
 							<reference key="NSNextKeyView" ref="826259147"/>
 							<string key="NSReuseIdentifierKey">_NS:1535</string>
 							<bool key="NSEnabled">YES</bool>
@@ -1174,6 +1186,8 @@
 						</object>
 					</array>
 					<string key="NSFrameSize">{376, 82}</string>
+					<reference key="NSSuperview"/>
+					<reference key="NSWindow"/>
 					<reference key="NSNextKeyView" ref="788639422"/>
 					<string key="NSReuseIdentifierKey">_NS:21</string>
 				</object>
@@ -1323,6 +1337,14 @@
 						<reference key="destination" ref="761031090"/>
 					</object>
 					<int key="connectionID">804</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBActionConnection" key="connection">
+						<string key="label">toggleFullScreen:</string>
+						<reference key="source" ref="1014"/>
+						<reference key="destination" ref="37592542"/>
+					</object>
+					<int key="connectionID">823</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBOutletConnection" key="connection">
@@ -1800,6 +1822,7 @@
 							<reference ref="826315890"/>
 							<reference ref="494230448"/>
 							<reference ref="810346099"/>
+							<reference ref="37592542"/>
 						</array>
 						<reference key="parent" ref="586577488"/>
 					</object>
@@ -2153,6 +2176,11 @@
 						<reference key="object" ref="52296983"/>
 						<reference key="parent" ref="110575045"/>
 					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">822</int>
+						<reference key="object" ref="37592542"/>
+						<reference key="parent" ref="466310130"/>
+					</object>
 				</array>
 			</object>
 			<dictionary class="NSMutableDictionary" key="flattenedProperties">
@@ -2246,13 +2274,14 @@
 				<string key="748.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="819.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="820.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="822.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="92.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 			</dictionary>
 			<dictionary class="NSMutableDictionary" key="unlocalizedProperties"/>
 			<nil key="activeLocalization"/>
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
-			<int key="maxID">821</int>
+			<int key="maxID">824</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -2423,42 +2452,6 @@
 					<object class="IBClassDescriptionSource" key="sourceIdentifier">
 						<string key="majorKey">IBProjectSource</string>
 						<string key="minorKey">./Classes/GBVImageFlowView.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">IKImageBrowserView</string>
-					<dictionary class="NSMutableDictionary" key="outlets">
-						<string key="_dataSource">id</string>
-						<string key="_delegate">id</string>
-						<string key="_dragDestinationDelegate">id</string>
-						<string key="_horizontalScroller">NSScroller</string>
-						<string key="_verticalScroller">NSScroller</string>
-					</dictionary>
-					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
-						<object class="IBToOneOutletInfo" key="_dataSource">
-							<string key="name">_dataSource</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="_delegate">
-							<string key="name">_delegate</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="_dragDestinationDelegate">
-							<string key="name">_dragDestinationDelegate</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="_horizontalScroller">
-							<string key="name">_horizontalScroller</string>
-							<string key="candidateClassName">NSScroller</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="_verticalScroller">
-							<string key="name">_verticalScroller</string>
-							<string key="candidateClassName">NSScroller</string>
-						</object>
-					</dictionary>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">./Classes/IKImageBrowserView.h</string>
 					</object>
 				</object>
 				<object class="IBPartialClassDescription">

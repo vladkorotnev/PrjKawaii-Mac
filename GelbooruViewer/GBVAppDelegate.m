@@ -218,10 +218,37 @@
     [super dealloc];
     
 }
+- (void)_appInit {
+    [self.scroller setDocumentView:self.imageGrid];
+    [self.scroller setHasHorizontalRuler:false];
+    [self.scroller setHasHorizontalScroller:false];
+    [self.scroller setHasVerticalRuler:true];
+    [self.scroller setHasVerticalScroller:true];
+    [self.window setToolbar:toolbar];
+    self.images = [NSMutableArray new];
+    NSString * curBoard = [[NSUserDefaults standardUserDefaults]objectForKey:@"board"];
+    if ([curBoard isEqualToString:@""] || curBoard == nil) {
+        NSLog(@"No board");
+        curBoard = @"safebooru.org";
+        [[NSUserDefaults standardUserDefaults]setObject:curBoard  forKey:@"board"];
+        [[NSUserDefaults standardUserDefaults]synchronize];
+    }
+    [self.boardSelector selectItemWithTitle:curBoard];
+    
+    [self.scaler setFloatValue:[[NSUserDefaults standardUserDefaults]floatForKey:@"scale"]] ;
+    [self.imageGrid setZoomValue:self.scaler.floatValue];
+    if ([[NSUserDefaults standardUserDefaults]boolForKey:@"useFlow"])
+        [self _drawFlow]; else [self _drawGrid];
+    self.loadText.stringValue = @"Loading posts...";
+    [self _progViewVisible:true];
+    [self performSelectorInBackground:@selector(loadPics) withObject:nil];
+
+}
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
     SUUpdater*u = [SUUpdater sharedUpdater];
     [u setFeedURL:[NSURL URLWithString:@"http://vladkorotnev.github.com/soft/gbb/sparkle.xml"]];
+     [u setAutomaticallyChecksForUpdates:TRUE];
     [[NSUserDefaults standardUserDefaults]synchronize];
     if (![[NSUserDefaults standardUserDefaults]boolForKey:@"agreed"]) {
         NSAlert* msgBox = [[[NSAlert alloc] init] autorelease];
@@ -234,37 +261,14 @@
         if (rCode == NSAlertFirstButtonReturn) {
             [[NSUserDefaults standardUserDefaults]setBool:true forKey:@"agreed"];
             [[NSUserDefaults standardUserDefaults]synchronize];
-            [[NSApplication sharedApplication]terminate:self];
+            [self _appInit];
         } else if (rCode == NSAlertSecondButtonReturn) {
             [[NSApplication sharedApplication] terminate:self];
         }
     } else {
-        [self.scroller setDocumentView:self.imageGrid];
-        [self.scroller setHasHorizontalRuler:false];
-        [self.scroller setHasHorizontalScroller:false];
-        [self.scroller setHasVerticalRuler:true];
-        [self.scroller setHasVerticalScroller:true];
-        [self.window setToolbar:toolbar];
-        self.images = [NSMutableArray new];
-        NSString * curBoard = [[NSUserDefaults standardUserDefaults]objectForKey:@"board"];
-        if ([curBoard isEqualToString:@""] || curBoard == nil) {
-            NSLog(@"No board");
-            curBoard = @"safebooru.org";
-            [[NSUserDefaults standardUserDefaults]setObject:curBoard  forKey:@"board"];
-            [[NSUserDefaults standardUserDefaults]synchronize];
-        }
-        [self.boardSelector selectItemWithTitle:curBoard];
-        
-        [self.scaler setFloatValue:[[NSUserDefaults standardUserDefaults]floatForKey:@"scale"]] ;
-        [self.imageGrid setZoomValue:self.scaler.floatValue];
-        if ([[NSUserDefaults standardUserDefaults]boolForKey:@"useFlow"]) 
-            [self _drawFlow]; else [self _drawGrid];
-        self.loadText.stringValue = @"Loading posts...";
-        [self _progViewVisible:true];
-        [self performSelectorInBackground:@selector(loadPics) withObject:nil];
-        
+        [self _appInit];
     }
-
+    [u checkForUpdatesInBackground];
     // Insert code here to initialize your application
 }
 

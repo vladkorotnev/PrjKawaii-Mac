@@ -17,6 +17,7 @@
 @synthesize delayDisplay;
 @synthesize absurdprevent;
 @synthesize delaySlide;
+@synthesize configWindow;
 @synthesize boardField;
 @synthesize tagField;
 
@@ -29,6 +30,9 @@
     }
     
     return self;
+}
+- (GBVSaverConfigWindowController*)initForShowingPrefs {
+   return  [self initWithWindowNibPath:[[NSBundle bundleWithIdentifier:@"com.vladkorotnev.GelbooruViewer"]pathForResource:@"GBVSaverConfigWindowController" ofType:@"nib"] owner:self];
 }
 - (void)showWindow:(id)sender   {
     [self initWithWindowNibName:@"GBVSaverConfigWindowController"];
@@ -77,5 +81,8 @@
 }
 - (IBAction)randomChange:(id)sender {
     [self _writeConfig];
+}
+- (IBAction)doneAct:(id)sender {
+     [NSApp endSheet: self.configWindow];
 }
 @end

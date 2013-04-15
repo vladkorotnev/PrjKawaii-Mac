@@ -12,12 +12,16 @@
     NSSearchField *tagField;
     NSPopUpButton *boardField;
 
+    IBOutlet NSButton *doneBtn;
     NSSliderCell *delaySlide;
     NSTextField *delayDisplay;
     NSButton *absurdprevent;
     NSButton *random;
+    NSWindow *configWindow;
 }
+@property (assign) IBOutlet NSWindow *configWindow;
 @property (assign) IBOutlet NSPopUpButton *boardField;
+- (IBAction)doneAct:(id)sender;
 
 @property (assign) IBOutlet NSSearchField *tagField;
 - (IBAction)boardChange:(id)sender;
@@ -29,5 +33,5 @@
 - (IBAction)absurdchange:(id)sender;
 @property (assign) IBOutlet NSButton *random;
 - (IBAction)randomChange:(id)sender;
-
+- (GBVSaverConfigWindowController*)initForShowingPrefs;
 @end

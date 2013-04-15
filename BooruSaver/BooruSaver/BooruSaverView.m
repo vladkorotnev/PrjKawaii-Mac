@@ -14,6 +14,8 @@ static NSString* lastStat=@"";
 static int alreadyCachedImages=0;
 static int prevTrans=0;
 static NSProgressIndicator*progr=nil;
+static GBVSaverConfigWindowControllerSV*setup=nil;
+static STOverlayController*ovct=nil;
 
 - (void)setStat:(NSString*)s{
     lastStat=s;
@@ -68,9 +70,11 @@ static NSProgressIndicator*progr=nil;
     [progr retain];
     }
     if (alreadyCachedImages < pictures.count) {
-        if([precachedImages objectForKey:[[pictures objectAtIndex:alreadyCachedImages]lastPathComponent]]==nil)
-            [precachedImages setObject:[[NSImage alloc]initWithContentsOfURL:[pictures objectAtIndex:alreadyCachedImages]] forKey:[[pictures objectAtIndex:alreadyCachedImages]lastPathComponent]];
-        [precachedImages retain];
+        if (preventAbsurd == 1) {
+            [(GBVImage*)[pictures objectAtIndex:alreadyCachedImages]getSampleImage];
+        } else {
+            [(GBVImage*)[pictures objectAtIndex:alreadyCachedImages]getBestAvailImage];
+        }
         alreadyCachedImages++;
         [self _cacheAPic]; //recursively
         return;
@@ -91,14 +95,14 @@ static NSProgressIndicator*progr=nil;
     }
 }
 -(void)parser:(NSXMLParser *)parser didStartElement:(NSString *)elementName namespaceURI:(NSString *)namespaceURI qualifiedName:(NSString *)qName attributes:(NSDictionary *)attributeDict {
-    
     if ([elementName isEqualToString:@"post"]) {
         
         // print all attributes for this element
         NSEnumerator *attribs = [attributeDict keyEnumerator];
         NSString *key, *value;
-        NSURL  *sample, *full;
-        NSArray * mtags;
+        NSURL * thumb, *sample, *full;
+        NSArray * itags;
+        NSString  *rating,*ident;
         
         while((key = [attribs nextObject]) != nil) {
             value = [attributeDict objectForKey:key];
@@ -108,18 +112,22 @@ static NSProgressIndicator*progr=nil;
             if ([key isEqualToString:@"sample_url"]) {
                 sample = [NSURL URLWithString:value];
             }
-            
+            if ([key isEqualToString:@"preview_url"]) {
+                thumb = [NSURL URLWithString:value];
+            }
+            if ([key isEqualToString:@"rating"]) {
+                rating = value;
+            }
+            if ([key isEqualToString:@"id"]) {
+                ident = value;
+            }
             if ([key isEqualToString:@"tags"]) {
-                mtags = [value componentsSeparatedByString:@" "];
+                itags = [value componentsSeparatedByString:@" "];
             }
         }
-        if(preventAbsurd>0){
-            [pictures addObject:sample];
-        } else {
-            [pictures addObject:full];
-        }
-        [pictures retain];
+        GBVImage* i = [[GBVImage alloc]initWithFull:full sample:sample thumb:thumb rating:rating tags:itags idx:0 webUrl:[NSString stringWithFormat:@"http://%@//index.php?page=post&s=view&id=%@",board,ident]];
         
+        [pictures addObject:i];
     }
     if ([elementName isEqualToString:@"posts"]) {
         NSEnumerator *attribs = [attributeDict keyEnumerator];
@@ -157,6 +165,8 @@ static NSProgressIndicator*progr=nil;
 
 
 - (void)initialization:(NSRect)frame{
+    ovct=[[STOverlayController alloc]init];
+    
     status = [[NSTextField alloc]initWithFrame:NSRectFromCGRect(CGRectMake(0, 0, frame.size.width, 30))];
     [status setTextColor:[NSColor whiteColor]];
     [status setAlignment:NSCenterTextAlignment];
@@ -174,7 +184,7 @@ static NSProgressIndicator*progr=nil;
     [progr setDoubleValue:0];
     [progr startAnimation:self];
     if(previewing){
-        [status setStringValue:@"Please use the Preview button"];
+        [status setStringValue:@"Please use the Preview button. 'D' for download."];
         [status setAlphaValue:1.0];
         [self addSubview:status];
         [self stopAnimation];
@@ -201,8 +211,6 @@ static NSProgressIndicator*progr=nil;
     [currentImageView retain];
     pictures = [NSMutableArray new];
     [pictures retain];
-    precachedImages = [NSMutableDictionary new];
-    [precachedImages retain];
     [self addSubview:currentImageView];
     
     //[self addSubview:status];
@@ -218,14 +226,34 @@ static NSProgressIndicator*progr=nil;
     
 }
 
+- (void)keyDown:(NSEvent *)theEvent {
+    //  handle any necessary keyDown events here and pass the rest on to the superclass
+    if ( [[[theEvent charactersIgnoringModifiers]lowercaseString]
+          isEqualToString: @"d"] ) {
+        [ovct beginOverlayToView:self
+                                         withLabel:@"Downloading..."
+                                              radius:10.0 size:NSMakeSize(400.0, 200.0)];
+        [(GBVImage*)[pictures objectAtIndex:curPic]setDownloadDelegate:self];
+        [  (GBVImage*)[pictures objectAtIndex:curPic]performDownload];
+    
+        return;
+    }
+        [super keyDown: theEvent];
+    
+}
 
+
+
+- (void)_removeDownloadingProcessView {
+    [ovct endOverlay];
+}
 - (id)initWithFrame:(NSRect)frame isPreview:(BOOL)isPreview
 {
     
     self = [super initWithFrame:frame isPreview:isPreview];
     if (self) {
         
-        
+        setup = [[GBVSaverConfigWindowControllerSV alloc]initForShowingPrefs];
         previewing = isPreview;
         [self initialization:frame];
         
@@ -252,16 +280,12 @@ static NSProgressIndicator*progr=nil;
 
 -(NSImage*)getImageForIndex:(NSUInteger)idx{
     // [self stopAnimation];
-    NSURL*url = [pictures objectAtIndex:idx];
+   
     NSImage * attempt = nil;
-    if ([precachedImages objectForKey:[url lastPathComponent]]) {
-        attempt = [precachedImages objectForKey:[url lastPathComponent]];
-    } else {
-        attempt = [[NSImage alloc]initWithContentsOfURL:url];
-        if (attempt != nil) {
-            [precachedImages setObject:attempt forKey:[url lastPathComponent]];
-        }
-    }
+   
+    attempt = (preventAbsurd == 1)? [(GBVImage*)[pictures objectAtIndex:idx] getSampleImage] : [(GBVImage*)[pictures objectAtIndex:idx] getBestAvailImage];
+    
+    
     
     if (attempt == nil) {
         return [NSImage imageNamed:NSImageNameCaution];
@@ -397,13 +421,13 @@ static NSProgressIndicator*progr=nil;
 - (BOOL)hasConfigureSheet
 {
     
-    return NO;
+    return YES;
 }
 
 - (NSWindow*)configureSheet
 {
     
-    return nil;
+    return setup.window;
 }
 
 @end

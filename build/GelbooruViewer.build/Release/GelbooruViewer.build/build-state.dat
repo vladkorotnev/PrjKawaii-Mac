@@ -5,31 +5,31 @@ cCheck dependencies
 cProcessInfoPlistFile /Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/Info.plist GelbooruViewer/GelbooruViewer-Info.plist
 cProcessPCH /var/folders/v1/mgnbh7xd6j5b7b20kr5w7lb80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GelbooruViewer-Prefix-dvfievnhzhxzhdgtfrubmjibeztn/GelbooruViewer-Prefix.pch.pth GelbooruViewer/GelbooruViewer-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cProcessPCH /var/folders/v1/mgnbh7xd6j5b7b20kr5w7lb80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GelbooruViewer-Prefix-asfkguarksyxpmfcficpmuiwhcix/GelbooruViewer-Prefix.pch.pth GelbooruViewer/GelbooruViewer-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/GelbooruViewer.build/Release/GelbooruViewer.build/Objects-normal/x86_64/GBVImage.o /Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/GBVImage.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/GelbooruViewer.build/Release/GelbooruViewer.build/Objects-normal/x86_64/GBVAppDelegate.o /Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/GBVAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/GelbooruViewer.build/Release/GelbooruViewer.build/Objects-normal/x86_64/GBVViewerWindowController.o /Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/GBVViewerWindowController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/GelbooruViewer.build/Release/GelbooruViewer.build/Objects-normal/x86_64/main.o /Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/GelbooruViewer.build/Release/GelbooruViewer.build/Objects-normal/x86_64/GBVSaverConfigWindowController.o /Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/GBVSaverConfigWindowController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/GelbooruViewer.build/Release/GelbooruViewer.build/Objects-normal/x86_64/GBVImageFlowView.o /Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/GBVImageFlowView.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/GelbooruViewer.build/Release/GelbooruViewer.build/Objects-normal/x86_64/GBStatistWindow.o /Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/GBStatistWindow.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/GelbooruViewer.build/Release/GelbooruViewer.build/Objects-normal/i386/main.o /Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/GelbooruViewer.build/Release/GelbooruViewer.build/Objects-normal/i386/GBVAppDelegate.o /Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/GBVAppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/GelbooruViewer.build/Release/GelbooruViewer.build/Objects-normal/i386/main.o /Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/GelbooruViewer.build/Release/GelbooruViewer.build/Objects-normal/i386/GBVImage.o /Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/GBVImage.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/GelbooruViewer.build/Release/GelbooruViewer.build/Objects-normal/i386/GBVViewerWindowController.o /Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/GBVViewerWindowController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/GelbooruViewer.build/Release/GelbooruViewer.build/Objects-normal/x86_64/GBVAppDelegate.o /Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/GBVAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/GelbooruViewer.build/Release/GelbooruViewer.build/Objects-normal/x86_64/main.o /Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/GelbooruViewer.build/Release/GelbooruViewer.build/Objects-normal/x86_64/GBVImage.o /Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/GBVImage.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/GelbooruViewer.build/Release/GelbooruViewer.build/Objects-normal/x86_64/GBVViewerWindowController.o /Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/GBVViewerWindowController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/GelbooruViewer.build/Release/GelbooruViewer.build/Objects-normal/x86_64/GBStatistWindow.o /Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/GBStatistWindow.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/GelbooruViewer.build/Release/GelbooruViewer.build/Objects-normal/x86_64/GBVImageFlowView.o /Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/GBVImageFlowView.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/GelbooruViewer.build/Release/GelbooruViewer.build/Objects-normal/x86_64/GBVSaverConfigWindowController.o /Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/GBVSaverConfigWindowController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/GelbooruViewer.build/Release/GelbooruViewer.build/Objects-normal/i386/GBVImageFlowView.o /Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/GBVImageFlowView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/GelbooruViewer.build/Release/GelbooruViewer.build/Objects-normal/i386/GBStatistWindow.o /Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/GBStatistWindow.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 cCompileC build/GelbooruViewer.build/Release/GelbooruViewer.build/Objects-normal/i386/GBVSaverConfigWindowController.o /Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/GBVSaverConfigWindowController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLd /Users/tigra/Desktop/Coding/GelbooruViewer/build/GelbooruViewer.build/Release/GelbooruViewer.build/Objects-normal/i386/GelbooruViewer normal i386
 cLd /Users/tigra/Desktop/Coding/GelbooruViewer/build/GelbooruViewer.build/Release/GelbooruViewer.build/Objects-normal/x86_64/GelbooruViewer normal x86_64
+cLd /Users/tigra/Desktop/Coding/GelbooruViewer/build/GelbooruViewer.build/Release/GelbooruViewer.build/Objects-normal/i386/GelbooruViewer normal i386
 cCreateUniversalBinary /Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/MacOS/GelbooruViewer normal "x86_64 i386"
 cGenerateDSYMFile /Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app.dSYM /Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/MacOS/GelbooruViewer
-cCopyStringsFile /Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/Resources/en.lproj/InfoPlist.strings GelbooruViewer/en.lproj/InfoPlist.strings
 cCpResource GelbooruViewer/en.lproj/Credits.rtf build/Release/GelbooruViewer.app/Contents/Resources/en.lproj/Credits.rtf
 cCompileXIB /Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/Base.lproj/MainMenu.xib
+cCopyStringsFile /Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/Resources/en.lproj/InfoPlist.strings GelbooruViewer/en.lproj/InfoPlist.strings
 cCpResource GelbooruViewer/1358509340_system-software-update.png build/Release/GelbooruViewer.app/Contents/Resources/1358509340_system-software-update.png
 cCpResource GelbooruViewer/more.png build/Release/GelbooruViewer.app/Contents/Resources/more.png
-cCompileXIB /Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/GBVViewerWindowController.xib
 cCpResource GelbooruViewer/1358518923_10.png build/Release/GelbooruViewer.app/Contents/Resources/1358518923_10.png
+cCompileXIB /Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/GBVViewerWindowController.xib
 cCpResource GelbooruViewer/1358521179_Notes.png build/Release/GelbooruViewer.app/Contents/Resources/1358521179_Notes.png
 cCpResource GelbooruViewer/1358521912_8.png build/Release/GelbooruViewer.app/Contents/Resources/1358521912_8.png
 cCpResource GelbooruViewer/1358521904_7.png build/Release/GelbooruViewer.app/Contents/Resources/1358521904_7.png
@@ -271,11 +271,11 @@ t1221362882
 s463540
 
 N/Users/tigra/Desktop/Coding/GelbooruViewer/build/GelbooruViewer.build/Release/GelbooruViewer.build/Objects-normal/i386/GBStatistWindow.o
-t1363975450
-s82768
+t1364213250
+s84516
 
 N/Users/tigra/Desktop/Coding/GelbooruViewer/build/GelbooruViewer.build/Release/GelbooruViewer.build/Objects-normal/i386/GBVAppDelegate.o
-t1363975450
+t1364213250
 s120728
 
 N/Users/tigra/Desktop/Coding/GelbooruViewer/build/GelbooruViewer.build/Release/GelbooruViewer.build/Objects-normal/i386/GBVImage.o
@@ -295,8 +295,8 @@ t1363975450
 s58432
 
 N/Users/tigra/Desktop/Coding/GelbooruViewer/build/GelbooruViewer.build/Release/GelbooruViewer.build/Objects-normal/i386/GelbooruViewer
-t1363975450
-s106444
+t1364213250
+s106684
 
 N/Users/tigra/Desktop/Coding/GelbooruViewer/build/GelbooruViewer.build/Release/GelbooruViewer.build/Objects-normal/i386/GelbooruViewer.LinkFileList
 c00000000514C9D1800000000000003C6
@@ -308,11 +308,11 @@ t1363975449
 s2548
 
 N/Users/tigra/Desktop/Coding/GelbooruViewer/build/GelbooruViewer.build/Release/GelbooruViewer.build/Objects-normal/x86_64/GBStatistWindow.o
-t1363975449
-s112932
+t1364213250
+s115600
 
 N/Users/tigra/Desktop/Coding/GelbooruViewer/build/GelbooruViewer.build/Release/GelbooruViewer.build/Objects-normal/x86_64/GBVAppDelegate.o
-t1363975449
+t1364213250
 s167516
 
 N/Users/tigra/Desktop/Coding/GelbooruViewer/build/GelbooruViewer.build/Release/GelbooruViewer.build/Objects-normal/x86_64/GBVImage.o
@@ -332,8 +332,8 @@ t1363975449
 s87916
 
 N/Users/tigra/Desktop/Coding/GelbooruViewer/build/GelbooruViewer.build/Release/GelbooruViewer.build/Objects-normal/x86_64/GelbooruViewer
-t1363975450
-s153824
+t1364213250
+s154232
 
 N/Users/tigra/Desktop/Coding/GelbooruViewer/build/GelbooruViewer.build/Release/GelbooruViewer.build/Objects-normal/x86_64/GelbooruViewer.LinkFileList
 c00000000514C9D1800000000000003D4
@@ -349,7 +349,7 @@ t2
 s0
 
 N/Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app.dSYM
-t1363975450
+t1364213250
 s102
 
 N/Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/Frameworks/Sparkle.framework
@@ -449,13 +449,13 @@ t1363958119
 s12864132
 
 NGelbooruViewer/GelbooruViewer-Info.plist
-c0000000051503DF40000000000000518
-t1364213236
-s1304
+c000000005150425B0000000000000517
+t1364214363
+s1303
 
 CCheck dependencies
 r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies581c4a807500b741^072550807500b741^---0#1#0#--18"Check dependencies36"A312621D-C0F3-46F8-BE24-77201AA309D9-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies077905eb7900b741^545409eb7900b741^---0#1#0#--18"Check dependencies36"E6767C72-BC65-4E1C-88F7-E7DA0A433ED2-
 
 CCompileC build/GelbooruViewer.build/Release/GelbooruViewer.build/Objects-normal/i386/GBStatistWindow.o /Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/GBStatistWindow.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s385906048.347774
@@ -991,188 +991,188 @@ xcom.apple.compilers.llvm.clang.1_0.compiler
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/main.maaba5399d4fcb641^5e116c99d4fcb641^---0#0#0#-19%DVTDocumentLocation2@80"file://localhost/Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/main.m0000000000000000^3260"CompileC build/GelbooruViewer.build/Release/GelbooruViewer.build/Objects-normal/x86_64/main.o GelbooruViewer/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/tigra/Desktop/Coding/GelbooruViewer    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.7 -g -fvisibility=hidden -Wno-sign-conversion -iquote /Users/tigra/Desktop/Coding/GelbooruViewer/build/GelbooruViewer.build/Release/GelbooruViewer.build/GelbooruViewer-generated-files.hmap -I/Users/tigra/Desktop/Coding/GelbooruViewer/build/GelbooruViewer.build/Release/GelbooruViewer.build/GelbooruViewer-own-target-headers.hmap -I/Users/tigra/Desktop/Coding/GelbooruViewer/build/GelbooruViewer.build/Release/GelbooruViewer.build/GelbooruViewer-all-target-headers.hmap -iquote /Users/tigra/Desktop/Coding/GelbooruViewer/build/GelbooruViewer.build/Release/GelbooruViewer.build/GelbooruViewer-project-headers.hmap -I/Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/tigra/Desktop/Coding/GelbooruViewer/build/GelbooruViewer.build/Release/GelbooruViewer.build/DerivedSources/x86_64 -I/Users/tigra/Desktop/Coding/GelbooruViewer/build/GelbooruViewer.build/Release/GelbooruViewer.build/DerivedSources -F/Users/tigra/Desktop/Coding/GelbooruViewer/build/Release -F/Users/tigra/Desktop/Coding/GelbooruViewer -include /var/folders/v1/mgnbh7xd6j5b7b20kr5w7lb80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GelbooruViewer-Prefix-dvfievnhzhxzhdgtfrubmjibeztn/GelbooruViewer-Prefix.pch -MMD -MT dependencies -MF /Users/tigra/Desktop/Coding/GelbooruViewer/build/GelbooruViewer.build/Release/GelbooruViewer.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/tigra/Desktop/Coding/GelbooruViewer/build/GelbooruViewer.build/Release/GelbooruViewer.build/Objects-normal/x86_64/main.dia -c /Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/main.m -o /Users/tigra/Desktop/Coding/GelbooruViewer/build/GelbooruViewer.build/Release/GelbooruViewer.build/Objects-normal/x86_64/main.o36"BE55F699-48B0-438C-AF80-F80B4FCF7FEB-
 
 CCompileXIB /Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/Base.lproj/MainMenu.xib
-s385906050.891656
-e385906052.897480
+s385907179.248925
+e385907180.069082
 r1
 xCompileXIB
 x/Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/Base.lproj/MainMenu.xib
-o2013-03-25 18:07:32.269 ibtoold[3519:707] invalid CoreGraphics connection
-o2013-03-25 18:07:32.270 ibtoold[3519:707] invalid pixel format
-o2013-03-25 18:07:32.276 ibtoold[3519:707] invalid context
+o2013-03-25 18:26:19.276 ibtoold[4111:707] invalid CoreGraphics connection
+o2013-03-25 18:26:19.278 ibtoold[4111:707] invalid pixel format
+o2013-03-25 18:26:19.292 ibtoold[4111:707] invalid context
 o/* com.apple.ibtool.document.notices */
 o/Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/Base.lproj/MainMenu.xib:547: note: View is clipping its content [13]
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compiling /Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/Base.lproj/MainMenu.xib3e5ee4827500b741^8ee5e5847500b741^-352"2013-03-25 18:07:32.269 ibtoold[3519:707] invalid CoreGraphics connection2013-03-25 18:07:32.270 ibtoold[3519:707] invalid pixel format2013-03-25 18:07:32.276 ibtoold[3519:707] invalid context/* com.apple.ibtool.document.notices *//Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/Base.lproj/MainMenu.xib:547: note: View is clipping its content1(21%IDEActivityLogMessage2@28"View is clipping its content-385906052#18446744073709551615#0#-0#-23%DVTTextDocumentLocation3@97"file://localhost/Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/Base.lproj/MainMenu.xib0000000000000000^546#18446744073709551615#546#18446744073709551615#18446744073709551615#0#15"Clipped Content--0#0#0#-19%DVTDocumentLocation4@97"file://localhost/Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/Base.lproj/MainMenu.xib0000000000000000^634"CompileXIB GelbooruViewer/Base.lproj/MainMenu.xib    cd /Users/tigra/Desktop/Coding/GelbooruViewer    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/Resources/Base.lproj/MainMenu.nib /Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/Base.lproj/MainMenu.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk36"8CD5F4F3-9DE4-494A-8D67-3C1DA488E2EE-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compiling /Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/Base.lproj/MainMenu.xibd9ce3feb7900b741^cff911ec7900b741^-352"2013-03-25 18:26:19.276 ibtoold[4111:707] invalid CoreGraphics connection2013-03-25 18:26:19.278 ibtoold[4111:707] invalid pixel format2013-03-25 18:26:19.292 ibtoold[4111:707] invalid context/* com.apple.ibtool.document.notices *//Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/Base.lproj/MainMenu.xib:547: note: View is clipping its content1(21%IDEActivityLogMessage2@28"View is clipping its content-385907180#18446744073709551615#0#-0#-23%DVTTextDocumentLocation3@97"file://localhost/Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/Base.lproj/MainMenu.xib0000000000000000^546#18446744073709551615#546#18446744073709551615#18446744073709551615#0#15"Clipped Content--0#0#0#-19%DVTDocumentLocation4@97"file://localhost/Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/Base.lproj/MainMenu.xib0000000000000000^634"CompileXIB GelbooruViewer/Base.lproj/MainMenu.xib    cd /Users/tigra/Desktop/Coding/GelbooruViewer    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/Resources/Base.lproj/MainMenu.nib /Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/Base.lproj/MainMenu.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk36"B8676296-E122-4E84-A16B-B11EC7B6F2B7-
 
 CCompileXIB /Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/GBStatistWindow.xib
-s385906051.513688
-e385906052.896390
+s385907179.269249
+e385907180.113932
 r1
 xCompileXIB
 x/Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/GBStatistWindow.xib
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compiling /Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/GBStatistWindow.xibac8f83837500b741^8e79e5847500b741^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/GBStatistWindow.xib0000000000000000^622"CompileXIB GelbooruViewer/GBStatistWindow.xib    cd /Users/tigra/Desktop/Coding/GelbooruViewer    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/Resources/GBStatistWindow.nib /Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/GBStatistWindow.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk36"6292596F-BE87-4C68-A41D-2DDA0C87BD0F-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compiling /Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/GBStatistWindow.xibc1fd44eb7900b741^5f5c22ec7900b741^---0#0#0#-19%DVTDocumentLocation2@93"file://localhost/Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/GBStatistWindow.xib0000000000000000^622"CompileXIB GelbooruViewer/GBStatistWindow.xib    cd /Users/tigra/Desktop/Coding/GelbooruViewer    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/Resources/GBStatistWindow.nib /Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/GBStatistWindow.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk36"1810DF4A-B304-466F-8689-B1F74AB5AFCA-
 
 CCompileXIB /Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/GBVSaverConfigWindowController.xib
-s385906051.521031
-e385906052.897814
+s385907179.271208
+e385907180.152748
 r1
 xCompileXIB
 x/Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/GBVSaverConfigWindowController.xib
 o/* com.apple.ibtool.document.notices */
 o/Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/GBVSaverConfigWindowController.xib:5: note: View is clipping its content [13]
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Compiling /Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/GBVSaverConfigWindowController.xib147a85837500b741^2c2ee6847500b741^-169"/* com.apple.ibtool.document.notices *//Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/GBVSaverConfigWindowController.xib:5: note: View is clipping its content1(21%IDEActivityLogMessage2@28"View is clipping its content-385906052#18446744073709551615#0#-0#-23%DVTTextDocumentLocation3@108"file://localhost/Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/GBVSaverConfigWindowController.xib0000000000000000^4#18446744073709551615#4#18446744073709551615#18446744073709551615#0#15"Clipped Content--0#0#0#-19%DVTDocumentLocation4@108"file://localhost/Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/GBVSaverConfigWindowController.xib0000000000000000^667"CompileXIB GelbooruViewer/GBVSaverConfigWindowController.xib    cd /Users/tigra/Desktop/Coding/GelbooruViewer    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/Resources/GBVSaverConfigWindowController.nib /Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/GBVSaverConfigWindowController.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk36"1A0A14E8-8944-4829-9908-91D04D397225-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Compiling /Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/GBVSaverConfigWindowController.xibe08545eb7900b741^b32527ec7900b741^-169"/* com.apple.ibtool.document.notices *//Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/GBVSaverConfigWindowController.xib:5: note: View is clipping its content1(21%IDEActivityLogMessage2@28"View is clipping its content-385907180#18446744073709551615#0#-0#-23%DVTTextDocumentLocation3@108"file://localhost/Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/GBVSaverConfigWindowController.xib0000000000000000^4#18446744073709551615#4#18446744073709551615#18446744073709551615#0#15"Clipped Content--0#0#0#-19%DVTDocumentLocation4@108"file://localhost/Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/GBVSaverConfigWindowController.xib0000000000000000^667"CompileXIB GelbooruViewer/GBVSaverConfigWindowController.xib    cd /Users/tigra/Desktop/Coding/GelbooruViewer    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/Resources/GBVSaverConfigWindowController.nib /Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/GBVSaverConfigWindowController.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk36"0EE430F9-A427-4AE5-8FA5-30AC7662AA2C-
 
 CCompileXIB /Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/GBVViewerWindowController.xib
-s385906050.941638
-e385906052.894615
+s385907179.254904
+e385907180.175616
 r1
 xCompileXIB
 x/Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/GBVViewerWindowController.xib
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Compiling /Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/GBVViewerWindowController.xib1c27f1827500b741^8274e5847500b741^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/GBVViewerWindowController.xib0000000000000000^652"CompileXIB GelbooruViewer/GBVViewerWindowController.xib    cd /Users/tigra/Desktop/Coding/GelbooruViewer    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/Resources/GBVViewerWindowController.nib /Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/GBVViewerWindowController.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk36"C6AE72BD-5A26-493C-AF53-8B1E32C80F72-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Compiling /Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/GBVViewerWindowController.xib715541eb7900b741^edbc2dec7900b741^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/GBVViewerWindowController.xib0000000000000000^652"CompileXIB GelbooruViewer/GBVViewerWindowController.xib    cd /Users/tigra/Desktop/Coding/GelbooruViewer    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/Resources/GBVViewerWindowController.nib /Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/GBVViewerWindowController.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk36"6F90E186-4873-464C-AD71-7450020F7EAC-
 
 CCopyStringsFile /Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/Resources/en.lproj/InfoPlist.strings GelbooruViewer/en.lproj/InfoPlist.strings
-s385906050.891374
-e385906050.956130
+s385907179.248924
+e385907179.253758
 r1
 xCopyStringsFile
 x/Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/Resources/en.lproj/InfoPlist.strings
 xGelbooruViewer/en.lproj/InfoPlist.strings
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Copy GelbooruViewer/en.lproj/InfoPlist.strings3e5ae4827500b741^d1cff4827500b741^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/en.lproj/InfoPlist.strings0000000000000000^426"CopyStringsFile build/Release/GelbooruViewer.app/Contents/Resources/en.lproj/InfoPlist.strings GelbooruViewer/en.lproj/InfoPlist.strings    cd /Users/tigra/Desktop/Coding/GelbooruViewer    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding UTF-16 --outdir /Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/Resources/en.lproj -- GelbooruViewer/en.lproj/InfoPlist.strings36"ACCC58E0-F453-475C-873E-538E75820688-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection46"Copy GelbooruViewer/en.lproj/InfoPlist.strings64ce3feb7900b741^d3f540eb7900b741^---0#0#0#-19%DVTDocumentLocation2@100"file://localhost/Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/en.lproj/InfoPlist.strings0000000000000000^426"CopyStringsFile build/Release/GelbooruViewer.app/Contents/Resources/en.lproj/InfoPlist.strings GelbooruViewer/en.lproj/InfoPlist.strings    cd /Users/tigra/Desktop/Coding/GelbooruViewer    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding UTF-16 --outdir /Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/Resources/en.lproj -- GelbooruViewer/en.lproj/InfoPlist.strings36"01864DD1-9F00-4551-8948-F60BC85F4673-
 
 CCpResource BooruSaver/build/Release/BooruSaver.saver build/Release/GelbooruViewer.app/Contents/Resources/BooruSaver.saver
-s385906052.897858
-e385906052.995140
+s385907180.071016
+e385907180.142675
 r1
 xCpResource
 xBooruSaver/build/Release/BooruSaver.saver
 xbuild/Release/GelbooruViewer.app/Contents/Resources/BooruSaver.saver
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Copy build/Release/GelbooruViewer.app/Contents/Resources/BooruSaver.saverf20ce6847500b741^6ec1fe847500b741^-347"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -S /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/Release/BooruSaver.saver/Contents/MacOS/BooruSaver -o /Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/Resources/BooruSaver.saver/Contents/MacOS/BooruSaver-0#0#0#-19%DVTDocumentLocation2@127"file://localhost/Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/Resources/BooruSaver.saver000000000080d041^590"CpResource BooruSaver/build/Release/BooruSaver.saver build/Release/GelbooruViewer.app/Contents/Resources/BooruSaver.saver    cd /Users/tigra/Desktop/Coding/GelbooruViewer    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/Release/BooruSaver.saver /Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/Resources36"C8160BCF-8DBB-4DAB-9C31-CFE148C1380B-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Copy build/Release/GelbooruViewer.app/Contents/Resources/BooruSaver.saverd04212ec7900b741^499d24ec7900b741^-347"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -S /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/Release/BooruSaver.saver/Contents/MacOS/BooruSaver -o /Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/Resources/BooruSaver.saver/Contents/MacOS/BooruSaver-0#0#0#-19%DVTDocumentLocation2@127"file://localhost/Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/Resources/BooruSaver.saver000000000080d041^590"CpResource BooruSaver/build/Release/BooruSaver.saver build/Release/GelbooruViewer.app/Contents/Resources/BooruSaver.saver    cd /Users/tigra/Desktop/Coding/GelbooruViewer    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/Release/BooruSaver.saver /Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/Resources36"CDEBCE82-2454-4BB9-B28E-7E6E903A7FAB-
 
 CCpResource GelbooruViewer/../1358529252_manilla-folder-imagecopy.icns build/Release/GelbooruViewer.app/Contents/Resources/1358529252_manilla-folder-imagecopy.icns
-s385906051.482174
-e385906051.484190
+s385907179.261289
+e385907179.264720
 r1
 xCpResource
 xGelbooruViewer/../1358529252_manilla-folder-imagecopy.icns
 xbuild/Release/GelbooruViewer.app/Contents/Resources/1358529252_manilla-folder-imagecopy.icns
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Copy build/Release/GelbooruViewer.app/Contents/Resources/1358529252_manilla-folder-imagecopy.icns55847b837500b741^8cf37b837500b741^---0#0#0#-19%DVTDocumentLocation2@151"file://localhost/Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/Resources/1358529252_manilla-folder-imagecopy.icns000000000080d041^648"CpResource GelbooruViewer/../1358529252_manilla-folder-imagecopy.icns build/Release/GelbooruViewer.app/Contents/Resources/1358529252_manilla-folder-imagecopy.icns    cd /Users/tigra/Desktop/Coding/GelbooruViewer    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/../1358529252_manilla-folder-imagecopy.icns /Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/Resources36"B84B36E2-C2E5-44B5-B6A2-F208FF49B7D4-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"Copy build/Release/GelbooruViewer.app/Contents/Resources/1358529252_manilla-folder-imagecopy.icnscff842eb7900b741^22c643eb7900b741^---0#0#0#-19%DVTDocumentLocation2@151"file://localhost/Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/Resources/1358529252_manilla-folder-imagecopy.icns000000000080d041^648"CpResource GelbooruViewer/../1358529252_manilla-folder-imagecopy.icns build/Release/GelbooruViewer.app/Contents/Resources/1358529252_manilla-folder-imagecopy.icns    cd /Users/tigra/Desktop/Coding/GelbooruViewer    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/../1358529252_manilla-folder-imagecopy.icns /Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/Resources36"4A4BC0D8-7DCA-40D5-8CEE-BF5212F627B7-
 
 CCpResource GelbooruViewer/1358509340_system-software-update.png build/Release/GelbooruViewer.app/Contents/Resources/1358509340_system-software-update.png
-s385906050.891670
-e385906050.927797
+s385907179.249273
+e385907179.254616
 r1
 xCpResource
 xGelbooruViewer/1358509340_system-software-update.png
 xbuild/Release/GelbooruViewer.app/Contents/Resources/1358509340_system-software-update.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Copy build/Release/GelbooruViewer.app/Contents/Resources/1358509340_system-software-update.pngc765e4827500b741^7383ed827500b741^---0#0#0#-19%DVTDocumentLocation2@148"file://localhost/Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/Resources/1358509340_system-software-update.png000000000080d041^633"CpResource GelbooruViewer/1358509340_system-software-update.png build/Release/GelbooruViewer.app/Contents/Resources/1358509340_system-software-update.png    cd /Users/tigra/Desktop/Coding/GelbooruViewer    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/1358509340_system-software-update.png /Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/Resources36"75B9B237-4182-4C92-81C3-FFB360B2B771-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Copy build/Release/GelbooruViewer.app/Contents/Resources/1358509340_system-software-update.pnga4de3feb7900b741^302e41eb7900b741^---0#0#0#-19%DVTDocumentLocation2@148"file://localhost/Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/Resources/1358509340_system-software-update.png000000000080d041^633"CpResource GelbooruViewer/1358509340_system-software-update.png build/Release/GelbooruViewer.app/Contents/Resources/1358509340_system-software-update.png    cd /Users/tigra/Desktop/Coding/GelbooruViewer    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/1358509340_system-software-update.png /Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/Resources36"DB519991-F735-4890-A4F1-C941BDEB22B7-
 
 CCpResource GelbooruViewer/1358518923_10.png build/Release/GelbooruViewer.app/Contents/Resources/1358518923_10.png
-s385906050.957031
-e385906050.989578
+s385907179.254889
+e385907179.256780
 r1
 xCpResource
 xGelbooruViewer/1358518923_10.png
 xbuild/Release/GelbooruViewer.app/Contents/Resources/1358518923_10.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Copy build/Release/GelbooruViewer.app/Contents/Resources/1358518923_10.png0d17f5827500b741^4d69fd827500b741^---0#0#0#-19%DVTDocumentLocation2@128"file://localhost/Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/Resources/1358518923_10.png000000000080d041^573"CpResource GelbooruViewer/1358518923_10.png build/Release/GelbooruViewer.app/Contents/Resources/1358518923_10.png    cd /Users/tigra/Desktop/Coding/GelbooruViewer    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/1358518923_10.png /Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/Resources36"C2D1BDBF-3271-4280-B978-5E06EEF82B85-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Copy build/Release/GelbooruViewer.app/Contents/Resources/1358518923_10.png0e4d41eb7900b741^f1bb41eb7900b741^---0#0#0#-19%DVTDocumentLocation2@128"file://localhost/Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/Resources/1358518923_10.png000000000080d041^573"CpResource GelbooruViewer/1358518923_10.png build/Release/GelbooruViewer.app/Contents/Resources/1358518923_10.png    cd /Users/tigra/Desktop/Coding/GelbooruViewer    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/1358518923_10.png /Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/Resources36"87BB8EC7-E5AB-4EF5-B170-F3C83CA9ABCA-
 
 CCpResource GelbooruViewer/1358521179_Notes.png build/Release/GelbooruViewer.app/Contents/Resources/1358521179_Notes.png
-s385906050.957638
-e385906050.989329
+s385907179.257071
+e385907179.260096
 r1
 xCpResource
 xGelbooruViewer/1358521179_Notes.png
 xbuild/Release/GelbooruViewer.app/Contents/Resources/1358521179_Notes.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Copy build/Release/GelbooruViewer.app/Contents/Resources/1358521179_Notes.png8e3bf5827500b741^b265fd827500b741^---0#0#0#-19%DVTDocumentLocation2@131"file://localhost/Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/Resources/1358521179_Notes.png000000000080d041^582"CpResource GelbooruViewer/1358521179_Notes.png build/Release/GelbooruViewer.app/Contents/Resources/1358521179_Notes.png    cd /Users/tigra/Desktop/Coding/GelbooruViewer    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/1358521179_Notes.png /Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/Resources36"048EFE6B-0E4E-421F-8D84-06EB30973180-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Copy build/Release/GelbooruViewer.app/Contents/Resources/1358521179_Notes.png79e641eb7900b741^969542eb7900b741^---0#0#0#-19%DVTDocumentLocation2@131"file://localhost/Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/Resources/1358521179_Notes.png000000000080d041^582"CpResource GelbooruViewer/1358521179_Notes.png build/Release/GelbooruViewer.app/Contents/Resources/1358521179_Notes.png    cd /Users/tigra/Desktop/Coding/GelbooruViewer    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/1358521179_Notes.png /Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/Resources36"DD6BACD3-A5ED-48F8-BAD2-57D2FA688A19-
 
 CCpResource GelbooruViewer/1358521904_7.png build/Release/GelbooruViewer.app/Contents/Resources/1358521904_7.png
-s385906050.990736
-e385906051.488463
+s385907179.261274
+e385907179.263589
 r1
 xCpResource
 xGelbooruViewer/1358521904_7.png
 xbuild/Release/GelbooruViewer.app/Contents/Resources/1358521904_7.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Copy build/Release/GelbooruViewer.app/Contents/Resources/1358521904_7.pngf6b2fd827500b741^a60b7d837500b741^---0#0#0#-19%DVTDocumentLocation2@127"file://localhost/Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/Resources/1358521904_7.png000000000080d041^570"CpResource GelbooruViewer/1358521904_7.png build/Release/GelbooruViewer.app/Contents/Resources/1358521904_7.png    cd /Users/tigra/Desktop/Coding/GelbooruViewer    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/1358521904_7.png /Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/Resources36"2E104CBF-885C-4D35-B4E1-BE2CA962CB5E-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Copy build/Release/GelbooruViewer.app/Contents/Resources/1358521904_7.png8cf842eb7900b741^5f7a43eb7900b741^---0#0#0#-19%DVTDocumentLocation2@127"file://localhost/Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/Resources/1358521904_7.png000000000080d041^570"CpResource GelbooruViewer/1358521904_7.png build/Release/GelbooruViewer.app/Contents/Resources/1358521904_7.png    cd /Users/tigra/Desktop/Coding/GelbooruViewer    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/1358521904_7.png /Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/Resources36"60F1776A-12F2-4A64-90C7-CEBD1DD33892-
 
 CCpResource GelbooruViewer/1358521912_8.png build/Release/GelbooruViewer.app/Contents/Resources/1358521912_8.png
-s385906050.990687
-e385906051.480869
+s385907179.257081
+e385907179.261014
 r1
 xCpResource
 xGelbooruViewer/1358521912_8.png
 xbuild/Release/GelbooruViewer.app/Contents/Resources/1358521912_8.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Copy build/Release/GelbooruViewer.app/Contents/Resources/1358521912_8.png1cb2fd827500b741^1a1a7b837500b741^---0#0#0#-19%DVTDocumentLocation2@127"file://localhost/Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/Resources/1358521912_8.png000000000080d041^570"CpResource GelbooruViewer/1358521912_8.png build/Release/GelbooruViewer.app/Contents/Resources/1358521912_8.png    cd /Users/tigra/Desktop/Coding/GelbooruViewer    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/1358521912_8.png /Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/Resources36"8C2A7C3A-CF22-4FDB-920A-487DCBB70151-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Copy build/Release/GelbooruViewer.app/Contents/Resources/1358521912_8.png9aee41eb7900b741^96cb42eb7900b741^---0#0#0#-19%DVTDocumentLocation2@127"file://localhost/Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/Resources/1358521912_8.png000000000080d041^570"CpResource GelbooruViewer/1358521912_8.png build/Release/GelbooruViewer.app/Contents/Resources/1358521912_8.png    cd /Users/tigra/Desktop/Coding/GelbooruViewer    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/1358521912_8.png /Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/Resources36"E1DDC842-A1AD-479D-A01D-C49846ED8C9D-
 
 CCpResource GelbooruViewer/blacky.png build/Release/GelbooruViewer.app/Contents/Resources/blacky.png
-s385906051.501259
-e385906051.519478
+s385907179.267912
+e385907179.269951
 r1
 xCpResource
 xGelbooruViewer/blacky.png
 xbuild/Release/GelbooruViewer.app/Contents/Resources/blacky.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Copy build/Release/GelbooruViewer.app/Contents/Resources/blacky.pngaf5f80837500b741^2ffc84837500b741^---0#0#0#-19%DVTDocumentLocation2@121"file://localhost/Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/Resources/blacky.png000000000080d041^552"CpResource GelbooruViewer/blacky.png build/Release/GelbooruViewer.app/Contents/Resources/blacky.png    cd /Users/tigra/Desktop/Coding/GelbooruViewer    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/blacky.png /Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/Resources36"1B297840-AB2C-4142-A4D6-8E5EC3588C95-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Copy build/Release/GelbooruViewer.app/Contents/Resources/blacky.png79ad44eb7900b741^d21c45eb7900b741^---0#0#0#-19%DVTDocumentLocation2@121"file://localhost/Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/Resources/blacky.png000000000080d041^552"CpResource GelbooruViewer/blacky.png build/Release/GelbooruViewer.app/Contents/Resources/blacky.png    cd /Users/tigra/Desktop/Coding/GelbooruViewer    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/blacky.png /Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/Resources36"2025D4E8-C3DE-474F-920F-6E87FEA7BAFF-
 
 CCpResource GelbooruViewer/dsa_pub.pem build/Release/GelbooruViewer.app/Contents/Resources/dsa_pub.pem
-s385906052.897885
-e385906052.937449
+s385907180.137894
+e385907180.174456
 r1
 xCpResource
 xGelbooruViewer/dsa_pub.pem
 xbuild/Release/GelbooruViewer.app/Contents/Resources/dsa_pub.pem
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Copy build/Release/GelbooruViewer.app/Contents/Resources/dsa_pub.pem8719e6847500b741^a8fcef847500b741^---0#0#0#-19%DVTDocumentLocation2@122"file://localhost/Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/Resources/dsa_pub.pem000000000080d041^555"CpResource GelbooruViewer/dsa_pub.pem build/Release/GelbooruViewer.app/Contents/Resources/dsa_pub.pem    cd /Users/tigra/Desktop/Coding/GelbooruViewer    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/dsa_pub.pem /Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/Resources36"11C5525F-750D-4B76-AB9C-9907EA1E3366-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Copy build/Release/GelbooruViewer.app/Contents/Resources/dsa_pub.pem8c6423ec7900b741^ddb12cec7900b741^---0#0#0#-19%DVTDocumentLocation2@122"file://localhost/Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/Resources/dsa_pub.pem000000000080d041^555"CpResource GelbooruViewer/dsa_pub.pem build/Release/GelbooruViewer.app/Contents/Resources/dsa_pub.pem    cd /Users/tigra/Desktop/Coding/GelbooruViewer    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/dsa_pub.pem /Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/Resources36"44B266EE-CAB5-46A2-9C84-BA6F702B4F7E-
 
 CCpResource GelbooruViewer/en.lproj/Credits.rtf build/Release/GelbooruViewer.app/Contents/Resources/en.lproj/Credits.rtf
-s385906050.891391
-e385906050.940341
+s385907179.248918
+e385907179.251461
 r1
 xCpResource
 xGelbooruViewer/en.lproj/Credits.rtf
 xbuild/Release/GelbooruViewer.app/Contents/Resources/en.lproj/Credits.rtf
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Copy build/Release/GelbooruViewer.app/Contents/Resources/en.lproj/Credits.rtf6459e4827500b741^73baf0827500b741^---0#0#0#-19%DVTDocumentLocation2@131"file://localhost/Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/Resources/en.lproj/Credits.rtf000000000080d041^591"CpResource GelbooruViewer/en.lproj/Credits.rtf build/Release/GelbooruViewer.app/Contents/Resources/en.lproj/Credits.rtf    cd /Users/tigra/Desktop/Coding/GelbooruViewer    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/en.lproj/Credits.rtf /Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/Resources/en.lproj36"EC10193C-782A-462B-87DE-4781C1BB2BAC-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Copy build/Release/GelbooruViewer.app/Contents/Resources/en.lproj/Credits.rtf9fc83feb7900b741^6c5f40eb7900b741^---0#0#0#-19%DVTDocumentLocation2@131"file://localhost/Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/Resources/en.lproj/Credits.rtf000000000080d041^591"CpResource GelbooruViewer/en.lproj/Credits.rtf build/Release/GelbooruViewer.app/Contents/Resources/en.lproj/Credits.rtf    cd /Users/tigra/Desktop/Coding/GelbooruViewer    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/en.lproj/Credits.rtf /Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/Resources/en.lproj36"2D349DEB-8CDA-43EA-A9EA-C2E1AA92031E-
 
 CCpResource GelbooruViewer/more.png build/Release/GelbooruViewer.app/Contents/Resources/more.png
-s385906050.929053
-e385906050.955730
+s385907179.252618
+e385907179.255805
 r1
 xCpResource
 xGelbooruViewer/more.png
 xbuild/Release/GelbooruViewer.app/Contents/Resources/more.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Copy build/Release/GelbooruViewer.app/Contents/Resources/more.png36eaed827500b741^14b1f4827500b741^---0#0#0#-19%DVTDocumentLocation2@119"file://localhost/Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/Resources/more.png000000000080d041^546"CpResource GelbooruViewer/more.png build/Release/GelbooruViewer.app/Contents/Resources/more.png    cd /Users/tigra/Desktop/Coding/GelbooruViewer    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/more.png /Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/Resources36"F8F90B98-D36F-451D-918E-B29E55598FBE-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Copy build/Release/GelbooruViewer.app/Contents/Resources/more.png45b940eb7900b741^b37c41eb7900b741^---0#0#0#-19%DVTDocumentLocation2@119"file://localhost/Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/Resources/more.png000000000080d041^546"CpResource GelbooruViewer/more.png build/Release/GelbooruViewer.app/Contents/Resources/more.png    cd /Users/tigra/Desktop/Coding/GelbooruViewer    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/more.png /Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/Resources36"40F94468-A810-41F0-91C7-DEFC93175495-
 
 CCpResource GelbooruViewer/wait.png build/Release/GelbooruViewer.app/Contents/Resources/wait.png
-s385906051.485368
-e385906051.500016
+s385907179.264809
+e385907179.266593
 r1
 xCpResource
 xGelbooruViewer/wait.png
 xbuild/Release/GelbooruViewer.app/Contents/Resources/wait.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Copy build/Release/GelbooruViewer.app/Contents/Resources/wait.png774d7c837500b741^600180837500b741^---0#0#0#-19%DVTDocumentLocation2@119"file://localhost/Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/Resources/wait.png000000000080d041^546"CpResource GelbooruViewer/wait.png build/Release/GelbooruViewer.app/Contents/Resources/wait.png    cd /Users/tigra/Desktop/Coding/GelbooruViewer    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/wait.png /Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/Resources36"66711A03-7DEF-4AAA-9BD5-1A939A251949-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Copy build/Release/GelbooruViewer.app/Contents/Resources/wait.png1adb43eb7900b741^3e3f44eb7900b741^---0#0#0#-19%DVTDocumentLocation2@119"file://localhost/Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/Resources/wait.png000000000080d041^546"CpResource GelbooruViewer/wait.png build/Release/GelbooruViewer.app/Contents/Resources/wait.png    cd /Users/tigra/Desktop/Coding/GelbooruViewer    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/wait.png /Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/Resources36"3BF3D843-62B4-488F-BA82-98C7536EB68F-
 
 CCpResource GelbooruViewer/whitey.png build/Release/GelbooruViewer.app/Contents/Resources/whitey.png
-s385906051.489954
-e385906051.512404
+s385907179.265889
+e385907179.268069
 r1
 xCpResource
 xGelbooruViewer/whitey.png
 xbuild/Release/GelbooruViewer.app/Contents/Resources/whitey.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Copy build/Release/GelbooruViewer.app/Contents/Resources/whitey.png5b7d7d837500b741^842c83837500b741^---0#0#0#-19%DVTDocumentLocation2@121"file://localhost/Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/Resources/whitey.png000000000080d041^552"CpResource GelbooruViewer/whitey.png build/Release/GelbooruViewer.app/Contents/Resources/whitey.png    cd /Users/tigra/Desktop/Coding/GelbooruViewer    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/whitey.png /Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/Resources36"24763826-5836-4A31-856B-0BEC81696E43-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Copy build/Release/GelbooruViewer.app/Contents/Resources/whitey.pngb41c44eb7900b741^44a644eb7900b741^---0#0#0#-19%DVTDocumentLocation2@121"file://localhost/Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/Resources/whitey.png000000000080d041^552"CpResource GelbooruViewer/whitey.png build/Release/GelbooruViewer.app/Contents/Resources/whitey.png    cd /Users/tigra/Desktop/Coding/GelbooruViewer    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/whitey.png /Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/Resources36"C6CC2A6F-7C5C-45BE-81D1-70C0F8E7010C-
 
 CCreateUniversalBinary /Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/MacOS/GelbooruViewer normal "x86_64 i386"
-s385906050.737695
-e385906050.814519
+s385907179.079402
+e385907179.099159
 r1
 xCreateUniversalBinary
 x/Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/MacOS/GelbooruViewer
 xnormal
 xx86_64 i386
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection129"Create universal binary /Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/MacOS/GelbooruViewerbf7fcb827500b741^9983d0827500b741^---0#0#0#-19%DVTDocumentLocation2@121"file://localhost/Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/MacOS/GelbooruViewer000000000080d041^557"CreateUniversalBinary build/Release/GelbooruViewer.app/Contents/MacOS/GelbooruViewer normal "x86_64 i386"    cd /Users/tigra/Desktop/Coding/GelbooruViewer    lipo -create /Users/tigra/Desktop/Coding/GelbooruViewer/build/GelbooruViewer.build/Release/GelbooruViewer.build/Objects-normal/x86_64/GelbooruViewer /Users/tigra/Desktop/Coding/GelbooruViewer/build/GelbooruViewer.build/Release/GelbooruViewer.build/Objects-normal/i386/GelbooruViewer -output /Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/MacOS/GelbooruViewer36"290A3B19-05AF-48CD-8F33-FBA2C53B3E10-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection129"Create universal binary /Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/MacOS/GelbooruViewer007014eb7900b741^b36119eb7900b741^---0#0#0#-19%DVTDocumentLocation2@121"file://localhost/Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/MacOS/GelbooruViewer000000000080d041^557"CreateUniversalBinary build/Release/GelbooruViewer.app/Contents/MacOS/GelbooruViewer normal "x86_64 i386"    cd /Users/tigra/Desktop/Coding/GelbooruViewer    lipo -create /Users/tigra/Desktop/Coding/GelbooruViewer/build/GelbooruViewer.build/Release/GelbooruViewer.build/Objects-normal/x86_64/GelbooruViewer /Users/tigra/Desktop/Coding/GelbooruViewer/build/GelbooruViewer.build/Release/GelbooruViewer.build/Objects-normal/i386/GelbooruViewer -output /Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/MacOS/GelbooruViewer36"5499146B-2D35-4252-A6F1-828925EF04B6-
 
 CGenerateDSYMFile /Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app.dSYM /Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/MacOS/GelbooruViewer
-s385906050.821297
-e385906050.883407
+s385907179.105947
+e385907179.240898
 r1
 xGenerateDSYMFile
 x/Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app.dSYM
 x/Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/MacOS/GelbooruViewer
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Generate /Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app.dSYM7b4ed2827500b741^4e26e2827500b741^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app.dSYM/0000000000000000^458"GenerateDSYMFile build/Release/GelbooruViewer.app.dSYM build/Release/GelbooruViewer.app/Contents/MacOS/GelbooruViewer    cd /Users/tigra/Desktop/Coding/GelbooruViewer    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/MacOS/GelbooruViewer -o /Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app.dSYM36"9D8FF287-5C9A-4A8C-A09E-665C75170B03-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Generate /Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app.dSYMa12d1beb7900b741^9fab3deb7900b741^---0#0#0#-19%DVTDocumentLocation2@97"file://localhost/Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app.dSYM/0000000000000000^458"GenerateDSYMFile build/Release/GelbooruViewer.app.dSYM build/Release/GelbooruViewer.app/Contents/MacOS/GelbooruViewer    cd /Users/tigra/Desktop/Coding/GelbooruViewer    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/MacOS/GelbooruViewer -o /Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app.dSYM36"954B3D3F-519A-4542-B4A4-B9A1BA68E196-
 
 CLd /Users/tigra/Desktop/Coding/GelbooruViewer/build/GelbooruViewer.build/Release/GelbooruViewer.build/Objects-normal/i386/GelbooruViewer normal i386
 s385906050.526479
@@ -1195,22 +1195,22 @@ xx86_64
 lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection140"Link /Users/tigra/Desktop/Coding/GelbooruViewer/build/GelbooruViewer.build/Release/GelbooruViewer.build/Objects-normal/x86_64/GelbooruViewerc860a1827500b741^dc66ba827500b741^---0#0#0#--998"Ld build/GelbooruViewer.build/Release/GelbooruViewer.build/Objects-normal/x86_64/GelbooruViewer normal x86_64    cd /Users/tigra/Desktop/Coding/GelbooruViewer    setenv MACOSX_DEPLOYMENT_TARGET 10.7    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/tigra/Desktop/Coding/GelbooruViewer/build/Release -F/Users/tigra/Desktop/Coding/GelbooruViewer/build/Release -F/Users/tigra/Desktop/Coding/GelbooruViewer -filelist /Users/tigra/Desktop/Coding/GelbooruViewer/build/GelbooruViewer.build/Release/GelbooruViewer.build/Objects-normal/x86_64/GelbooruViewer.LinkFileList -mmacosx-version-min=10.7 -fobjc-link-runtime -framework QTKit -framework Quartz -framework Cocoa -framework Sparkle -o /Users/tigra/Desktop/Coding/GelbooruViewer/build/GelbooruViewer.build/Release/GelbooruViewer.build/Objects-normal/x86_64/GelbooruViewer36"43655C61-1470-4A31-93AC-5B0519B3B4F4-
 
 CPBXCp Sparkle.framework build/Release/GelbooruViewer.app/Contents/Frameworks/Sparkle.framework
-s385906053.002742
-e385906053.098214
+s385907180.206931
+e385907180.398787
 r1
 xPBXCp
 xSparkle.framework
 xbuild/Release/GelbooruViewer.app/Contents/Frameworks/Sparkle.framework
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Copy build/Release/GelbooruViewer.app/Contents/Frameworks/Sparkle.frameworkb9c100857500b741^f22419857500b741^-644"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -S /Users/tigra/Desktop/Coding/GelbooruViewer/Sparkle.framework/Versions/A/Resources/relaunch -o /Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/relaunch/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -S /Users/tigra/Desktop/Coding/GelbooruViewer/Sparkle.framework/Versions/A/Sparkle -o /Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/Frameworks/Sparkle.framework/Versions/A/Sparkle-0#0#0#-19%DVTDocumentLocation2@129"file://localhost/Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/Frameworks/Sparkle.framework000000000080d041^540"PBXCp Sparkle.framework build/Release/GelbooruViewer.app/Contents/Frameworks/Sparkle.framework    cd /Users/tigra/Desktop/Coding/GelbooruViewer    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/tigra/Desktop/Coding/GelbooruViewer/Sparkle.framework /Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/Frameworks36"3ABCD59C-2340-4001-9F62-DD4DBF5B6ED8-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Copy build/Release/GelbooruViewer.app/Contents/Frameworks/Sparkle.framework300f35ec7900b741^bc2066ec7900b741^-644"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -S /Users/tigra/Desktop/Coding/GelbooruViewer/Sparkle.framework/Versions/A/Resources/relaunch -o /Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/relaunch/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -S /Users/tigra/Desktop/Coding/GelbooruViewer/Sparkle.framework/Versions/A/Sparkle -o /Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/Frameworks/Sparkle.framework/Versions/A/Sparkle-0#0#0#-19%DVTDocumentLocation2@129"file://localhost/Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/Frameworks/Sparkle.framework000000000080d041^540"PBXCp Sparkle.framework build/Release/GelbooruViewer.app/Contents/Frameworks/Sparkle.framework    cd /Users/tigra/Desktop/Coding/GelbooruViewer    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -strip-debug-symbols -strip-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip -resolve-src-symlinks /Users/tigra/Desktop/Coding/GelbooruViewer/Sparkle.framework /Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/Frameworks36"EECC4157-0BAE-468F-A5BF-BB55A66F1516-
 
 CProcessInfoPlistFile /Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/Info.plist GelbooruViewer/GelbooruViewer-Info.plist
-s385906048.321845
-e385906048.325003
+s385907179.045184
+e385907179.047894
 r1
 xProcessInfoPlistFile
 x/Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/Info.plist
 xGelbooruViewer/GelbooruViewer-Info.plist
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Process GelbooruViewer/GelbooruViewer-Info.pliste27852807500b741^873353807500b741^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/GelbooruViewer-Info.plist0000000000000000^477"ProcessInfoPlistFile build/Release/GelbooruViewer.app/Contents/Info.plist GelbooruViewer/GelbooruViewer-Info.plist    cd /Users/tigra/Desktop/Coding/GelbooruViewer    builtin-infoPlistUtility GelbooruViewer/GelbooruViewer-Info.plist -genpkginfo /Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/Info.plist36"8A52C007-17AF-446A-B50C-9FA14E025F98-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection48"Process GelbooruViewer/GelbooruViewer-Info.plist16a60beb7900b741^42420ceb7900b741^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/tigra/Desktop/Coding/GelbooruViewer/GelbooruViewer/GelbooruViewer-Info.plist0000000000000000^477"ProcessInfoPlistFile build/Release/GelbooruViewer.app/Contents/Info.plist GelbooruViewer/GelbooruViewer-Info.plist    cd /Users/tigra/Desktop/Coding/GelbooruViewer    builtin-infoPlistUtility GelbooruViewer/GelbooruViewer-Info.plist -genpkginfo /Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app/Contents/Info.plist36"BDD62E48-5F83-4B70-9DE8-2CE3274FE88A-
 
 CProcessPCH /var/folders/v1/mgnbh7xd6j5b7b20kr5w7lb80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/GelbooruViewer-Prefix-asfkguarksyxpmfcficpmuiwhcix/GelbooruViewer-Prefix.pch.pth GelbooruViewer/GelbooruViewer-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 r0
@@ -1219,10 +1219,10 @@ CProcessPCH /var/folders/v1/mgnbh7xd6j5b7b20kr5w7lb80000gn/C/com.apple.Xcode.501
 r0
 
 CTouch /Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app
-s385906053.106082
-e385906053.111224
+s385907180.406735
+e385907180.411760
 r1
 xTouch
 x/Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Touch /Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app1e341b857500b741^b8781c857500b741^---0#0#0#--187"Touch build/Release/GelbooruViewer.app    cd /Users/tigra/Desktop/Coding/GelbooruViewer    /usr/bin/touch -c /Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app36"C3D7EF1D-683B-4CDB-9337-549086A793CD-
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Touch /Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app2c2c68ec7900b741^c76869ec7900b741^---0#0#0#--187"Touch build/Release/GelbooruViewer.app    cd /Users/tigra/Desktop/Coding/GelbooruViewer    /usr/bin/touch -c /Users/tigra/Desktop/Coding/GelbooruViewer/build/Release/GelbooruViewer.app36"8AB93755-3690-4C9D-90CF-F0E145E13DD1-
 
