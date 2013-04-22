@@ -184,7 +184,7 @@
     }
     if (totalPages >= currentProcessedPage) {
     
-        NSString * url = [NSString stringWithFormat:@"http://%@//index.php?page=dapi&s=post&q=index&pid=%i",self.boardField.selectedItem.title,currentProcessedPage ];
+        NSString * url = ([self.boardField.selectedItem.title isEqualToString:@"yande.re"]? [NSString stringWithFormat:@"http://%@//post.xml?page=%i",self.boardField.selectedItem.title,currentProcessedPage+1 ] : [NSString stringWithFormat:@"http://%@//index.php?page=dapi&s=post&q=index&pid=%i",self.boardField.selectedItem.title,currentProcessedPage ]);
   
             
         url = [NSString stringWithFormat:@"%@&tags=%@",url,self.tagField.stringValue];
@@ -270,7 +270,7 @@
         while((key = [attribs nextObject]) != nil) {
             value = [attributeDict objectForKey:key];
             if ([key isEqualToString:@"count"]) {
-                totalPages = round([value doubleValue]/100);
+                totalPages = round([value doubleValue]/([self.boardField.selectedItem.title isEqualToString:@"yande.re"]?16:100));
             }
         }
   

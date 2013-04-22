@@ -1,350 +1,0 @@
-TBooruSaver
-v5
-r1
-cCheck dependencies
-cProcessInfoPlistFile /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/Debug/BooruSaver.saver/Contents/Info.plist BooruSaver/BooruSaver-Info.plist
-cProcessPCH /var/folders/v1/mgnbh7xd6j5b7b20kr5w7lb80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/BooruSaver-Prefix-fhwyalvtvoxqkabmzrgxqthoefck/BooruSaver-Prefix.pch.pth BooruSaver/BooruSaver-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/BooruSaver.build/Debug/BooruSaver.build/Objects-normal/x86_64/STOverlayView.o /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/STOverlayView.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/BooruSaver.build/Debug/BooruSaver.build/Objects-normal/x86_64/STOverlayWindow.o /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/STOverlayWindow.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/BooruSaver.build/Debug/BooruSaver.build/Objects-normal/x86_64/GBVSaverConfigWindowController.o /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/GBVSaverConfigWindowController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/BooruSaver.build/Debug/BooruSaver.build/Objects-normal/x86_64/STOverlayController.o /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/STOverlayController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/BooruSaver.build/Debug/BooruSaver.build/Objects-normal/x86_64/BooruSaverView.o /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/BooruSaverView.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC build/BooruSaver.build/Debug/BooruSaver.build/Objects-normal/x86_64/GBVImage.o /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/GBVImage.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLd /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/Debug/BooruSaver.saver/Contents/MacOS/BooruSaver normal x86_64
-cCopyStringsFile /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/Debug/BooruSaver.saver/Contents/Resources/en.lproj/InfoPlist.strings BooruSaver/en.lproj/InfoPlist.strings
-cTiffUtil thumbnail.tiff
-cCompileXIB /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/GBVSaverConfigWindowController.xib
-cTouch /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/Debug/BooruSaver.saver
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
-c00000000514303B000000000000000AA
-t1363346352
-s170
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Cocoa.framework/Cocoa
-c0000000050A0BB4100000000000025C8
-t1352710977
-s9672
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
-c0000000050A0BB4100000000000001E5
-t1352710977
-s485
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
-c000000005143039F000000000004DE20
-t1363346335
-s319008
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/ScreenSaver.framework/ScreenSaver
-c000000005143039F00000000000170F0
-t1363346335
-s94448
-
-N/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/BooruSaver-Prefix.pch
-c0000000050FE90A30000000000000097
-t1358860451
-s151
-i<Cocoa/Cocoa.h>
-
-N/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/BooruSaverView.m
-c00000000516C1FE50000000000003ABA
-t1366040549
-s15034
-
-N/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/GBVImage.m
-c00000000516C1D7A0000000000001678
-t1366039930
-s5752
-
-N/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/GBVSaverConfigWindowController.m
-c00000000516C19CB0000000000000D55
-t1366038987
-s3413
-
-N/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/GBVSaverConfigWindowController.xib
-c00000000516C1FF000000000000096A7
-t1366040560
-s38567
-
-N/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/STOverlayController.m
-c000000004F3C35440000000000001D8A
-t1329345860
-s7562
-
-N/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/STOverlayView.m
-c000000004F3C35440000000000000C70
-t1329345860
-s3184
-
-N/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/STOverlayWindow.m
-c000000004F3C35440000000000000A02
-t1329345860
-s2562
-
-N/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/en.lproj/InfoPlist.strings
-c0000000050FE90A3000000000000002D
-t1358860451
-s45
-
-N/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/thumbnail.png
-c0000000050FEB3470000000000001F6C
-t1358869319
-s8044
-
-N/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/thumbnail@2x.png
-c0000000050FEB33500000000000049D4
-t1358869301
-s18900
-
-N/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/BooruSaver.build/Debug/BooruSaver.build/Objects-normal/x86_64/BooruSaver.LinkFileList
-c00000000516C21140000000000000351
-t1366040852
-s849
-
-N/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/BooruSaver.build/Debug/BooruSaver.build/Objects-normal/x86_64/BooruSaverView.o
-t2
-s0
-
-N/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/BooruSaver.build/Debug/BooruSaver.build/Objects-normal/x86_64/GBVImage.o
-t2
-s0
-
-N/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/BooruSaver.build/Debug/BooruSaver.build/Objects-normal/x86_64/GBVSaverConfigWindowController.o
-t2
-s0
-
-N/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/BooruSaver.build/Debug/BooruSaver.build/Objects-normal/x86_64/STOverlayController.o
-t2
-s0
-
-N/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/BooruSaver.build/Debug/BooruSaver.build/Objects-normal/x86_64/STOverlayView.o
-t2
-s0
-
-N/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/BooruSaver.build/Debug/BooruSaver.build/Objects-normal/x86_64/STOverlayWindow.o
-t2
-s0
-
-N/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/Debug/BooruSaver.saver
-t2
-s0
-
-N/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/Debug/BooruSaver.saver/Contents/Info.plist
-t2
-s0
-
-N/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/Debug/BooruSaver.saver/Contents/MacOS/BooruSaver
-t2
-s0
-
-N/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/Debug/BooruSaver.saver/Contents/Resources/GBVSaverConfigWindowController.nib
-t2
-s0
-
-N/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/Debug/BooruSaver.saver/Contents/Resources/en.lproj/InfoPlist.strings
-t2
-s0
-
-N/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/Debug/BooruSaver.saver/Contents/Resources/thumbnail.tiff
-t2
-s0
-
-N/var/folders/v1/mgnbh7xd6j5b7b20kr5w7lb80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/BooruSaver-Prefix-fhwyalvtvoxqkabmzrgxqthoefck/BooruSaver-Prefix.pch.pth
-t2
-s0
-
-NBooruSaver/BooruSaver-Info.plist
-c00000000516C1FEB0000000000000413
-t1366040555
-s1043
-
-CCheck dependencies
-r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies60e80194581cb741^53971494581cb741^---0#1#0#--18"Check dependencies36"1408A833-A361-4F83-AFA7-8F605D4B998C-
-
-CCompileC build/BooruSaver.build/Debug/BooruSaver.build/Objects-normal/x86_64/BooruSaverView.o /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/BooruSaverView.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s387733652.762502
-e387733652.864027
-r1
-xCompileC
-xbuild/BooruSaver.build/Debug/BooruSaver.build/Objects-normal/x86_64/BooruSaverView.o
-x/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/BooruSaverView.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-o/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/BooruSaverView.m:139:30: warning: implicit conversion loses integer precision: 'NSInteger' (aka 'long') to 'int' [-Wshorten-64-to-32]
-o                totalPosts = [value integerValue];
-o                           ~ ^~~~~~~~~~~~~~~~~~~~
-o/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/BooruSaverView.m:199:16: warning: implicit conversion loses integer precision: 'NSInteger' (aka 'long') to 'int' [-Wshorten-64-to-32]
-o    interval = [[conf objectForKey:@"delay"]integerValue];
-o             ~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-o/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/BooruSaverView.m:200:21: warning: implicit conversion loses integer precision: 'NSInteger' (aka 'long') to 'int' [-Wshorten-64-to-32]
-o    preventAbsurd = [[conf objectForKey:@"absurd"]integerValue];
-o                  ~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-o/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/BooruSaverView.m:201:18: warning: implicit conversion loses integer precision: 'NSInteger' (aka 'long') to 'int' [-Wshorten-64-to-32]
-o    randomized = [[conf objectForKey:@"random"]integerValue];
-o               ~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-o/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/BooruSaverView.m:318:50: warning: implicit conversion loses integer precision: 'unsigned long' to 'int' [-Wshorten-64-to-32]
-o        int trans=SSRandomIntBetween(0, ani.count-1);
-o                  ~~~~~~~~~~~~~~~~~~    ~~~~~~~~~^~
-o/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/BooruSaverView.m:320:50: warning: implicit conversion loses integer precision: 'unsigned long' to 'int' [-Wshorten-64-to-32]
-o            trans=SSRandomIntBetween(0, ani.count-1);
-o                  ~~~~~~~~~~~~~~~~~~    ~~~~~~~~~^~
-o/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/BooruSaverView.m:339:50: warning: implicit conversion loses integer precision: 'unsigned long' to 'int' [-Wshorten-64-to-32]
-o        int trans=SSRandomIntBetween(0, ani.count-1);
-o                  ~~~~~~~~~~~~~~~~~~    ~~~~~~~~~^~
-o/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/BooruSaverView.m:341:50: warning: implicit conversion loses integer precision: 'unsigned long' to 'int' [-Wshorten-64-to-32]
-o            trans=SSRandomIntBetween(0, ani.count-1);
-o                  ~~~~~~~~~~~~~~~~~~    ~~~~~~~~~^~
-o8 warnings generated.
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/BooruSaverView.m5855c394581cb741^c22fdd94581cb741^-2472"/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/BooruSaverView.m:139:30: warning: implicit conversion loses integer precision: 'NSInteger' (aka 'long') to 'int' [-Wshorten-64-to-32]                totalPosts = [value integerValue];                           ~ ^~~~~~~~~~~~~~~~~~~~/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/BooruSaverView.m:199:16: warning: implicit conversion loses integer precision: 'NSInteger' (aka 'long') to 'int' [-Wshorten-64-to-32]    interval = [[conf objectForKey:@"delay"]integerValue];             ~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/BooruSaverView.m:200:21: warning: implicit conversion loses integer precision: 'NSInteger' (aka 'long') to 'int' [-Wshorten-64-to-32]    preventAbsurd = [[conf objectForKey:@"absurd"]integerValue];                  ~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/BooruSaverView.m:201:18: warning: implicit conversion loses integer precision: 'NSInteger' (aka 'long') to 'int' [-Wshorten-64-to-32]    randomized = [[conf objectForKey:@"random"]integerValue];               ~ ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/BooruSaverView.m:318:50: warning: implicit conversion loses integer precision: 'unsigned long' to 'int' [-Wshorten-64-to-32]        int trans=SSRandomIntBetween(0, ani.count-1);                  ~~~~~~~~~~~~~~~~~~    ~~~~~~~~~^~/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/BooruSaverView.m:320:50: warning: implicit conversion loses integer precision: 'unsigned long' to 'int' [-Wshorten-64-to-32]            trans=SSRandomIntBetween(0, ani.count-1);                  ~~~~~~~~~~~~~~~~~~    ~~~~~~~~~^~/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/BooruSaverView.m:339:50: warning: implicit conversion loses integer precision: 'unsigned long' to 'int' [-Wshorten-64-to-32]        int trans=SSRandomIntBetween(0, ani.count-1);                  ~~~~~~~~~~~~~~~~~~    ~~~~~~~~~^~/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/BooruSaverView.m:341:50: warning: implicit conversion loses integer precision: 'unsigned long' to 'int' [-Wshorten-64-to-32]            trans=SSRandomIntBetween(0, ani.count-1);                  ~~~~~~~~~~~~~~~~~~    ~~~~~~~~~^~8 warnings generated.8(36%IDEClangDiagnosticActivityLogMessage2@78"Implicit conversion loses integer precision: 'NSInteger' (aka 'long') to 'int'-387733652#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@97"file://localhost/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/BooruSaverView.m0000000000000000^138#29#138#29#5221#0#14"Semantic Issue2(3@97"file://localhost/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/BooruSaverView.m0000000000000000^138#29#138#49#5221#19#3@97"file://localhost/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/BooruSaverView.m0000000000000000^138#27#138#28#5219#0#-2@78"Implicit conversion loses integer precision: 'NSInteger' (aka 'long') to 'int'-387733652#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@97"file://localhost/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/BooruSaverView.m0000000000000000^198#15#198#15#7289#0#14"Semantic Issue2(3@97"file://localhost/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/BooruSaverView.m0000000000000000^198#15#198#57#7289#41#3@97"file://localhost/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/BooruSaverView.m0000000000000000^198#13#198#14#7287#0#-2@78"Implicit conversion loses integer precision: 'NSInteger' (aka 'long') to 'int'-387733652#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@97"file://localhost/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/BooruSaverView.m0000000000000000^199#20#199#20#7353#0#14"Semantic Issue2(3@97"file://localhost/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/BooruSaverView.m0000000000000000^199#20#199#63#7353#42#3@97"file://localhost/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/BooruSaverView.m0000000000000000^199#18#199#19#7351#0#-2@78"Implicit conversion loses integer precision: 'NSInteger' (aka 'long') to 'int'-387733652#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@97"file://localhost/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/BooruSaverView.m0000000000000000^200#17#200#17#7415#0#14"Semantic Issue2(3@97"file://localhost/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/BooruSaverView.m0000000000000000^200#17#200#60#7415#42#3@97"file://localhost/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/BooruSaverView.m0000000000000000^200#15#200#16#7413#0#-2@69"Implicit conversion loses integer precision: 'unsigned long' to 'int'-387733652#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@97"file://localhost/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/BooruSaverView.m0000000000000000^317#49#317#49#10820#0#14"Semantic Issue2(3@97"file://localhost/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/BooruSaverView.m0000000000000000^317#40#317#51#10811#10#3@97"file://localhost/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/BooruSaverView.m0000000000000000^317#18#317#36#10789#0#-2@69"Implicit conversion loses integer precision: 'unsigned long' to 'int'-387733652#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@97"file://localhost/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/BooruSaverView.m0000000000000000^319#49#319#49#10911#0#14"Semantic Issue2(3@97"file://localhost/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/BooruSaverView.m0000000000000000^319#40#319#51#10902#10#3@97"file://localhost/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/BooruSaverView.m0000000000000000^319#18#319#36#10880#0#-2@69"Implicit conversion loses integer precision: 'unsigned long' to 'int'-387733652#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@97"file://localhost/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/BooruSaverView.m0000000000000000^338#49#338#49#11585#0#14"Semantic Issue2(3@97"file://localhost/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/BooruSaverView.m0000000000000000^338#40#338#51#11576#10#3@97"file://localhost/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/BooruSaverView.m0000000000000000^338#18#338#36#11554#0#-2@69"Implicit conversion loses integer precision: 'unsigned long' to 'int'-387733652#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@97"file://localhost/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/BooruSaverView.m0000000000000000^340#49#340#49#11676#0#14"Semantic Issue2(3@97"file://localhost/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/BooruSaverView.m0000000000000000^340#40#340#51#11667#10#3@97"file://localhost/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/BooruSaverView.m0000000000000000^340#18#340#36#11645#0#-0#0#0#-19%DVTDocumentLocation4@97"file://localhost/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/BooruSaverView.m0000000000000000^3282"CompileC build/BooruSaver.build/Debug/BooruSaver.build/Objects-normal/x86_64/BooruSaverView.o BooruSaver/BooruSaverView.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-gc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.5 -g -Wno-sign-conversion -iquote /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/BooruSaver.build/Debug/BooruSaver.build/BooruSaver-generated-files.hmap -I/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/BooruSaver.build/Debug/BooruSaver.build/BooruSaver-own-target-headers.hmap -I/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/BooruSaver.build/Debug/BooruSaver.build/BooruSaver-all-target-headers.hmap -iquote /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/BooruSaver.build/Debug/BooruSaver.build/BooruSaver-project-headers.hmap -I/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/BooruSaver.build/Debug/BooruSaver.build/DerivedSources/x86_64 -I/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/BooruSaver.build/Debug/BooruSaver.build/DerivedSources -F/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/Debug -include /var/folders/v1/mgnbh7xd6j5b7b20kr5w7lb80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/BooruSaver-Prefix-fhwyalvtvoxqkabmzrgxqthoefck/BooruSaver-Prefix.pch -MMD -MT dependencies -MF /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/BooruSaver.build/Debug/BooruSaver.build/Objects-normal/x86_64/BooruSaverView.d --serialize-diagnostics /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/BooruSaver.build/Debug/BooruSaver.build/Objects-normal/x86_64/BooruSaverView.dia -c /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/BooruSaverView.m -o /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/BooruSaver.build/Debug/BooruSaver.build/Objects-normal/x86_64/BooruSaverView.o36"2503FFBC-6DD8-4914-BA2B-2BA6E10C5C3C-
-
-CCompileC build/BooruSaver.build/Debug/BooruSaver.build/Objects-normal/x86_64/GBVImage.o /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/GBVImage.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s387733652.766709
-e387733652.821059
-r1
-xCompileC
-xbuild/BooruSaver.build/Debug/BooruSaver.build/Objects-normal/x86_64/GBVImage.o
-x/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/GBVImage.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-o/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/GBVImage.m:11:1: warning: autosynthesized property 'idx' will use synthesized instance variable '_idx', not existing instance variable 'idx' [-Wobjc-autosynthesis-property-ivar-name-match]
-o@implementation GBVImage
-o^
-o/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/GBVImage.h:44:21: note: property declared here
-o@property NSInteger idx;
-o                    ^
-o/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/GBVImage.h:30:17: note: instance variable is declared here
-o    NSInteger * idx;
-o                ^
-o1 warning generated.
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/GBVImage.m2c62c494581cb741^9d2fd294581cb741^-624"/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/GBVImage.m:11:1: warning: autosynthesized property 'idx' will use synthesized instance variable '_idx', not existing instance variable 'idx' [-Wobjc-autosynthesis-property-ivar-name-match]@implementation GBVImage^/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/GBVImage.h:44:21: note: property declared here@property NSInteger idx;                    ^/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/GBVImage.h:30:17: note: instance variable is declared here    NSInteger * idx;                ^1 warning generated.1(36%IDEClangDiagnosticActivityLogMessage2@114"Autosynthesized property 'idx' will use synthesized instance variable '_idx', not existing instance variable 'idx'-387733652#18446744073709551615#0#2(2@22"Property declared here-387733652#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@91"file://localhost/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/GBVImage.h0000000000000000^43#20#43#20#947#0#14"Semantic Issue--2@34"Instance variable is declared here-387733652#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@91"file://localhost/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/GBVImage.h0000000000000000^29#16#29#16#599#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@91"file://localhost/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/GBVImage.m0000000000000000^10#0#10#0#176#0#14"Semantic Issue--0#0#0#-19%DVTDocumentLocation4@91"file://localhost/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/GBVImage.m0000000000000000^3246"CompileC build/BooruSaver.build/Debug/BooruSaver.build/Objects-normal/x86_64/GBVImage.o BooruSaver/GBVImage.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-gc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.5 -g -Wno-sign-conversion -iquote /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/BooruSaver.build/Debug/BooruSaver.build/BooruSaver-generated-files.hmap -I/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/BooruSaver.build/Debug/BooruSaver.build/BooruSaver-own-target-headers.hmap -I/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/BooruSaver.build/Debug/BooruSaver.build/BooruSaver-all-target-headers.hmap -iquote /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/BooruSaver.build/Debug/BooruSaver.build/BooruSaver-project-headers.hmap -I/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/BooruSaver.build/Debug/BooruSaver.build/DerivedSources/x86_64 -I/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/BooruSaver.build/Debug/BooruSaver.build/DerivedSources -F/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/Debug -include /var/folders/v1/mgnbh7xd6j5b7b20kr5w7lb80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/BooruSaver-Prefix-fhwyalvtvoxqkabmzrgxqthoefck/BooruSaver-Prefix.pch -MMD -MT dependencies -MF /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/BooruSaver.build/Debug/BooruSaver.build/Objects-normal/x86_64/GBVImage.d --serialize-diagnostics /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/BooruSaver.build/Debug/BooruSaver.build/Objects-normal/x86_64/GBVImage.dia -c /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/GBVImage.m -o /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/BooruSaver.build/Debug/BooruSaver.build/Objects-normal/x86_64/GBVImage.o36"1E1C191D-1967-4E43-B28C-58ED6B6F440C-
-
-CCompileC build/BooruSaver.build/Debug/BooruSaver.build/Objects-normal/x86_64/GBVSaverConfigWindowController.o /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/GBVSaverConfigWindowController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s387733652.682765
-e387733652.780375
-r1
-xCompileC
-xbuild/BooruSaver.build/Debug/BooruSaver.build/Objects-normal/x86_64/GBVSaverConfigWindowController.o
-x/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/GBVSaverConfigWindowController.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Compile /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/GBVSaverConfigWindowController.m29e8ae94581cb741^efc5c794581cb741^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/GBVSaverConfigWindowController.m0000000000000000^3378"CompileC build/BooruSaver.build/Debug/BooruSaver.build/Objects-normal/x86_64/GBVSaverConfigWindowController.o BooruSaver/GBVSaverConfigWindowController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-gc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.5 -g -Wno-sign-conversion -iquote /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/BooruSaver.build/Debug/BooruSaver.build/BooruSaver-generated-files.hmap -I/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/BooruSaver.build/Debug/BooruSaver.build/BooruSaver-own-target-headers.hmap -I/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/BooruSaver.build/Debug/BooruSaver.build/BooruSaver-all-target-headers.hmap -iquote /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/BooruSaver.build/Debug/BooruSaver.build/BooruSaver-project-headers.hmap -I/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/BooruSaver.build/Debug/BooruSaver.build/DerivedSources/x86_64 -I/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/BooruSaver.build/Debug/BooruSaver.build/DerivedSources -F/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/Debug -include /var/folders/v1/mgnbh7xd6j5b7b20kr5w7lb80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/BooruSaver-Prefix-fhwyalvtvoxqkabmzrgxqthoefck/BooruSaver-Prefix.pch -MMD -MT dependencies -MF /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/BooruSaver.build/Debug/BooruSaver.build/Objects-normal/x86_64/GBVSaverConfigWindowController.d --serialize-diagnostics /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/BooruSaver.build/Debug/BooruSaver.build/Objects-normal/x86_64/GBVSaverConfigWindowController.dia -c /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/GBVSaverConfigWindowController.m -o /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/BooruSaver.build/Debug/BooruSaver.build/Objects-normal/x86_64/GBVSaverConfigWindowController.o36"B5D90CC3-72FC-4CBE-9E5B-3224209FC490-
-
-CCompileC build/BooruSaver.build/Debug/BooruSaver.build/Objects-normal/x86_64/STOverlayController.o /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/STOverlayController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s387733652.683247
-e387733652.765438
-r1
-xCompileC
-xbuild/BooruSaver.build/Debug/BooruSaver.build/Objects-normal/x86_64/STOverlayController.o
-x/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/STOverlayController.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection94"Compile /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/STOverlayController.m3ffeae94581cb741^48fbc394581cb741^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/STOverlayController.m0000000000000000^3312"CompileC build/BooruSaver.build/Debug/BooruSaver.build/Objects-normal/x86_64/STOverlayController.o BooruSaver/STOverlayController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-gc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.5 -g -Wno-sign-conversion -iquote /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/BooruSaver.build/Debug/BooruSaver.build/BooruSaver-generated-files.hmap -I/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/BooruSaver.build/Debug/BooruSaver.build/BooruSaver-own-target-headers.hmap -I/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/BooruSaver.build/Debug/BooruSaver.build/BooruSaver-all-target-headers.hmap -iquote /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/BooruSaver.build/Debug/BooruSaver.build/BooruSaver-project-headers.hmap -I/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/BooruSaver.build/Debug/BooruSaver.build/DerivedSources/x86_64 -I/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/BooruSaver.build/Debug/BooruSaver.build/DerivedSources -F/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/Debug -include /var/folders/v1/mgnbh7xd6j5b7b20kr5w7lb80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/BooruSaver-Prefix-fhwyalvtvoxqkabmzrgxqthoefck/BooruSaver-Prefix.pch -MMD -MT dependencies -MF /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/BooruSaver.build/Debug/BooruSaver.build/Objects-normal/x86_64/STOverlayController.d --serialize-diagnostics /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/BooruSaver.build/Debug/BooruSaver.build/Objects-normal/x86_64/STOverlayController.dia -c /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/STOverlayController.m -o /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/BooruSaver.build/Debug/BooruSaver.build/Objects-normal/x86_64/STOverlayController.o36"44F6AD02-1F60-40D8-8C3E-1AF52041C478-
-
-CCompileC build/BooruSaver.build/Debug/BooruSaver.build/Objects-normal/x86_64/STOverlayView.o /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/STOverlayView.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s387733652.682726
-e387733652.765535
-r1
-xCompileC
-xbuild/BooruSaver.build/Debug/BooruSaver.build/Objects-normal/x86_64/STOverlayView.o
-x/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/STOverlayView.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/STOverlayView.m65deae94581cb741^e7fdc394581cb741^---0#0#0#-19%DVTDocumentLocation2@96"file://localhost/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/STOverlayView.m0000000000000000^3276"CompileC build/BooruSaver.build/Debug/BooruSaver.build/Objects-normal/x86_64/STOverlayView.o BooruSaver/STOverlayView.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-gc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.5 -g -Wno-sign-conversion -iquote /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/BooruSaver.build/Debug/BooruSaver.build/BooruSaver-generated-files.hmap -I/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/BooruSaver.build/Debug/BooruSaver.build/BooruSaver-own-target-headers.hmap -I/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/BooruSaver.build/Debug/BooruSaver.build/BooruSaver-all-target-headers.hmap -iquote /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/BooruSaver.build/Debug/BooruSaver.build/BooruSaver-project-headers.hmap -I/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/BooruSaver.build/Debug/BooruSaver.build/DerivedSources/x86_64 -I/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/BooruSaver.build/Debug/BooruSaver.build/DerivedSources -F/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/Debug -include /var/folders/v1/mgnbh7xd6j5b7b20kr5w7lb80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/BooruSaver-Prefix-fhwyalvtvoxqkabmzrgxqthoefck/BooruSaver-Prefix.pch -MMD -MT dependencies -MF /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/BooruSaver.build/Debug/BooruSaver.build/Objects-normal/x86_64/STOverlayView.d --serialize-diagnostics /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/BooruSaver.build/Debug/BooruSaver.build/Objects-normal/x86_64/STOverlayView.dia -c /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/STOverlayView.m -o /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/BooruSaver.build/Debug/BooruSaver.build/Objects-normal/x86_64/STOverlayView.o36"DD553EE3-6C87-4E43-8E2B-EA1C16ACC750-
-
-CCompileC build/BooruSaver.build/Debug/BooruSaver.build/Objects-normal/x86_64/STOverlayWindow.o /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/STOverlayWindow.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s387733652.682750
-e387733652.761200
-r1
-xCompileC
-xbuild/BooruSaver.build/Debug/BooruSaver.build/Objects-normal/x86_64/STOverlayWindow.o
-x/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/STOverlayWindow.m
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Compile /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/STOverlayWindow.m14e9ae94581cb741^57e9c294581cb741^---0#0#0#-19%DVTDocumentLocation2@98"file://localhost/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/STOverlayWindow.m0000000000000000^3288"CompileC build/BooruSaver.build/Debug/BooruSaver.build/Objects-normal/x86_64/STOverlayWindow.o BooruSaver/STOverlayWindow.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-gc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.5 -g -Wno-sign-conversion -iquote /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/BooruSaver.build/Debug/BooruSaver.build/BooruSaver-generated-files.hmap -I/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/BooruSaver.build/Debug/BooruSaver.build/BooruSaver-own-target-headers.hmap -I/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/BooruSaver.build/Debug/BooruSaver.build/BooruSaver-all-target-headers.hmap -iquote /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/BooruSaver.build/Debug/BooruSaver.build/BooruSaver-project-headers.hmap -I/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/BooruSaver.build/Debug/BooruSaver.build/DerivedSources/x86_64 -I/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/BooruSaver.build/Debug/BooruSaver.build/DerivedSources -F/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/Debug -include /var/folders/v1/mgnbh7xd6j5b7b20kr5w7lb80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/BooruSaver-Prefix-fhwyalvtvoxqkabmzrgxqthoefck/BooruSaver-Prefix.pch -MMD -MT dependencies -MF /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/BooruSaver.build/Debug/BooruSaver.build/Objects-normal/x86_64/STOverlayWindow.d --serialize-diagnostics /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/BooruSaver.build/Debug/BooruSaver.build/Objects-normal/x86_64/STOverlayWindow.dia -c /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/STOverlayWindow.m -o /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/BooruSaver.build/Debug/BooruSaver.build/Objects-normal/x86_64/STOverlayWindow.o36"86FA6701-3A72-4412-947E-EE2259051560-
-
-CCompileXIB /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/GBVSaverConfigWindowController.xib
-s387733652.915564
-e387733653.315888
-r1
-xCompileXIB
-x/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/GBVSaverConfigWindowController.xib
-o/* com.apple.ibtool.document.notices */
-o/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/GBVSaverConfigWindowController.xib:5: note: View is clipping its content [13]
-o/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/GBVSaverConfigWindowController.xib:37: note: View is clipping its content [13]
-o/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/GBVSaverConfigWindowController.xib:30: note: View is clipping its content [13]
-o/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/GBVSaverConfigWindowController.xib:81: note: View is clipping its content [13]
-o/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/GBVSaverConfigWindowController.xib:26: note: View is clipping its content [13]
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Compiling /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/GBVSaverConfigWindowController.xib5875ea94581cb741^dc0e5195581cb741^-728"/* com.apple.ibtool.document.notices *//Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/GBVSaverConfigWindowController.xib:5: note: View is clipping its content/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/GBVSaverConfigWindowController.xib:37: note: View is clipping its content/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/GBVSaverConfigWindowController.xib:30: note: View is clipping its content/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/GBVSaverConfigWindowController.xib:81: note: View is clipping its content/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/GBVSaverConfigWindowController.xib:26: note: View is clipping its content5(21%IDEActivityLogMessage2@28"View is clipping its content-387733653#18446744073709551615#0#-0#-23%DVTTextDocumentLocation3@115"file://localhost/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/GBVSaverConfigWindowController.xib0000000000000000^4#18446744073709551615#4#18446744073709551615#18446744073709551615#0#15"Clipped Content--2@28"View is clipping its content-387733653#18446744073709551615#0#-0#-3@115"file://localhost/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/GBVSaverConfigWindowController.xib0000000000000000^36#18446744073709551615#36#18446744073709551615#18446744073709551615#0#15"Clipped Content--2@28"View is clipping its content-387733653#18446744073709551615#0#-0#-3@115"file://localhost/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/GBVSaverConfigWindowController.xib0000000000000000^29#18446744073709551615#29#18446744073709551615#18446744073709551615#0#15"Clipped Content--2@28"View is clipping its content-387733653#18446744073709551615#0#-0#-3@115"file://localhost/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/GBVSaverConfigWindowController.xib0000000000000000^80#18446744073709551615#80#18446744073709551615#18446744073709551615#0#15"Clipped Content--2@28"View is clipping its content-387733653#18446744073709551615#0#-0#-3@115"file://localhost/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/GBVSaverConfigWindowController.xib0000000000000000^25#18446744073709551615#25#18446744073709551615#18446744073709551615#0#15"Clipped Content--0#0#0#-19%DVTDocumentLocation4@115"file://localhost/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/GBVSaverConfigWindowController.xib0000000000000000^688"CompileXIB BooruSaver/GBVSaverConfigWindowController.xib    cd /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/Debug/BooruSaver.saver/Contents/Resources/GBVSaverConfigWindowController.nib /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/GBVSaverConfigWindowController.xib --sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk36"F68CAC6C-F60A-4588-8462-49B222519DE4-
-
-CCopyStringsFile /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/Debug/BooruSaver.saver/Contents/Resources/en.lproj/InfoPlist.strings BooruSaver/en.lproj/InfoPlist.strings
-s387733652.915200
-e387733652.918940
-r1
-xCopyStringsFile
-x/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/Debug/BooruSaver.saver/Contents/Resources/en.lproj/InfoPlist.strings
-xBooruSaver/en.lproj/InfoPlist.strings
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Copy BooruSaver/en.lproj/InfoPlist.strings6b65ea94581cb741^213feb94581cb741^---0#0#0#-19%DVTDocumentLocation2@107"file://localhost/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/en.lproj/InfoPlist.strings0000000000000000^432"CopyStringsFile build/Debug/BooruSaver.saver/Contents/Resources/en.lproj/InfoPlist.strings BooruSaver/en.lproj/InfoPlist.strings    cd /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding UTF-16 --outdir /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/Debug/BooruSaver.saver/Contents/Resources/en.lproj -- BooruSaver/en.lproj/InfoPlist.strings36"B05F36CD-3ECC-4603-84C7-ED56093BD555-
-
-CLd /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/Debug/BooruSaver.saver/Contents/MacOS/BooruSaver normal x86_64
-s387733652.870887
-e387733652.907229
-r1
-xLd
-x/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/Debug/BooruSaver.saver/Contents/MacOS/BooruSaver
-xnormal
-xx86_64
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"Link /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/Debug/BooruSaver.saver/Contents/MacOS/BooruSaver5c03df94581cb741^d53fe894581cb741^---0#0#0#--913"Ld build/Debug/BooruSaver.saver/Contents/MacOS/BooruSaver normal x86_64    cd /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -bundle -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/Debug -F/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/Debug -filelist /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/BooruSaver.build/Debug/BooruSaver.build/Objects-normal/x86_64/BooruSaver.LinkFileList -mmacosx-version-min=10.5 -fobjc-link-runtime -framework QuartzCore -framework Cocoa -framework ScreenSaver -o /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/Debug/BooruSaver.saver/Contents/MacOS/BooruSaver36"C92EE644-FD5D-4DC6-8919-84C3C4294DDB-
-
-CProcessInfoPlistFile /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/Debug/BooruSaver.saver/Contents/Info.plist BooruSaver/BooruSaver-Info.plist
-s387733652.087027
-e387733652.089807
-r1
-xProcessInfoPlistFile
-x/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/Debug/BooruSaver.saver/Contents/Info.plist
-xBooruSaver/BooruSaver-Info.plist
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection40"Process BooruSaver/BooruSaver-Info.plist965b1694581cb741^22fd1694581cb741^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/BooruSaver-Info.plist0000000000000000^370"ProcessInfoPlistFile build/Debug/BooruSaver.saver/Contents/Info.plist BooruSaver/BooruSaver-Info.plist    cd /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver    builtin-infoPlistUtility BooruSaver/BooruSaver-Info.plist -expandbuildsettings -platform macosx -o /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/Debug/BooruSaver.saver/Contents/Info.plist36"B3C2D664-127E-418D-8210-D48912DF5931-
-
-CProcessPCH /var/folders/v1/mgnbh7xd6j5b7b20kr5w7lb80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/BooruSaver-Prefix-fhwyalvtvoxqkabmzrgxqthoefck/BooruSaver-Prefix.pch.pth BooruSaver/BooruSaver-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s387733652.097845
-e387733652.675920
-r1
-xProcessPCH
-x/var/folders/v1/mgnbh7xd6j5b7b20kr5w7lb80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/BooruSaver-Prefix-fhwyalvtvoxqkabmzrgxqthoefck/BooruSaver-Prefix.pch.pth
-xBooruSaver/BooruSaver-Prefix.pch
-xnormal
-xx86_64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Precompile BooruSaver/BooruSaver-Prefix.pch56291994581cb741^5f08ad94581cb741^---0#0#0#-19%DVTDocumentLocation2@102"file://localhost/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/BooruSaver-Prefix.pch0000000000000000^3291"ProcessPCH /var/folders/v1/mgnbh7xd6j5b7b20kr5w7lb80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/BooruSaver-Prefix-fhwyalvtvoxqkabmzrgxqthoefck/BooruSaver-Prefix.pch.pth BooruSaver/BooruSaver-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -std=gnu99 -fobjc-gc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.5 -g -Wno-sign-conversion -iquote /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/BooruSaver.build/Debug/BooruSaver.build/BooruSaver-generated-files.hmap -I/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/BooruSaver.build/Debug/BooruSaver.build/BooruSaver-own-target-headers.hmap -I/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/BooruSaver.build/Debug/BooruSaver.build/BooruSaver-all-target-headers.hmap -iquote /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/BooruSaver.build/Debug/BooruSaver.build/BooruSaver-project-headers.hmap -I/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/Debug/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/BooruSaver.build/Debug/BooruSaver.build/DerivedSources/x86_64 -I/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/BooruSaver.build/Debug/BooruSaver.build/DerivedSources -F/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/Debug --serialize-diagnostics /var/folders/v1/mgnbh7xd6j5b7b20kr5w7lb80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/BooruSaver-Prefix-fhwyalvtvoxqkabmzrgxqthoefck/BooruSaver-Prefix.pch.dia -c /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/BooruSaver-Prefix.pch -o /var/folders/v1/mgnbh7xd6j5b7b20kr5w7lb80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/BooruSaver-Prefix-fhwyalvtvoxqkabmzrgxqthoefck/BooruSaver-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/v1/mgnbh7xd6j5b7b20kr5w7lb80000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/BooruSaver-Prefix-fhwyalvtvoxqkabmzrgxqthoefck/BooruSaver-Prefix.pch.d36"D9354F76-E7EB-4891-B7EE-92D50828D6EC-
-
-CTiffUtil thumbnail.tiff
-s387733652.915342
-e387733652.942289
-r1
-xTiffUtil
-xthumbnail.tiff
-o2 images written to /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/Debug/BooruSaver.saver/Contents/Resources/thumbnail.tiff.
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection23"TiffUtil thumbnail.tiff6267ea94581cb741^a14af194581cb741^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/thumbnail.tiff000000000080d041^407"TiffUtil thumbnail.tiff    cd /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver    /usr/bin/tiffutil -cathidpicheck "/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/thumbnail@2x.png" /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/BooruSaver/thumbnail.png -out /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/Debug/BooruSaver.saver/Contents/Resources/thumbnail.tiff36"1C3D88CD-3331-4D16-B33B-399950466BE8-
-
-CTouch /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/Debug/BooruSaver.saver
-s387733653.324277
-e387733653.331989
-r1
-xTouch
-x/Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/Debug/BooruSaver.saver
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Touch /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/Debug/BooruSaver.savere3165395581cb741^1afd5495581cb741^---0#0#0#--201"Touch build/Debug/BooruSaver.saver    cd /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver    /usr/bin/touch -c /Users/tigra/Desktop/Coding/GelbooruViewer/BooruSaver/build/Debug/BooruSaver.saver36"88C663DE-EF7B-44B1-8263-6F5D49ECB330-
-

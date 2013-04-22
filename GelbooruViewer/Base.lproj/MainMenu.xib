@@ -691,7 +691,6 @@
 													</set>
 													<string key="NSFrame">{{-8, -8}, {584, 545}}</string>
 													<reference key="NSSuperview" ref="288148158"/>
-													<reference key="NSWindow"/>
 													<reference key="NSNextKeyView" ref="205941285"/>
 													<bool key="NSViewWantsBestResolutionOpenGLSurface">YES</bool>
 													<string key="NSReuseIdentifierKey">_NS:24</string>
@@ -712,14 +711,12 @@
 											</array>
 											<string key="NSFrameSize">{569, 530}</string>
 											<reference key="NSSuperview" ref="997242761"/>
-											<reference key="NSWindow"/>
 											<reference key="NSNextKeyView" ref="104835140"/>
 											<string key="NSReuseIdentifierKey">_NS:13</string>
 										</object>
 									</array>
 									<string key="NSFrame">{{1, 1}, {569, 530}}</string>
 									<reference key="NSSuperview" ref="351286694"/>
-									<reference key="NSWindow"/>
 									<reference key="NSNextKeyView" ref="288148158"/>
 									<string key="NSReuseIdentifierKey">_NS:11</string>
 									<reference key="NSDocView" ref="288148158"/>
@@ -739,7 +736,6 @@
 									<int key="NSvFlags">256</int>
 									<string key="NSFrame">{{554, 1}, {16, 530}}</string>
 									<reference key="NSSuperview" ref="351286694"/>
-									<reference key="NSWindow"/>
 									<reference key="NSNextKeyView" ref="60542303"/>
 									<string key="NSReuseIdentifierKey">_NS:15</string>
 									<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
@@ -753,7 +749,6 @@
 									<int key="NSvFlags">256</int>
 									<string key="NSFrame">{{1, 515}, {569, 16}}</string>
 									<reference key="NSSuperview" ref="351286694"/>
-									<reference key="NSWindow"/>
 									<reference key="NSNextKeyView" ref="225339737"/>
 									<string key="NSReuseIdentifierKey">_NS:26</string>
 									<bool key="NSAllowsLogicalLayoutDirection">NO</bool>
@@ -765,7 +760,6 @@
 							</array>
 							<string key="NSFrame">{{-1, -1}, {571, 532}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
-							<reference key="NSWindow"/>
 							<reference key="NSNextKeyView" ref="997242761"/>
 							<string key="NSReuseIdentifierKey">_NS:9</string>
 							<int key="NSsFlags">133170</int>
@@ -782,7 +776,6 @@
 							<array class="NSMutableArray" key="NSSubviews"/>
 							<string key="NSFrameSize">{569, 530}</string>
 							<reference key="NSSuperview" ref="439893737"/>
-							<reference key="NSWindow"/>
 							<reference key="NSNextKeyView"/>
 							<string key="NSReuseIdentifierKey">_NS:9</string>
 							<string key="NSClassName">GBVImageFlowView</string>
@@ -790,7 +783,6 @@
 					</array>
 					<string key="NSFrameSize">{569, 530}</string>
 					<reference key="NSSuperview"/>
-					<reference key="NSWindow"/>
 					<reference key="NSNextKeyView" ref="351286694"/>
 				</object>
 				<string key="NSScreenRect">{{0, 0}, {1280, 1002}}</string>
@@ -825,7 +817,6 @@
 							<int key="NSvFlags">268</int>
 							<string key="NSFrame">{{0, 14}, {100, 28}}</string>
 							<reference key="NSSuperview"/>
-							<reference key="NSWindow"/>
 							<reference key="NSNextKeyView"/>
 							<string key="NSReuseIdentifierKey">_NS:9</string>
 							<bool key="NSEnabled">YES</bool>
@@ -845,22 +836,32 @@
 								<string key="NSKeyEquivalent"/>
 								<int key="NSPeriodicDelay">400</int>
 								<int key="NSPeriodicInterval">75</int>
-								<object class="NSMenuItem" key="NSMenuItem" id="169706760">
+								<object class="NSMenuItem" key="NSMenuItem" id="546467033">
 									<reference key="NSMenu" ref="443205616"/>
-									<string key="NSTitle">safebooru.org</string>
+									<string key="NSTitle">yande.re</string>
 									<string key="NSKeyEquiv"/>
 									<int key="NSMnemonicLoc">2147483647</int>
 									<int key="NSState">1</int>
 									<reference key="NSOnImage" ref="35465992"/>
 									<reference key="NSMixedImage" ref="502551668"/>
 									<string key="NSAction">_popUpItemAction:</string>
+									<int key="NSTag">1</int>
 									<reference key="NSTarget" ref="1008432025"/>
 								</object>
 								<bool key="NSMenuItemRespectAlignment">YES</bool>
 								<object class="NSMenu" key="NSMenu" id="443205616">
 									<string key="NSTitle">OtherViews</string>
 									<array class="NSMutableArray" key="NSMenuItems">
-										<reference ref="169706760"/>
+										<object class="NSMenuItem" id="169706760">
+											<reference key="NSMenu" ref="443205616"/>
+											<string key="NSTitle">safebooru.org</string>
+											<string key="NSKeyEquiv"/>
+											<int key="NSMnemonicLoc">2147483647</int>
+											<reference key="NSOnImage" ref="35465992"/>
+											<reference key="NSMixedImage" ref="502551668"/>
+											<string key="NSAction">_popUpItemAction:</string>
+											<reference key="NSTarget" ref="1008432025"/>
+										</object>
 										<object class="NSMenuItem" id="571971294">
 											<reference key="NSMenu" ref="443205616"/>
 											<string key="NSTitle">gelbooru.com</string>
@@ -872,6 +873,7 @@
 											<int key="NSTag">1</int>
 											<reference key="NSTarget" ref="1008432025"/>
 										</object>
+										<reference ref="546467033"/>
 										<object class="NSMenuItem" id="595604396">
 											<reference key="NSMenu" ref="443205616"/>
 											<string key="NSTitle">xbooru.com</string>
@@ -886,7 +888,7 @@
 									</array>
 									<reference key="NSMenuFont" ref="553026257"/>
 								</object>
-								<int key="NSSelectedIndex">-1</int>
+								<int key="NSSelectedIndex">2</int>
 								<int key="NSPreferredEdge">1</int>
 								<bool key="NSUsesItemFromMenu">YES</bool>
 								<bool key="NSAltersState">YES</bool>
@@ -917,7 +919,6 @@
 							<int key="NSvFlags">268</int>
 							<string key="NSFrame">{{0, 14}, {96, 25}}</string>
 							<reference key="NSSuperview"/>
-							<reference key="NSWindow"/>
 							<reference key="NSNextKeyView"/>
 							<string key="NSReuseIdentifierKey">_NS:9</string>
 							<bool key="NSEnabled">YES</bool>
@@ -961,7 +962,6 @@
 							<int key="NSvFlags">268</int>
 							<string key="NSFrame">{{0, 14}, {260, 22}}</string>
 							<reference key="NSSuperview"/>
-							<reference key="NSWindow"/>
 							<reference key="NSNextKeyView"/>
 							<string key="NSReuseIdentifierKey">_NS:9</string>
 							<bool key="NSEnabled">YES</bool>
@@ -1156,7 +1156,6 @@
 							<int key="NSvFlags">268</int>
 							<string key="NSFrame">{{20, 19}, {336, 20}}</string>
 							<reference key="NSSuperview" ref="997104249"/>
-							<reference key="NSWindow"/>
 							<reference key="NSNextKeyView"/>
 							<string key="NSReuseIdentifierKey">_NS:9</string>
 							<string key="NSHuggingPriority">{250, 250}</string>
@@ -1168,7 +1167,6 @@
 							<int key="NSvFlags">268</int>
 							<string key="NSFrame">{{17, 46}, {342, 17}}</string>
 							<reference key="NSSuperview" ref="997104249"/>
-							<reference key="NSWindow"/>
 							<reference key="NSNextKeyView" ref="826259147"/>
 							<string key="NSReuseIdentifierKey">_NS:1535</string>
 							<bool key="NSEnabled">YES</bool>
@@ -1187,7 +1185,6 @@
 					</array>
 					<string key="NSFrameSize">{376, 82}</string>
 					<reference key="NSSuperview"/>
-					<reference key="NSWindow"/>
 					<reference key="NSNextKeyView" ref="788639422"/>
 					<string key="NSReuseIdentifierKey">_NS:21</string>
 				</object>
@@ -2006,6 +2003,7 @@
 							<reference ref="169706760"/>
 							<reference ref="571971294"/>
 							<reference ref="595604396"/>
+							<reference ref="546467033"/>
 						</array>
 						<reference key="parent" ref="1008432025"/>
 					</object>
@@ -2181,6 +2179,11 @@
 						<reference key="object" ref="37592542"/>
 						<reference key="parent" ref="466310130"/>
 					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">825</int>
+						<reference key="object" ref="546467033"/>
+						<reference key="parent" ref="443205616"/>
+					</object>
 				</array>
 			</object>
 			<dictionary class="NSMutableDictionary" key="flattenedProperties">
@@ -2275,225 +2278,16 @@
 				<string key="819.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="820.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="822.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
+				<string key="825.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 				<string key="92.IBPluginDependency">com.apple.InterfaceBuilder.CocoaPlugin</string>
 			</dictionary>
 			<dictionary class="NSMutableDictionary" key="unlocalizedProperties"/>
 			<nil key="activeLocalization"/>
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
-			<int key="maxID">824</int>
+			<int key="maxID">825</int>
 		</object>
-		<object class="IBClassDescriber" key="IBDocument.Classes">
-			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
-				<object class="IBPartialClassDescription">
-					<string key="className">GBVAppDelegate</string>
-					<string key="superclassName">NSObject</string>
-					<dictionary class="NSMutableDictionary" key="actions">
-						<string key="boardSelection:">id</string>
-						<string key="cFlowToggle:">id</string>
-						<string key="configSaver:">id</string>
-						<string key="copySelectedItem:">id</string>
-						<string key="darkenFlow:">id</string>
-						<string key="didScale:">id</string>
-						<string key="doSearch:">id</string>
-						<string key="downIt:">id</string>
-						<string key="installSaver:">id</string>
-						<string key="openMenuClick:">id</string>
-						<string key="reloadStuff:">id</string>
-						<string key="statist:">id</string>
-						<string key="toBrowser:">id</string>
-						<string key="whitifyFlow:">id</string>
-					</dictionary>
-					<dictionary class="NSMutableDictionary" key="actionInfosByName">
-						<object class="IBActionInfo" key="boardSelection:">
-							<string key="name">boardSelection:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="cFlowToggle:">
-							<string key="name">cFlowToggle:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="configSaver:">
-							<string key="name">configSaver:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="copySelectedItem:">
-							<string key="name">copySelectedItem:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="darkenFlow:">
-							<string key="name">darkenFlow:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="didScale:">
-							<string key="name">didScale:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="doSearch:">
-							<string key="name">doSearch:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="downIt:">
-							<string key="name">downIt:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="installSaver:">
-							<string key="name">installSaver:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="openMenuClick:">
-							<string key="name">openMenuClick:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="reloadStuff:">
-							<string key="name">reloadStuff:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="statist:">
-							<string key="name">statist:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="toBrowser:">
-							<string key="name">toBrowser:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="whitifyFlow:">
-							<string key="name">whitifyFlow:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-					</dictionary>
-					<dictionary class="NSMutableDictionary" key="outlets">
-						<string key="boardSelector">NSPopUpButton</string>
-						<string key="cflow">GBVImageFlowView</string>
-						<string key="imageGrid">IKImageBrowserView</string>
-						<string key="isDarkFlow">NSMenuItem</string>
-						<string key="isWhiteFlow">NSMenuItem</string>
-						<string key="loadPanel">NSPanel</string>
-						<string key="loadProgress">NSProgressIndicator</string>
-						<string key="loadText">NSTextField</string>
-						<string key="primaryView">NSView</string>
-						<string key="scaler">NSSlider</string>
-						<string key="scroller">NSScrollView</string>
-						<string key="searchField">NSSearchField</string>
-						<string key="toolbar">NSToolbar</string>
-						<string key="useCFlow">NSMenuItem</string>
-						<string key="window">NSWindow</string>
-					</dictionary>
-					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
-						<object class="IBToOneOutletInfo" key="boardSelector">
-							<string key="name">boardSelector</string>
-							<string key="candidateClassName">NSPopUpButton</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="cflow">
-							<string key="name">cflow</string>
-							<string key="candidateClassName">GBVImageFlowView</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="imageGrid">
-							<string key="name">imageGrid</string>
-							<string key="candidateClassName">IKImageBrowserView</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="isDarkFlow">
-							<string key="name">isDarkFlow</string>
-							<string key="candidateClassName">NSMenuItem</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="isWhiteFlow">
-							<string key="name">isWhiteFlow</string>
-							<string key="candidateClassName">NSMenuItem</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="loadPanel">
-							<string key="name">loadPanel</string>
-							<string key="candidateClassName">NSPanel</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="loadProgress">
-							<string key="name">loadProgress</string>
-							<string key="candidateClassName">NSProgressIndicator</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="loadText">
-							<string key="name">loadText</string>
-							<string key="candidateClassName">NSTextField</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="primaryView">
-							<string key="name">primaryView</string>
-							<string key="candidateClassName">NSView</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="scaler">
-							<string key="name">scaler</string>
-							<string key="candidateClassName">NSSlider</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="scroller">
-							<string key="name">scroller</string>
-							<string key="candidateClassName">NSScrollView</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="searchField">
-							<string key="name">searchField</string>
-							<string key="candidateClassName">NSSearchField</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="toolbar">
-							<string key="name">toolbar</string>
-							<string key="candidateClassName">NSToolbar</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="useCFlow">
-							<string key="name">useCFlow</string>
-							<string key="candidateClassName">NSMenuItem</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="window">
-							<string key="name">window</string>
-							<string key="candidateClassName">NSWindow</string>
-						</object>
-					</dictionary>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">./Classes/GBVAppDelegate.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">GBVImageFlowView</string>
-					<string key="superclassName">IKImageFlowView</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">./Classes/GBVImageFlowView.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">IKImageFlowView</string>
-					<string key="superclassName">NSOpenGLView</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">./Classes/IKImageFlowView.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">SUUpdater</string>
-					<string key="superclassName">NSObject</string>
-					<object class="NSMutableDictionary" key="actions">
-						<string key="NS.key.0">checkForUpdates:</string>
-						<string key="NS.object.0">id</string>
-					</object>
-					<object class="NSMutableDictionary" key="actionInfosByName">
-						<string key="NS.key.0">checkForUpdates:</string>
-						<object class="IBActionInfo" key="NS.object.0">
-							<string key="name">checkForUpdates:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-					</object>
-					<object class="NSMutableDictionary" key="outlets">
-						<string key="NS.key.0">delegate</string>
-						<string key="NS.object.0">id</string>
-					</object>
-					<object class="NSMutableDictionary" key="toOneOutletInfosByName">
-						<string key="NS.key.0">delegate</string>
-						<object class="IBToOneOutletInfo" key="NS.object.0">
-							<string key="name">delegate</string>
-							<string key="candidateClassName">id</string>
-						</object>
-					</object>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">./Classes/SUUpdater.h</string>
-					</object>
-				</object>
-			</array>
-		</object>
+		<object class="IBClassDescriber" key="IBDocument.Classes"/>
 		<int key="IBDocument.localizationMode">0</int>
 		<string key="IBDocument.TargetRuntimeIdentifier">IBCocoaFramework</string>
 		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>

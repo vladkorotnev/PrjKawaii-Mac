@@ -24,7 +24,14 @@ static STOverlayController*ovct=nil;
     [status retain];
 }
 - (void) loadPics {
-    NSString * url = [NSString stringWithFormat:@"http://%@//index.php?page=dapi&s=post&q=index&pid=%i",board,curPage ];
+    
+    NSString * url = @"";
+    
+    if ([board isEqualToString:@"yande.re"]) {
+        url=[NSString stringWithFormat:@"http://%@//post.xml?page=%i",board,curPage+1 ];
+    } else
+        url=[NSString stringWithFormat:@"http://%@//index.php?page=dapi&s=post&q=index&pid=%i",board,curPage ];
+    
     if(![[tags stringByTrimmingCharactersInSet:[NSCharacterSet characterSetWithCharactersInString:@" "]]isEqualToString:@""]) {
         url = [NSString stringWithFormat:@"%@&tags=-4koma+-comic+-translation_request+%@",url,[tags stringByReplacingOccurrencesOfString:@" " withString:@"_"]];
     }
@@ -86,7 +93,7 @@ static STOverlayController*ovct=nil;
     if (!preloadIsBackground) {
 
     }
-    if (!(totalPosts <= curPage*100)) {
+    if (!(totalPosts <= curPage*([board isEqualToString:@"yande.re"]?16:100))) {
         preloadIsBackground=true;
         curPage++;
         [self performSelectorInBackground:@selector(loadPics) withObject:nil];

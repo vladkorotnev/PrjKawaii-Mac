@@ -51,7 +51,11 @@
         [i release];
     }
     [self.images removeAllObjects];
-    NSString * url = [NSString stringWithFormat:@"http://%@//index.php?page=dapi&s=post&q=index&pid=%li",[self.boardSelector selectedItem].title,self.currentPid ];
+    NSString * url = @"";
+    if ([self.boardSelector.selectedItem.title isEqualToString:@"yande.re"]) {
+        url=[NSString stringWithFormat:@"http://%@//post.xml?page=%li",[self.boardSelector selectedItem].title,self.currentPid+1 ];
+    } else
+        url=[NSString stringWithFormat:@"http://%@//index.php?page=dapi&s=post&q=index&pid=%li",[self.boardSelector selectedItem].title,self.currentPid ];
     if(isInSearch) {
         self.loadText.stringValue = [NSString stringWithFormat:@"Searching for %@...",curSearchRequest];
         url = [NSString stringWithFormat:@"%@&tags=%@",url,curSearchRequest];
@@ -68,11 +72,15 @@
     [self.imageGrid setSelectionIndexes:nil byExtendingSelection:false];
     [self.images removeLastObject];
     self.currentPid = self.currentPid + 1;
-    if (self.currentPid * 100 >= self.totalPosts) {
+    if (self.currentPid * ([self.boardSelector.selectedItem.title isEqualToString:@"yande.re"]? 16 : 100) >= self.totalPosts) {
         NSLog(@"End!");
         return;
     }
-    NSString * url = [NSString stringWithFormat:@"http://%@//index.php?page=dapi&s=post&q=index&pid=%li",[self.boardSelector selectedItem].title,self.currentPid ];
+    NSString * url = @"";
+    if ([self.boardSelector.selectedItem.title isEqualToString:@"yande.re"]) {
+        url=[NSString stringWithFormat:@"http://%@//post.xml?page=%li",[self.boardSelector selectedItem].title,self.currentPid +1];
+    } else
+        url=[NSString stringWithFormat:@"http://%@//index.php?page=dapi&s=post&q=index&pid=%li",[self.boardSelector selectedItem].title,self.currentPid ];
     if(isInSearch) {
         
         url = [NSString stringWithFormat:@"%@&tags=%@",url,curSearchRequest];
@@ -172,7 +180,7 @@
                 tags = [value componentsSeparatedByString:@" "];
             }
         }
-        GBVImage* i = [[GBVImage alloc]initWithFull:full sample:sample thumb:thumb rating:rating tags:tags idx:self.images.count webUrl:[NSString stringWithFormat:@"http://%@//index.php?page=post&s=view&id=%@",self.boardSelector.selectedItem.title,ident]];
+        GBVImage* i = [[GBVImage alloc]initWithFull:full sample:sample thumb:thumb rating:rating tags:tags idx:self.images.count webUrl:[NSString stringWithFormat:([self.boardSelector.title isEqualToString:@"yande.re"]?@"http://%@/post/show/%@" : @"http://%@//index.php?page=post&s=view&id=%@"),self.boardSelector.selectedItem.title,ident]];
         
         [self.images addObject:i];
     }
